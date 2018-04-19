@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfRichText",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfRichText",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

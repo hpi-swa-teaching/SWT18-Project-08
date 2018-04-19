@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'packages\/BaselineOfRichText.package' : #SquotCypressCodeSerializer,
+	'packages\/RichText-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/RichText-Tests.package' : #SquotCypressCodeSerializer
+}
