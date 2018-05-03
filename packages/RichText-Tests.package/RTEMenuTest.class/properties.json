@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTEMenuTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

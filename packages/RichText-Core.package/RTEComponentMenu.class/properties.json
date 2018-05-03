@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTEComponentMenu",
+	"pools" : [
+		 ],
+	"super" : "RTEMenu",
+	"type" : "normal" }
