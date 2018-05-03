@@ -1,3 +1,3 @@
 as yet unclassified
-create
+setHeight: aHeight
 	^ self subclassResponsibility

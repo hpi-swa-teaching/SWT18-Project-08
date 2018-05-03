@@ -1,3 +1,3 @@
 as yet unclassified
-delete
+setWidth: aWidth
 	^ self subclassResponsibility

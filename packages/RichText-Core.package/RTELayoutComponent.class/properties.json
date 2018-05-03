@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RTEAddComponent",
+		"subComponents" ],
+	"name" : "RTELayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "RTELayoutComponent",
+	"super" : "RTEComponent",
 	"type" : "normal" }
