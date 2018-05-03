@@ -10,5 +10,5 @@
 	"name" : "RTELayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

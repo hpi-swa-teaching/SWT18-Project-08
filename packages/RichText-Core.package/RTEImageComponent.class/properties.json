@@ -10,5 +10,5 @@
 	"name" : "RTEImageComponent",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "PHImage",
 	"type" : "normal" }
