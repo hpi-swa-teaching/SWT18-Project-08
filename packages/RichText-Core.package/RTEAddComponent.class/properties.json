@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"menu" ],
 	"name" : "RTEAddComponent",
 	"pools" : [
 		 ],
-	"super" : "RTELayoutComponent",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
