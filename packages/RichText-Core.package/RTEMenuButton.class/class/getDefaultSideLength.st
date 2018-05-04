@@ -1,3 +1,3 @@
 as yet unclassified
-buttonHeight
+getDefaultSideLength
 	^ 50

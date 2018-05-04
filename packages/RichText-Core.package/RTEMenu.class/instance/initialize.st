@@ -4,9 +4,8 @@ initialize
 	super initialize.
 	self buttons: OrderedCollection new.
 	
-	deleteButton := self class getInitializedButton.
+	deleteButton := RTEMenuButton newWith: '_RTE/component-delete.png'.
 	deleteButton 
-			label: 'X';
 			target: [self deleteComponent];
 			actionSelector: #value.
 	self addButton: deleteButton.

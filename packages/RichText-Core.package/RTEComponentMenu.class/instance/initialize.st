@@ -2,9 +2,8 @@ as yet unclassified
 initialize 
 	| imageButton |
 	super initialize.
-	imageButton := self class getInitializedButton.
+	imageButton := RTEMenuButton newWith: '_RTE/component_image-icon.png'.
 	imageButton
-			label: 'I';
 			target: [self component componentChosen: RTEImageComponent];
 			actionSelector: #value.
 			
