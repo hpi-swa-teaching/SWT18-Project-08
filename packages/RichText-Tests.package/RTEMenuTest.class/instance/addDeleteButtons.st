@@ -1,7 +1,7 @@
 as yet unclassified
-addMenuButtons
+addDeleteButtons
 	| menu |
 	menu := RTEMenu new.
-	menu addButton: (SimpleButtonMorph new).
+	menu addDeleteButton.
 	menu addButton: (SimpleButtonMorph new).
 	self assert: (menu buttons size) = 2.

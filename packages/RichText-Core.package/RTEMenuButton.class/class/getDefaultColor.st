@@ -1,3 +1,3 @@
 accessing
 getDefaultColor
-	^ Color r: 0.3 g:0.3 b:0.3
+	^ Color r: (44/255) g: (88/255) b: (151/255)

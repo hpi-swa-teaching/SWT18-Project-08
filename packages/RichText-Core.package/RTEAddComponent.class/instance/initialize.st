@@ -1,10 +1,9 @@
 initialization
 initialize
 	super initialize.
-	self position: 300 @ 100;
-		extent: 500@500.
-	self color: Color gray.
-	
+	self 
+		color: (Color r: 0.9 g: 0.9 b: 0.9);
+		borderWidth: 0.
 	self menu: ((RTEComponentMenu newWith: self)
 		position: self position).
 	self addMorph: self menu.

@@ -2,4 +2,6 @@ initialization
 initialize 
 	
 	super initialize.	
-	self addButton: self initializeImageButton.
+	self
+		addDeleteButton;
+		addButton: self initializeImageButton.
