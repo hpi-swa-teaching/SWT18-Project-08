@@ -3,5 +3,5 @@ initialize
 	
 	super initialize.	
 	self
-		"addDeleteButton;"
+		addDeleteButton;
 		addButton: self initializeImageButton.

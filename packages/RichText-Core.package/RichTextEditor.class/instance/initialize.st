@@ -1,9 +1,7 @@
 as yet unclassified
 initialize
-	| baseComponent |
+	| worldExtent |
 	super initialize.
-	baseComponent := RTEAddComponent new.
-	self
-		addMorph: baseComponent fullFrame: (LayoutFrame fractions: (0@0 corner: 1.0@1.0) offsets: (0@0 corner: 1.0@1.0));
-		setLabel: 'RichTextEditor';
-		paneColor: (Color r: (44/255) g: (88/255) b: (151/255)).
+	worldExtent := World fullBounds extent.
+	self extent: (worldExtent y * 0.9 / 1.414) @ (worldExtent y * 0.9);
+		position:  ((worldExtent x - self width) / 2) @ (worldExtent y * 0.05)

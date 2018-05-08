@@ -1,15 +1,15 @@
 as yet unclassified
 initializePathField
-	| loadButton inputField|
+	|pathField loadButton inputField|
 
 	inputField := (PHTextArea placeholder: 'Enter path here!').
 	loadButton := (PHButton label: 'Load!') addStyleClass: #primary.
-	self pathField: ((PHPage column expand: true; align: #(center center))
-			extent: self extent;
-			position: (0 @ 50);
+	pathField := (PHPage column expand: true; align: #(center center))
+			extent: (500 @ 200);
+			position: (0 @ 200);
 			add: inputField;
 			add: loadButton;
-			primaryFormClickable: loadButton).
-	 self addMorph: self pathField.
+			primaryFormClickable: loadButton.
+	 self addMorph: pathField.
 	loadButton when: #clicked evaluate: 
-	[self newImage: (Form fromFileNamed: (FileDirectory uri: inputField text) fullName). self pathField delete. ].
+	[self newImage: (Form fromFileNamed: (FileDirectory uri: inputField text) fullName). 	pathField delete. ].

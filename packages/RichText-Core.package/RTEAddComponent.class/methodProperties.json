@@ -2,11 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "AJ 5/7/2018 22:12",
-		"component" : "AJ 5/7/2018 23:05",
-		"component:" : "AJ 5/7/2018 23:05",
-		"componentChosen:" : "AJ 5/7/2018 23:05",
-		"extent:" : "AJ 5/7/2018 23:33",
+		"componentChosen:" : "KB 5/4/2018 11:39",
 		"initialize" : "AJ 5/7/2018 10:47",
 		"menu" : "KB 5/4/2018 11:35",
 		"menu:" : "KB 5/4/2018 11:35" } }
