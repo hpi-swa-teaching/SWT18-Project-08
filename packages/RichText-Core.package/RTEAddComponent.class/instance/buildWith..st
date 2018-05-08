@@ -1,0 +1,3 @@
+initialization
+buildWith: aBuilder
+	^ self
