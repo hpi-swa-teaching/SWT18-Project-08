@@ -3,5 +3,4 @@ testAddDeleteButton
 	| menu |
 	menu := RTEMenu new.
 	menu addDeleteButton.
-	menu addButton: (SimpleButtonMorph new).
-	self assert: (menu buttons size) = 2.
+	self assert: (menu submorphCount) = 1.
