@@ -10,5 +10,5 @@
 	"name" : "RichTextEditor",
 	"pools" : [
 		 ],
-	"super" : "RTEAddComponent",
+	"super" : "SystemWindow",
 	"type" : "normal" }

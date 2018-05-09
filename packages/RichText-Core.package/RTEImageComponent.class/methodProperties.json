@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "AJ 5/7/2018 11:05",
-		"initializePathField" : "AJ 5/7/2018 10:47",
+		"extent:" : "AJ 5/7/2018 23:33",
+		"initialize" : "AJ 5/7/2018 23:34",
+		"initializePathField" : "AJ 5/7/2018 23:34",
 		"menu" : "AJ 5/3/2018 18:47",
-		"menu:" : "AJ 5/3/2018 18:47" } }
+		"menu:" : "AJ 5/3/2018 18:47",
+		"pathField" : "AJ 5/7/2018 23:32",
+		"pathField:" : "AJ 5/7/2018 23:32" } }

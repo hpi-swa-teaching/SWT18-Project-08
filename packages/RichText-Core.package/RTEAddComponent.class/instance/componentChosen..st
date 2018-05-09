@@ -1,8 +1,8 @@
 as yet unclassified
 componentChosen: componentClass
-	| component |
-	component := componentClass new.
-	component 
+
+	self component: componentClass new.
+	self component
 		extent: self extent;
 		position: self position.
-	self addMorph: component.
+	self addMorph: self component.
