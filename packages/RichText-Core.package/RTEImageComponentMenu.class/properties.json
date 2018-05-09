@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu" ],
-	"name" : "RTEImageComponent",
+		 ],
+	"name" : "RTEImageComponentMenu",
 	"pools" : [
 		 ],
-	"super" : "ThumbnailImageMorph",
+	"super" : "RTEMenu",
 	"type" : "normal" }

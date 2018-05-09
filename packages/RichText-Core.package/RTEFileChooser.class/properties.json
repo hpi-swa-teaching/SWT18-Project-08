@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu" ],
-	"name" : "RTEImageComponent",
+		"promise" ],
+	"name" : "RTEFileChooser",
 	"pools" : [
 		 ],
-	"super" : "ThumbnailImageMorph",
+	"super" : "FileChooser",
 	"type" : "normal" }
