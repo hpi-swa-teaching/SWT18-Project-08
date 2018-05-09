@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"buttons",
 		"component" ],
 	"name" : "RTEMenu",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PHButtonGroup",
 	"type" : "normal" }

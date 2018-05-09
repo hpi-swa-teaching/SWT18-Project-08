@@ -1,10 +1,9 @@
 initialization
 initializeImageButton
 
-	| imageButton |
+	^ ((PHButton icon: #iconImage)
+		when: #clicked 
+		send: #componentChosen: 
+		to: (self component) 
+		withArguments: #(RTEImageComponent)).
 	
-	imageButton := RTEMenuButton newWith: '_RTE/component_image-icon.png'.
-	imageButton
-			target: [self component componentChosen: RTEImageComponent];
-			actionSelector: #value.
-	^ imageButton
