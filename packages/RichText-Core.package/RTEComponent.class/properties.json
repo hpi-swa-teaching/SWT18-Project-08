@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu",
-		"pathField",
-		"image" ],
-	"name" : "RTEImageComponent",
+		 ],
+	"name" : "RTEComponent",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "PHCard",
 	"type" : "normal" }

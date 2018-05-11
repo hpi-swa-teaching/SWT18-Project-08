@@ -11,5 +11,5 @@
 	"name" : "RTEAddComponent",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "RTEComponent",
 	"type" : "normal" }

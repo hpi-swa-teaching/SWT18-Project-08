@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"open" : "TH 5/11/2018 16:51" },
 	"instance" : {
-		"initialize" : "AJ 5/7/2018 23:03",
+		"initialExtent" : "TH 5/11/2018 16:49",
+		"initialize" : "TH 5/11/2018 16:50",
 		"paneColorToUseWhenNotActive" : "AJ 5/7/2018 23:37" } }

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu",
-		"pathField",
-		"image" ],
-	"name" : "RTEImageComponent",
+		 ],
+	"name" : "RTEImageComponentMenu",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "RTEMenu",
 	"type" : "normal" }

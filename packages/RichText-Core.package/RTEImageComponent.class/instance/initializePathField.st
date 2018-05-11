@@ -10,6 +10,11 @@ initializePathField
 			add: inputField;
 			add: loadButton;
 			primaryFormClickable: loadButton).
-	 self addMorph: self pathField.
+	 self add: self pathField.
 	loadButton when: #clicked evaluate: 
-	[self newImage: (Form fromFileNamed: (FileDirectory uri: inputField text) fullName). self pathField delete. ].
+	[self image: (PHImage new
+			scalingMode: #fixed;
+			minSize: 200 asPoint;
+			form: (Form fromFileNamed: (FileDirectory uri: inputField text) fullName)). 
+			self add: self image.
+			self pathField delete. ].
