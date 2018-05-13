@@ -10,5 +10,5 @@
 	"name" : "RTEMenuTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }
