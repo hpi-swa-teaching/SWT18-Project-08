@@ -1,8 +1,8 @@
-as yet unclassified
+initialize
 initialize 
 
 	super initialize.
 	
-	self menu: (RTEImageComponentMenu newWith: self).
-	self menu position: self position.
+	self menu: (RTEImageComponentMenu newWith: self);
+			     position: self position.
 	self addMorph: self menu.

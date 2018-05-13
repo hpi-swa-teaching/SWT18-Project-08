@@ -1,4 +1,4 @@
-as yet unclassified
+configuration
 componentChosen: componentClass
 
 	self component: componentClass new.

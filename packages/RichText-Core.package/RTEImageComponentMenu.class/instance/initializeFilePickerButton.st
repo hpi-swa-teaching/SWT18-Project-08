@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeFilePickerButton
 
 	^ ((PHButton icon: #iconFile_image_o)

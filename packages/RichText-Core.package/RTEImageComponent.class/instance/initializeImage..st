@@ -1,5 +1,5 @@
 initialize
-applyImageFrom: aForm
+initializeImage: aForm
 	|image |
 	
 image := PHImage new. 

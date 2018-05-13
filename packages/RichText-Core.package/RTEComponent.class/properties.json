@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu",
-		"component" ],
-	"name" : "RTEAddComponent",
+		 ],
+	"name" : "RTEComponent",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "PHCard",
 	"type" : "normal" }

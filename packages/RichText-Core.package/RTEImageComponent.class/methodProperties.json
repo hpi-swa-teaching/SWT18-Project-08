@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyImageFrom:" : "AJ 5/13/2018 14:59",
-		"initialize" : "AJ 5/13/2018 14:53",
+		"applyImageFrom:" : "MB 5/13/2018 20:12",
+		"initialize" : "MB 5/13/2018 20:14",
+		"initializeImage:" : "MB 5/13/2018 19:59",
 		"menu" : "AJ 5/3/2018 18:47",
 		"menu:" : "AJ 5/3/2018 18:47",
 		"openFilePicker" : "AJ 5/13/2018 14:52" } }

@@ -10,5 +10,5 @@
 	"name" : "RTEImageComponent",
 	"pools" : [
 		 ],
-	"super" : "ThumbnailImageMorph",
+	"super" : "RTEComponent",
 	"type" : "normal" }
