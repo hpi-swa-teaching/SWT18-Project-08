@@ -1,14 +1,14 @@
 {
-	"category" : "RichText-Core",
+	"category" : "RichText-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu" ],
-	"name" : "RTEImageComponent",
+		 ],
+	"name" : "RTEImageComponentTest",
 	"pools" : [
 		 ],
-	"super" : "ThumbnailImageMorph",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }

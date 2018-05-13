@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"findRTEFileChooser" : "AJ 5/13/2018 14:24",
+		"testApplySelectedImage" : "AJ 5/13/2018 15:40",
+		"testNoReactionWhenFilePickerClosed" : "AJ 5/13/2018 14:31",
+		"testOpenFilePickerOnClick" : "AJ 5/13/2018 14:25" } }
