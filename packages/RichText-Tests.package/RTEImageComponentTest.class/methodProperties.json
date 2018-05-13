@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"findFileChooser" : "KB 5/9/2018 16:59",
-		"testOpenFilePickerOnClick" : "KB 5/9/2018 17:38" } }
+		"findRTEFileChooser" : "AJ 5/13/2018 14:24",
+		"testApplySelectedImage" : "AJ 5/13/2018 15:19",
+		"testNoReactionWhenFilePickerClosed" : "AJ 5/13/2018 14:31",
+		"testOpenFilePickerOnClick" : "AJ 5/13/2018 14:25" } }

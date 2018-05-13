@@ -1,4 +1,4 @@
 as yet unclassified
 cancelHit
 	super cancelHit.
-	self rejectWith: nil.
+	promise rejectWith: nil.

@@ -1,11 +1,11 @@
 as yet unclassified
-testOpenFilePickerOnClick
-	| component filePickerButton filePicker |
+testNoReactionWhenFilePickerClosed
+	| component filePickerButton filePicker oldImage |
 	component := RTEImageComponent new openInWorld: world; yourself.
+	oldImage := component image.
 	filePickerButton := ((component submorphs first) submorphs second).
 
-	self assert: component menu notNil.
 	self click: filePickerButton.
 	filePicker := self findRTEFileChooser.
-	
-	self assert: filePicker notNil.
+	self click: (filePicker model buttonPane submorphs at: 2).
+	self assert: component image equals: oldImage.
