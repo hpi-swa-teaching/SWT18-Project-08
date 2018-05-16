@@ -5,3 +5,4 @@ testCorrectComponentChosen
 	imageComponentButton := component menu findWidgetOfKind: PHButton labelled: 'image'.
 	self click: imageComponentButton.
 	self assert: (component firstSubmorph class) = RTEImageComponent 
+	"should work"
