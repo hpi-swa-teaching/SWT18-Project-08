@@ -1,4 +1,4 @@
-configuration
+api
 componentChosen: componentClass
 
 	self component: componentClass new.
