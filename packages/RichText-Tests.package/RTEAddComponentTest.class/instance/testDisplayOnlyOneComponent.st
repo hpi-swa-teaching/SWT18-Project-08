@@ -1,11 +1,8 @@
-as yet unclassified
+testing
 testDisplayOnlyOneComponent
-	| component count |
-	component := RTEAddComponent new openInWorld: world; yourself.
-	
+	| count |
 	count := 0.
-	
 	[count < 10] whileTrue: [
-		component componentChosen: RTEImageComponent.
-		self assert: (component submorphs size) = 2. "menu + RTEAddComponent"	
+		self component componentChosen: RTEImageComponent.
+		self assert: (self component submorphs size) = 2. "menu + RTEImageComponent"	
 		count := count +1].	
