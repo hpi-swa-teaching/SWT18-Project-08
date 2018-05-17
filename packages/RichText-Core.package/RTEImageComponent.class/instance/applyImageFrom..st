@@ -1,4 +1,4 @@
 api
 applyImageFrom: aForm
-	self image form: aForm.
+	self image form: aForm
 	

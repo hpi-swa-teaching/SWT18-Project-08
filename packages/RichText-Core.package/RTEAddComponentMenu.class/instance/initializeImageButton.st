@@ -5,5 +5,5 @@ initializeImageButton
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
-		with: RTEImageComponent).
+		with: RTEImageComponent)
 	

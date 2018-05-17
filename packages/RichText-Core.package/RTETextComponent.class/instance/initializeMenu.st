@@ -1,5 +1,5 @@
-initialize
+initialization
 initializeMenu
-	self menu: (RTEImageComponentMenu newWith: self);
+	self menu: (RTETextComponentMenu newWith: self);
 			     position: self position.
 	self addMorph: self menu
