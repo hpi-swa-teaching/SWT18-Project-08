@@ -3,7 +3,7 @@ testApplySelectedImage
 	| component oldImage mockImageForm |
 	component := RTEImageComponent new openInWorld: world; yourself.
 	mockImageForm := (Form makeStar).
-	oldImage := component image.
+	oldImage := component image form.
 	
 	component applyImageFrom: mockImageForm.
-	self deny: (component image) = (oldImage).
+	self deny: (component image form) = (oldImage).

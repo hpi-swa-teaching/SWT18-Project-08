@@ -1,4 +1,4 @@
-accessing
+api
 openFilePicker
 	| fc |
 	fc := RTEFileChooser new.
