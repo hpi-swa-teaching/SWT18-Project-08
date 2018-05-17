@@ -2,5 +2,5 @@ initialization
 delete
 	self menu delete.
 	self owner component: nil.
-	self owner menu show.
+	self owner dialogToggle show.
 	super delete.

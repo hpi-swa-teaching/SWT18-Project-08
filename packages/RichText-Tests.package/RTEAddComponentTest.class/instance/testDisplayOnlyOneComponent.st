@@ -6,6 +6,6 @@ testDisplayOnlyOneComponent
 	count := 0.
 	
 	[count < 10] whileTrue: [
-		component componentChosen: RTEAddComponent.
+		component componentChosen: RTEImageComponent.
 		self assert: (component submorphs size) = 2. "menu + RTEAddComponent"	
 		count := count +1].	

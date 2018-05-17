@@ -2,7 +2,7 @@ initialize
 initializeImage
 	| image |
 	image := PHImage new. 
-	image extent: (200 @ 200);
+	image extent: self extent;
 		    position: (self position x + 100) @ (self position y); 
 		    framed: false.
 	self image: image.
