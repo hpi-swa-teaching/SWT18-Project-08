@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCorrectComponentChosen" : "TH 5/16/2018 13:30",
-		"testDisplayOnlyOneComponent" : "PUB 5/16/2018 16:33" } }
+		"component" : "PUB 5/16/2018 17:19",
+		"component:" : "PUB 5/16/2018 17:15",
+		"testCorrectComponentChosen" : "PUB 5/16/2018 17:20",
+		"testDisplayOnlyOneComponent" : "PUB 5/16/2018 17:20",
+		"testMenuVisibility" : "PUB 5/16/2018 17:17" } }
