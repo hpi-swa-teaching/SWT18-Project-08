@@ -1,3 +1,5 @@
 as yet unclassified
 getFilePickerButton: component
-	^ ((component submorphs second) submorphs second)
+
+	^ component findWidgetOfKind: PHButton labelled: 'choose image'
+	
