@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RichTextStyles",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
