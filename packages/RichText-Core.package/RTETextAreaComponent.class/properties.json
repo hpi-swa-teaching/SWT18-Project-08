@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RTETextComponent",
+		"textArea",
+		"menu" ],
+	"name" : "RTETextAreaComponent",
 	"pools" : [
 		 ],
-	"super" : "PHTextArea",
+	"super" : "RTEComponent",
 	"type" : "normal" }
