@@ -1,7 +1,8 @@
 initialization
 initializeTextArea 
 
-	textArea := PHTextArea new. 
+	textArea := RTETextComponent new. 
 	textArea position: self position;
 		    	  multiLine: true.
 	self addMorph: textArea
+	
