@@ -1,9 +1,6 @@
 as yet unclassified
 testNoReactionWhenFilePickerClosed
 	| imageComponentButton addComponent imageComponent filePickerButton filePicker oldImage |
-	"component := RTEImageComponent new openInWorld: world; yourself.
-	oldImage := component image form.
-	filePickerButton := self getFilePickerButton: component."
 	
 	addComponent := RTEAddComponent new openInWorld: world; yourself.
 	imageComponentButton :=  addComponent findWidgetOfKind: PHButton labelled: 'image'.
