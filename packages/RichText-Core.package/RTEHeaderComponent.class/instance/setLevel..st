@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 setLevel: aSymbol
 
 	self level: aSymbol.
-	self textArea pointSize: (self levelFontSizes at: aSymbol ifAbsent: []).
+	self textArea pointSize: (RTEHeaderComponent levelFontSizes at: aSymbol ifAbsent: []).

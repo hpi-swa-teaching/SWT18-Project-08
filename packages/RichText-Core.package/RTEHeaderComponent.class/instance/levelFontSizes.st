@@ -1,3 +1,0 @@
-accessing
-levelFontSizes
-	^ levelFontSizes
