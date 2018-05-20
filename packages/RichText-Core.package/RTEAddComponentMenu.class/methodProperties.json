@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "MB 5/17/2018 15:43",
+		"initialize" : "TH 5/20/2018 14:23",
+		"initializeHeaderButton" : "TH 5/20/2018 14:23",
 		"initializeImageButton" : "MB 5/17/2018 15:37",
 		"initializeTextButton" : "MB 5/17/2018 15:48" } }
