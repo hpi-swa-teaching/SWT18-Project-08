@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"popover" ],
 	"name" : "RTETextComponent",
 	"pools" : [
 		 ],
