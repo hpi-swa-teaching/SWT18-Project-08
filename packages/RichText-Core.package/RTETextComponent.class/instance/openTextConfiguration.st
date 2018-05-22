@@ -13,7 +13,7 @@ openTextConfiguration
 			    	  add: ((PHButton label: 'underline' icon: #iconUnderline)
 						when: #clicked send: #applyStyle: to: self with: 4); "underlined"
 			    	  position: (self position x) @ (self position y + 80).
-	self addMorph: buttonGroup
-	 
+	self popover: (PHPopover new
+		addMorph: buttonGroup)	 
 	
 	

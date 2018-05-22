@@ -1,7 +1,7 @@
 as yet unclassified
-mouseUp: anEvent
-	
-	super mouseUp: anEvent.
+keyStroke: anEvent
+
+	super keyStroke: anEvent.
 	self checkIfHasSelection 
 		ifTrue:[self openTextConfiguration;
 				     openPopup]
