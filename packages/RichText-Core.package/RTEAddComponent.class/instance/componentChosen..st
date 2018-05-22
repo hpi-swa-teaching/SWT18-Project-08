@@ -7,4 +7,5 @@ componentChosen: componentClass
 		extent: self extent;
 		position: self position.
 	self addMorph: self component.
-	self menu hide.
+	self dialog delete.
+	self dialogToggle hide.
