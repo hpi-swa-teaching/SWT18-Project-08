@@ -8,7 +8,7 @@ testCorrectFontSizeByClickOnH1Button
 	
 	index := PHStyleContext fontSizeStrings
 		indexOf: 'xx-large'.
-	self assert: (headerComponent textArea styleContext fontSize = PHStyleContext baseFontSize * (1.2 raisedTo: index - 4)) 
+	self assert: (headerComponent textArea styleContext fontSize) equals: (PHStyleContext baseFontSize * (1.2 raisedTo: index - 4)) 
 	
 	
 	
