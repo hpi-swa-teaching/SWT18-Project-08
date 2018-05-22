@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkIfHasSelection" : "MB 5/18/2018 12:45",
+		"applyStyle:" : "MB 5/22/2018 12:13",
+		"checkIfHasSelection" : "MB 5/18/2018 16:26",
 		"handlesMouseUp" : "MB 5/18/2018 12:08",
 		"mouseUp:" : "MB 5/18/2018 12:44",
-		"openTextConfiguration" : "MB 5/18/2018 12:38" } }
+		"openTextConfiguration" : "MB 5/22/2018 12:05" } }
