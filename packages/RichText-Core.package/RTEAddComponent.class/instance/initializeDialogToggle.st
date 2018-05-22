@@ -2,8 +2,7 @@ initialization
 initializeDialogToggle
 	self dialogToggle: (PHClickableWithText new
 		text: '+';
-		addStyleClasses: #(button);
-		color: RichTextStyles lightGrayColor;
+		addStyleClasses: #(button secondary);
 		minSize: 15@15).
 	self dialogToggle label 
 		expand: true;

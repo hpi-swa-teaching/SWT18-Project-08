@@ -12,4 +12,3 @@ initialize
 	self dialog: (PHFloatingDialog new
 		addMorph: menu;
 		attachTo: self dialogToggle).
-	self initializeHoverHandle: self dialogToggle.
