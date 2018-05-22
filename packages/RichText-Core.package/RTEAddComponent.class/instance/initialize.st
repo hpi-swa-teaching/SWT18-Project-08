@@ -1,11 +1,14 @@
 initialization
 initialize
+	| menu |
 	super initialize.
-	self 
-		"color: (Color r: 0.9 g: 0.9 b: 0.9);"
-		borderWidth: 0.
-	self menu: ((RTEAddComponentMenu newWith: self)
-		position: self position).
-	self addMorph: self menu.
+	self borderWidth: 0.
 
+	menu := ((RTEAddComponentMenu newWith: self)
+		position: self position).
 	
+	self initializeDialogToggle.	
+	
+	self dialog: (PHFloatingDialog new
+		addMorph: menu;
+		attachTo: self dialogToggle).
