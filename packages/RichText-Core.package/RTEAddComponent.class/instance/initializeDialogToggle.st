@@ -1,9 +1,8 @@
 initialization
 initializeDialogToggle
 	self dialogToggle: (PHClickableWithText new
-		text: '<span color="#fff"><b>+</b></span>';
+		text: '+';
 		addStyleClasses: #(button);
-		style: 'border' set: '0';
 		color: RichTextStyles lightGrayColor;
 		minSize: 15@15).
 	self dialogToggle label 
