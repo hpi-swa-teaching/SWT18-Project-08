@@ -4,4 +4,6 @@
 	"instance" : {
 		"clickHeaderButton" : "TH 5/22/2018 16:40",
 		"testCorrectCountOfButtons" : "TH 5/22/2018 18:24",
-		"testCorrectFontSizeByClickOnH1Button" : "TH 5/22/2018 18:09" } }
+		"testCorrectFontSizeByClickOnH1Button" : "TH 5/22/2018 18:32",
+		"testCorrectFontSizeByClickOnH2Button" : "TH 5/22/2018 18:30",
+		"testCorrectFontSizeByClickOnH3Button" : "TH 5/22/2018 18:32" } }
