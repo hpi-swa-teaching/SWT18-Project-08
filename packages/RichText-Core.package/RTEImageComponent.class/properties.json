@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu",
 		"image" ],
 	"name" : "RTEImageComponent",
 	"pools" : [
