@@ -3,7 +3,7 @@ testPopoverAppearsWhenSelectionIsMade
 
 	|textComponent popover|
 	textComponent := self clickTextButton.
-	textComponent textArea placeholder: 'some text'.
+	textComponent textArea text: 'some text'.
 	
 	self mousePress: (textComponent textArea) buttons: #(left).
 	textComponent textArea selectAll.
