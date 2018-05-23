@@ -1,13 +1,17 @@
 as yet unclassified
 testDisplayOnlyOneImage
-	| component mockImageForm count |
-	component := RTEImageComponent new openInWorld: world; yourself.
+	| addComponent imageComponentButton imageComponent mockImageForm count |
+	addComponent := RTEAddComponent new openInWorld: world; yourself.
+	imageComponentButton :=  addComponent menu findWidgetOfKind: PHButton labelled: 'image'.
+	self click: imageComponentButton.
+	imageComponent := addComponent component.
 	mockImageForm := (Form makeStar).
 	
 	count := 0.
 	
 	[count < 10] whileTrue: [
-		self assert: (component submorphs size) equals: 2. "menu + image"	
-		component applyImageFrom: mockImageForm.
+		self assert: (imageComponent submorphs size) equals: 2. "menu + image"
+		
+		imageComponent applyImageFrom: mockImageForm.
 		count := count + 1.
 	]
