@@ -4,9 +4,13 @@ testPopoverDisappearsWhenStyleButtonClicked
 	|textComponent popover italicButton|
 	textComponent := self clickTextButton.
 	textComponent textArea placeholder: 'some text'.
+	
+	self mousePress: (textComponent textArea) buttons: #(left).
 	textComponent textArea selectAll.
 	popover := textComponent textArea popover.
-	self mouseRelease: (textComponent textArea) buttons: nil.
+	self mouseRelease: (textComponent textArea) buttons: #(left).
+	
+	
 	self assert: (popover isInWorld).
 	italicButton := popover findWidgetOfKind: PHButton labelled: 'italic'.
 	self click: italicButton.

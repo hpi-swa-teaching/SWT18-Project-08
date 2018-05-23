@@ -1,10 +1,14 @@
 as yet unclassified
 testPopoverAppearsWhenSelectionIsMade
 
-	|textComponent|
+	|textComponent popover|
 	textComponent := self clickTextButton.
 	textComponent textArea placeholder: 'some text'.
+	
+	self mousePress: (textComponent textArea) buttons: #(left).
 	textComponent textArea selectAll.
-	self mouseRelease: (textComponent textArea) buttons: nil.
-	self assert: (textComponent textArea popover isInWorld).
+	popover := textComponent textArea popover.
+	self mouseRelease: (textComponent textArea) buttons: #(left).
+	
+	self assert: (popover isInWorld).
 	
