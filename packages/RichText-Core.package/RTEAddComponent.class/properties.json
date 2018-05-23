@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"component" ],
+		"component",
+		"dialog",
+		"dialogToggle" ],
 	"name" : "RTEAddComponent",
 	"pools" : [
 		 ],
