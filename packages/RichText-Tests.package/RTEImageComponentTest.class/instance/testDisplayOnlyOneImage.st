@@ -2,7 +2,7 @@ as yet unclassified
 testDisplayOnlyOneImage
 	| addComponent imageComponentButton imageComponent mockImageForm count |
 	addComponent := RTEAddComponent new openInWorld: world; yourself.
-	imageComponentButton :=  addComponent findWidgetOfKind: PHButton labelled: 'image'.
+	imageComponentButton :=  addComponent menu findWidgetOfKind: PHButton labelled: 'image'.
 	self click: imageComponentButton.
 	imageComponent := addComponent component.
 	mockImageForm := (Form makeStar).

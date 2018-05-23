@@ -3,7 +3,7 @@ testNoReactionWhenFilePickerClosed
 	| imageComponentButton addComponent imageComponent filePickerButton filePicker oldImage |
 	
 	addComponent := RTEAddComponent new openInWorld: world; yourself.
-	imageComponentButton :=  addComponent findWidgetOfKind: PHButton labelled: 'image'.
+	imageComponentButton :=  addComponent menu findWidgetOfKind: PHButton labelled: 'image'.
 	self click: imageComponentButton.
 	imageComponent := addComponent component.
 	 
