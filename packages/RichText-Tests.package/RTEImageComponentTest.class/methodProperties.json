@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"findRTEFileChooser" : "AJ 5/13/2018 14:24",
+		"findRTEFileChooser" : "AJ 5/24/2018 18:49",
 		"image" : "AJ 5/24/2018 18:22",
-		"setUp" : "AJ 5/24/2018 17:25",
-		"testApplySelectedImage" : "AJ 5/24/2018 18:22",
+		"setUp" : "AJ 5/24/2018 18:49",
+		"testApplySelectedImage" : "AJ 5/24/2018 18:49",
 		"testDisplayOnlyOneImage" : "AJ 5/24/2018 17:25",
-		"testNoReactionWhenFilePickerClosed" : "AJ 5/24/2018 18:22",
+		"testNoReactionWhenFilePickerClosed" : "AJ 5/24/2018 18:49",
 		"testOpenFilePickerOnClick" : "AJ 5/24/2018 15:13" } }

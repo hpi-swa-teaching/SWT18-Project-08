@@ -1,5 +1,6 @@
 as yet unclassified
 testApplySelectedImage
+
 	| oldImage |
 	
 	oldImage := self image form.

@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"deselectText" : "AJ 5/24/2018 15:45",
-		"selectTextByKeypress" : "AJ 5/24/2018 16:52",
-		"selectTextByMouse" : "AJ 5/24/2018 16:15",
-		"setUp" : "AJ 5/24/2018 17:26",
-		"testPopoverAppearsByKeypress" : "AJ 5/24/2018 16:52",
-		"testPopoverAppearsByMouse" : "AJ 5/24/2018 16:17",
+		"deselectText" : "AJ 5/24/2018 18:48",
+		"selectTextByKeypress" : "AJ 5/24/2018 18:48",
+		"selectTextByMouse" : "AJ 5/24/2018 18:48",
+		"setUp" : "AJ 5/24/2018 18:48",
+		"testPopoverAppearsByKeypress" : "AJ 5/24/2018 19:01",
+		"testPopoverAppearsByMouse" : "AJ 5/24/2018 19:01",
 		"testPopoverDisappearsOnApply" : "AJ 5/24/2018 16:52",
+		"testPopoverDisappearsOnFocusLost" : "AJ 5/24/2018 18:58",
 		"testTextAreaIsWritable" : "AJ 5/24/2018 15:36",
 		"textArea" : "AJ 5/24/2018 18:21" } }
