@@ -1,4 +1,4 @@
 accessing
 delete
-	self popover delete.
+	(self popover notNil) ifTrue: [self popover delete].
 	super delete.

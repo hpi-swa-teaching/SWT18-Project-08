@@ -1,7 +1,7 @@
 as yet unclassified
 testPopoverDisappearsWhenStyleButtonClicked
 
-	|textComponent popover italicButton|
+"	|textComponent popover italicButton|
 	textComponent := self clickTextButton.
 	textComponent textArea text: 'some text'.
 	
@@ -14,4 +14,4 @@ testPopoverDisappearsWhenStyleButtonClicked
 	self assert: (popover isInWorld).
 	italicButton := popover findWidgetOfKind: PHButton labelled: 'italic'.
 	self click: italicButton.
-	self assert: (popover isInWorld not) 
+	self assert: (popover isInWorld not) "
