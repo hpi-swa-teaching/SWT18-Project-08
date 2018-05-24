@@ -5,4 +5,4 @@ addDeleteButton
 		when: #clicked 
 		send: #deleteComponent 
 		to: self 
-		withArguments: #()).
+		withArguments: #())
