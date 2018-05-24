@@ -5,4 +5,4 @@ initializeTextButton
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
-		with: RTETextComponent)
+		with: RTETextAreaComponent)

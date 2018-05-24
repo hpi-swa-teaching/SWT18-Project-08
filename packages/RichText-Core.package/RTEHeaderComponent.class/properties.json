@@ -10,5 +10,5 @@
 	"name" : "RTEHeaderComponent",
 	"pools" : [
 		 ],
-	"super" : "RTETextComponent",
+	"super" : "RTETextAreaComponent",
 	"type" : "normal" }

@@ -1,14 +1,14 @@
 {
-	"category" : "RichText-Core",
+	"category" : "RichText-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"popover" ],
-	"name" : "RTETextComponent",
+		 ],
+	"name" : "RTETextAreaComponentTest",
 	"pools" : [
 		 ],
-	"super" : "PHTextArea",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }
