@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextComponentTest",
+	"pools" : [
+		 ],
+	"super" : "PHEventTestCase",
+	"type" : "normal" }
