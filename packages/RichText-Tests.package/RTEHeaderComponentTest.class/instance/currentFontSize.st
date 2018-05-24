@@ -1,4 +1,4 @@
 as yet unclassified
 currentFontSize
 
-	^ self component textArea styleContext fontSize
+	^ self component coreObject styleContext fontSize

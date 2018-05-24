@@ -1,5 +1,5 @@
 as yet unclassified
-checkIfHasSelection
+hasSelection
 
 	^ (self selectionBounds first ~= self selectionBounds second)
 	

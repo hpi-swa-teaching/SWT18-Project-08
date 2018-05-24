@@ -1,5 +1,5 @@
 as yet unclassified
-openTextConfiguration
+initializeTextConfigurationMenu
 	|currentText buttonGroup|
 	
 	currentText := self selectedText.
@@ -12,8 +12,7 @@ openTextConfiguration
 						when: #clicked send: #applyStyle: to: self with: 16); "struckOut"
 			    	  add: ((PHButton label: 'underline' icon: #iconUnderline)
 						when: #clicked send: #applyStyle: to: self with: 4); "underlined"
-			    	  position: (self position x) @ (self position y + 80).
-	self popover ifNotNil: [self popover delete].
+			    	  position: (self position x) @ (self position y + 80).	
 	self popover: (PHPopover new
 		addMorph: buttonGroup)	 
 	

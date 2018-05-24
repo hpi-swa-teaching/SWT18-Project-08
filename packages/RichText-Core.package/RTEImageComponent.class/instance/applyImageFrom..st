@@ -1,4 +1,5 @@
 api
 applyImageFrom: aForm
-	self image form: aForm
+
+	self coreObject form: aForm
 	

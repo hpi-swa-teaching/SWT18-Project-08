@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"findRTEFileChooser" : "AJ 5/13/2018 14:24",
-		"setUp" : "AJ 5/24/2018 15:19",
-		"testApplySelectedImage" : "AJ 5/24/2018 15:19",
-		"testDisplayOnlyOneImage" : "AJ 5/24/2018 15:16",
-		"testNoReactionWhenFilePickerClosed" : "AJ 5/24/2018 15:14",
+		"setUp" : "AJ 5/24/2018 17:25",
+		"testApplySelectedImage" : "AJ 5/24/2018 17:25",
+		"testDisplayOnlyOneImage" : "AJ 5/24/2018 17:25",
+		"testNoReactionWhenFilePickerClosed" : "AJ 5/24/2018 17:26",
 		"testOpenFilePickerOnClick" : "AJ 5/24/2018 15:13" } }

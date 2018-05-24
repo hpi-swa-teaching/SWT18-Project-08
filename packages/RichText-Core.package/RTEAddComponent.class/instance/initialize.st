@@ -1,5 +1,6 @@
-initialization
+accessing
 initialize
+
 	super initialize.
 	self borderWidth: 0.
 

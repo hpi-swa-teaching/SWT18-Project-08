@@ -1,8 +1,8 @@
 initialization
 initializeTextArea 
 
-	textArea := RTETextComponent new. 
-	textArea position: self position;
-		    	  multiLine: true.
-	self addMorph: textArea
+	self coreObject: (RTETextComponent new
+						position: self position;
+				    	 	multiLine: true).
+	self addMorph: self coreObject
 	

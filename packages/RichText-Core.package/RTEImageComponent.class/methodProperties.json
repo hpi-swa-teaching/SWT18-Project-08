@@ -2,10 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyImageFrom:" : "MB 5/17/2018 15:35",
-		"image" : "TH 5/16/2018 13:01",
-		"image:" : "TH 5/16/2018 13:01",
+		"applyImageFrom:" : "AJ 5/24/2018 17:59",
 		"initialize" : "MB 5/17/2018 15:34",
-		"initializeImage" : "AJ 5/17/2018 16:10",
-		"initializeMenu" : "TH 5/20/2018 14:41",
-		"openFilePicker" : "AJ 5/13/2018 14:52" } }
+		"initializeImage" : "AJ 5/24/2018 18:01",
+		"initializeMenu" : "AJ 5/24/2018 18:01",
+		"openFilePicker" : "AJ 5/24/2018 18:02" } }
