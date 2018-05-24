@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyStyle:" : "AJ 5/24/2018 19:01",
+		"applyStyle:" : "AJ 5/24/2018 21:26",
 		"delete" : "TH 5/24/2018 13:35",
 		"handlesMouseUp" : "MB 5/18/2018 12:08",
 		"hasSelection" : "AJ 5/24/2018 18:12",
 		"initialize" : "AJ 5/24/2018 16:59",
 		"initializeTextConfigurationMenu" : "AJ 5/24/2018 16:58",
-		"keyStroke:" : "AJ 5/24/2018 18:12",
+		"keyStroke:" : "AJ 5/24/2018 22:48",
 		"mouseUp:" : "AJ 5/24/2018 18:12",
-		"openPopover:" : "AJ 5/24/2018 18:13",
+		"openPopover:" : "AJ 5/24/2018 22:15",
 		"popover" : "AJ 5/20/2018 15:24",
 		"popover:" : "AJ 5/20/2018 15:24" } }
