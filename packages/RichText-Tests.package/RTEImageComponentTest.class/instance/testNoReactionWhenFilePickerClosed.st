@@ -1,16 +1,9 @@
 as yet unclassified
 testNoReactionWhenFilePickerClosed
-	| imageComponentButton addComponent imageComponent filePickerButton filePicker oldImage |
-	
-	addComponent := RTEAddComponent new openInWorld: world; yourself.
-	imageComponentButton :=  addComponent menu findWidgetOfKind: PHButton labelled: 'image'.
-	self click: imageComponentButton.
-	imageComponent := addComponent component.
-	 
-	oldImage := imageComponent image form.
-	filePickerButton := self getFilePickerButton: imageComponent.
+	| oldImage |
 
-	self click: filePickerButton.
-	filePicker := self findRTEFileChooser.
-	self click: (filePicker model buttonPane submorphs at: 2).
-	self assert: (imageComponent image form) equals: oldImage.
+	oldImage := self component image form.
+
+	self click: (self menuButton: 'choose image'). "open filepicker"
+	self click: ((self findRTEFileChooser) model buttonPane submorphs at: 2). "cancle selection"
+	self assert: (self component image form) equals: oldImage.

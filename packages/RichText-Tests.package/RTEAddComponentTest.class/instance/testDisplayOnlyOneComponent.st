@@ -1,8 +1,6 @@
 testing
 testDisplayOnlyOneComponent
-	| count |
-	count := 0.
-	[count < 10] whileTrue: [
+
+	0 to: 10 do: [:i|
 		self component componentChosen: RTEImageComponent.
-		self assert: (self component submorphs size) = 2. "menu + RTEImageComponent"	
-		count := count +1].	
+		self assert: (self component submorphs size) = 2.]. "menu + RTEImageComponent"	

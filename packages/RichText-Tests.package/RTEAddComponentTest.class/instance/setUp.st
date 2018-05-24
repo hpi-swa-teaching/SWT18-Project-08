@@ -1,4 +1,4 @@
 accessing
 setUp
 	super setUp.
-	self component: (RTEAddComponent new openInWorld: world; yourself).
+	self component: (self initialize: RTEAddComponent)
