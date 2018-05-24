@@ -1,3 +1,3 @@
 configuration
 deleteComponent
-	self component delete.
+	self component delete

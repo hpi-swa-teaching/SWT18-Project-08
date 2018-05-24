@@ -1,14 +1,13 @@
 initialization
 initialize
-	| menu |
 	super initialize.
 	self borderWidth: 0.
 
-	menu := ((RTEAddComponentMenu newWith: self)
+	self menu: ((RTEAddComponentMenu newWith: self)
 		position: self position).
 	
 	self initializeDialogToggle.	
 	
 	self dialog: (PHFloatingDialog new
-		addMorph: menu;
+		addMorph: self menu;
 		attachTo: self dialogToggle).
