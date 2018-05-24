@@ -6,7 +6,10 @@ componentChosen: componentClass
 	self component
 		extent: self extent;
 		position: self position.
-	self component addMorph: (self component menu).
+		
+	self component add: (self component menu) at: 1.
+	(self owner class = RTEVerticalLayoutComponent)
+		ifTrue: [self component menu addInsertButtons].
 	self addMorph: self component.
 	self dialog delete.
 	self dialogToggle hide.
