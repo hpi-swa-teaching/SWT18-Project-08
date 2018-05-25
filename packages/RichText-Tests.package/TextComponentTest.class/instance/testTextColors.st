@@ -1,6 +1,6 @@
 as yet unclassified
 testTextColors
-	|textComponent button|
+	|textComponent button colorNames|
 	
 	textComponent := RTETextComponent new.
 	textComponent position: 100@100.
@@ -9,9 +9,12 @@ testTextColors
 	textComponent selectAll.
 	
 	textComponent openTextConfiguration.
-	textComponent openPopup.
+	colorNames := RTETextComponent colors keys.
 	
-	button :=  textComponent popover findWidgetOfKind: PHButton labelled: #red.
-	self click: button.
-	self assert: (textComponent text asTextMorph selectionColor) equals: (RTETextComponent colors at: #red).
+	colorNames do: [:color |
+		textComponent openPopup.
+		textComponent selectAll.
+		button :=  textComponent popover findWidgetOfKind: PHButton labelled: (color asSymbol ).
+		self click: button.
+		self assert: (textComponent text asTextMorph selectionColor) equals: (RTETextComponent colors at: (color asSymbol )).].
 
