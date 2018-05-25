@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"component" ],
+		 ],
 	"name" : "RTEAddComponentTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "RTEComponentTest",
 	"type" : "normal" }

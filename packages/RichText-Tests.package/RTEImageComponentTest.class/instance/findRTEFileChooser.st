@@ -1,5 +1,6 @@
 as yet unclassified
 findRTEFileChooser
+
 	^ (Array
 		streamContents: [:s | world
 				allMorphsDo: [:m | s nextPut: m]])

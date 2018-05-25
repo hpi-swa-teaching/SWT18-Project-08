@@ -1,6 +1,4 @@
-initialization
+as yet unclassified
 initialize
-
 	super initialize.
-	self initializeMenu.
-	self initializeTextArea
+	self initializeTextConfigurationMenu.

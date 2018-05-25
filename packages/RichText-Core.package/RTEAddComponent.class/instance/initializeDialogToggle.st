@@ -1,5 +1,6 @@
-initialization
+accessing
 initializeDialogToggle
+
 	self dialogToggle: (PHClickableWithText new
 		text: '+';
 		addStyleClasses: #(button secondary);

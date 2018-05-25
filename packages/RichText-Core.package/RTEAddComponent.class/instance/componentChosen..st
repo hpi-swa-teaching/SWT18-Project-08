@@ -1,12 +1,12 @@
-api
+accessing
 componentChosen: componentClass
 
-	self component ifNotNilDo: [:a|self component delete].
-	self component: componentClass new.
-	self component
+	self coreObject ifNotNilDo: [:a|self coreObject delete].
+	self coreObject: componentClass new.
+	self coreObject
 		extent: self extent;
 		position: self position.
-	self component addMorph: (self component menu).
-	self addMorph: self component.
+	self coreObject addMorph: (self coreObject menu).
+	self addMorph: self coreObject.
 	self dialog delete.
 	self dialogToggle hide.

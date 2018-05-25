@@ -1,9 +1,8 @@
 as yet unclassified
 testApplySelectedImage
-	| component oldImage mockImageForm |
-	component := RTEImageComponent new openInWorld: world; yourself.
-	mockImageForm := (Form makeStar).
-	oldImage := component image form.
+
+	| oldImage |
 	
-	component applyImageFrom: mockImageForm.
-	self deny: (component image form) = (oldImage).
+	oldImage := self image form.
+	self component applyImageFrom: (Form makeStar).
+	self deny: (self image form) = (oldImage).
