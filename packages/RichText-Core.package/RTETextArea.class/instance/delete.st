@@ -1,4 +1,4 @@
-accessing
+event handling
 delete
 
 	(self popover notNil) ifTrue: [self popover delete].

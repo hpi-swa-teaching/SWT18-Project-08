@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 styles
 	
 	^ OrderedDictionary newFrom: 

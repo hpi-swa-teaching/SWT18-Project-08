@@ -1,4 +1,4 @@
-accessing
+api
 setLevel: aSymbol
 
 	self level: aSymbol.

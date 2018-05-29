@@ -1,23 +1,24 @@
 {
 	"class" : {
-		 },
+		"colors" : "AJ 5/29/2018 19:42",
+		"styles" : "AJ 5/29/2018 19:42" },
 	"instance" : {
-		"addColorButtons:" : "MB 5/26/2018 00:04",
-		"addStyleButtons:" : "MB 5/25/2018 13:16",
-		"applyColor:" : "MB 5/26/2018 00:05",
+		"addColorButtons:" : "AJ 5/29/2018 19:43",
+		"addStyleButtons:" : "AJ 5/29/2018 19:42",
+		"applyColor:" : "AJ 5/29/2018 19:42",
 		"applyStyle:" : "AJ 5/24/2018 21:26",
 		"buttons" : "MB 5/25/2018 12:38",
 		"buttons:" : "MB 5/25/2018 12:38",
-		"colors" : "MB 5/25/2018 13:09",
 		"delete" : "AJ 5/29/2018 19:17",
+		"deletePopover" : "AJ 5/29/2018 19:50",
 		"handlesMouseUp" : "MB 5/18/2018 12:08",
 		"hasSelection" : "AJ 5/24/2018 18:12",
 		"initialize" : "AJ 5/29/2018 19:17",
 		"initializePopover" : "MB 5/25/2018 13:11",
 		"initializeTextConfigurationButtons" : "AJ 5/29/2018 19:18",
-		"keyStroke:" : "AJ 5/29/2018 19:18",
-		"mouseUp:" : "MB 5/25/2018 12:52",
-		"openPopover:" : "AJ 5/29/2018 19:18",
+		"keyStroke:" : "AJ 5/29/2018 19:49",
+		"mouseUp:" : "AJ 5/29/2018 19:49",
+		"openPopover:" : "AJ 5/29/2018 19:51",
 		"popover" : "AJ 5/20/2018 15:24",
 		"popover:" : "AJ 5/20/2018 15:24",
-		"styles" : "MB 5/25/2018 13:10" } }
+		"updatePopover:" : "AJ 5/29/2018 19:51" } }

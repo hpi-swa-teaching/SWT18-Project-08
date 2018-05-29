@@ -1,7 +1,7 @@
 initialization
 addStyleButtons: aButtonGroup
 
-	self styles keysAndValuesDo: [:styleName :styleValues| 
+	RTETextArea styles keysAndValuesDo: [:styleName :styleValues| 
 		aButtonGroup 
 			add: ((PHButton label: styleName icon: (styleValues first) asSymbol)
 				when: #clicked 

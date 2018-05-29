@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeDialogToggle
 
 	self dialogToggle: (PHClickableWithText new

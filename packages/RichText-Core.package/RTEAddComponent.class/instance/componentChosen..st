@@ -1,4 +1,4 @@
-accessing
+api
 componentChosen: componentClass
 
 	self flag: #refactor.

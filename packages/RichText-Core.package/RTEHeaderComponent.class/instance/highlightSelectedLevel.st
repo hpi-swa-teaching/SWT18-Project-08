@@ -1,4 +1,4 @@
-accessing
+styles
 highlightSelectedLevel
 
 	self menu submorphs do: [:button | 
