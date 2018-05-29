@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"component" : "AJ 5/17/2018 17:52",
-		"component:" : "PUB 5/16/2018 17:15",
-		"setUp" : "AJ 5/17/2018 17:52",
-		"testCorrectComponentChosen" : "AJ 5/17/2018 17:11",
-		"testDisplayOnlyOneComponent" : "AJ 5/17/2018 17:07",
-		"testMenuVisibility" : "AJ 5/17/2018 17:53" } }
+		"setUp" : "AJ 5/24/2018 17:23",
+		"testCorrectComponentChosen" : "AJ 5/24/2018 17:28",
+		"testDisplayOnlyOneComponent" : "AJ 5/24/2018 17:27",
+		"testMenuVisibility" : "AJ 5/24/2018 18:18" } }

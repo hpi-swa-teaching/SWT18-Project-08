@@ -10,5 +10,5 @@
 	"name" : "RTEHeaderComponentTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "RTEComponentTest",
 	"type" : "normal" }

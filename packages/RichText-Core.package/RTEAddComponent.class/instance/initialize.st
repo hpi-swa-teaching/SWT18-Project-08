@@ -5,7 +5,7 @@ initialize
 
 	self menu: ((RTEAddComponentMenu newWith: self)
 		position: self position).
-	
+	self expand: true.
 	self initializeDialogToggle.	
 	
 	self dialog: (PHFloatingDialog new
