@@ -10,7 +10,7 @@ Please describe what the new tests are testing.
 # Screenshot
 You have something cool to share? Add an screenshot to show how your new code should act.
 
-# non tested checks
+# other checks
  - [ ] no external ressources needed
  - [ ] methods are formatted correctly
     - [ ] no `.` at the end of your function
