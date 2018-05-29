@@ -10,8 +10,8 @@ testTextColors
 	
 	colorNames := textComponent colors.
 	
-	colorNames do: [:color |
-		textComponent mouseUp: #mouseUp.
+	colorNames keysDo: [:color |
+		self  mouseRelease: textComponent buttons: #(left).
 		textComponent selectAll.
 		button :=  textComponent popover findWidgetOfKind: PHButton labelled: (color asSymbol ).
 		self click: button.
