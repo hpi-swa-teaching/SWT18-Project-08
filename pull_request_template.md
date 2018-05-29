@@ -32,6 +32,7 @@ You have something cool to share? Add an screenshot to show how your new code sh
    self otherMethod
    ```
    - [ ] static values are stored on class Side
+   - [ ] every function has an category
  - [ ] basic UX
    - [ ] UI is intuitive to use (tested by the reviewer! reject if not)
    - [ ] ...
