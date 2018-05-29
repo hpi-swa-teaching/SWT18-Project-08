@@ -1,16 +1,12 @@
-as yet unclassified
+running
 testTextColors
-	|textComponent button colorNames|
-	
-	textComponent := RTETextComponent new.
-	textComponent position: 100@100.
-	textComponent openInWorld.
+	|textComponent button|
+		
+	textComponent := self coreObject.
 	textComponent text: 'test'.
 	textComponent selectAll.
 	
-	colorNames := textComponent colors.
-	
-	colorNames keysDo: [:color |
+	textComponent colors keysDo: [:color |
 		self  mouseRelease: textComponent buttons: #(left).
 		textComponent selectAll.
 		button :=  textComponent popover findWidgetOfKind: PHButton labelled: (color asSymbol ).
