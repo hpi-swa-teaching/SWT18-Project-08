@@ -10,5 +10,5 @@
 	"name" : "RTEVerticalLayoutComponentTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "RTEComponentTest",
 	"type" : "normal" }

@@ -1,5 +1,5 @@
 as yet unclassified
-tesH1LargerH2LargerH3
+testH1LargerH2LargerH3
 
 	| h1size h2size h3size |
 	self click: (self menuButton:  'h1').
