@@ -5,4 +5,4 @@ initializeImage
 			extent: self extent;
 		    position: (self position x + 100) @ (self position y); 
 		    framed: false).
-	self addMorph: self coreObject.
+	self addMorph: self coreObject

@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RTETextAreaComponent",
+		"popover",
+		"buttons" ],
+	"name" : "RTETextArea",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "PHTextArea",
 	"type" : "normal" }

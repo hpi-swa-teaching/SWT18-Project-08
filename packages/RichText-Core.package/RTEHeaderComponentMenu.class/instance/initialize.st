@@ -7,5 +7,4 @@ initialize
 		when: #clicked 
 		send: #setLevel:
 		to: (self component)
-		with: ('h',index) asSymbol)].
-	
+		with: ('h',index) asSymbol)]

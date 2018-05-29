@@ -1,7 +1,7 @@
 initialization
 initializeTextArea 
 
-	self coreObject: (RTETextComponent new
+	self coreObject: (RTETextArea new
 						position: self position;
 				    	 	multiLine: true).
 	self add: self coreObject

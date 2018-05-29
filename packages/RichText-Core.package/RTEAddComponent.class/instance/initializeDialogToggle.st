@@ -8,4 +8,4 @@ initializeDialogToggle
 	self dialogToggle label 
 		expand: true;
 		align: #(center center).
-	self addMorph: self dialogToggle.
+	self addMorph: self dialogToggle

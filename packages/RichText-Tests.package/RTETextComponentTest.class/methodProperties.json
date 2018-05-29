@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"deselectText" : "AJ 5/24/2018 18:48",
-		"selectTextByKeypress" : "AJ 5/24/2018 23:05",
-		"selectTextByMouse" : "AJ 5/24/2018 18:48",
-		"setUp" : "AJ 5/24/2018 18:48",
-		"testPopoverAppearsByKeypress" : "AJ 5/24/2018 19:01",
-		"testPopoverAppearsByMouse" : "AJ 5/24/2018 19:01",
-		"testPopoverDisappearsOnApply" : "AJ 5/24/2018 16:52",
-		"testPopoverDisappearsOnFocusLost" : "AJ 5/24/2018 18:58",
-		"testTextAreaIsWritable" : "AJ 5/24/2018 15:36",
-		"testTextColors" : "KB 5/29/2018 17:43",
-		"textArea" : "AJ 5/24/2018 18:21" } }
+		"deselectText" : "AJ 5/29/2018 19:09",
+		"selectTextByKeypress" : "AJ 5/29/2018 18:50",
+		"selectTextByMouse" : "AJ 5/29/2018 19:09",
+		"setUp" : "AJ 5/29/2018 18:50",
+		"tearDown" : "AJ 5/29/2018 18:52",
+		"testPopoverAppearsByKeypress" : "AJ 5/29/2018 19:09",
+		"testPopoverAppearsByMouse" : "AJ 5/29/2018 19:09",
+		"testPopoverDisappearsOnApply" : "AJ 5/29/2018 19:09",
+		"testPopoverDisappearsOnFocusLost" : "AJ 5/29/2018 19:09",
+		"testTextAreaIsWritable" : "AJ 5/29/2018 19:08",
+		"testTextColors" : "AJ 5/29/2018 19:08",
+		"textArea" : "AJ 5/29/2018 18:55" } }

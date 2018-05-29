@@ -1,4 +1,4 @@
 initialization
 handleKeystroke: anEvent
 
-	^ false.
+	^ false

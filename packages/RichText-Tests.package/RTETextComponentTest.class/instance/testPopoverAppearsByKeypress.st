@@ -1,7 +1,5 @@
-as yet unclassified
+testing
 testPopoverAppearsByKeypress
 
 	self selectTextByKeypress.
-	self assert: self textArea popover isInWorld.
-	"remove popover from world"
-	self textArea popover delete.
+	self assert: self textArea popover isInWorld
