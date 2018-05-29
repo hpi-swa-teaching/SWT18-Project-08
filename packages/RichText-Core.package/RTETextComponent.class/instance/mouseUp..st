@@ -1,6 +1,7 @@
-as yet unclassified
+event handling
 mouseUp: anEvent
 	
 	super mouseUp: anEvent.
 	self hasSelection 
-		ifTrue:[self openPopover: anEvent]
+		ifTrue:[self popover ifNotNil: [self popover delete].
+				self initializePopover; openPopover: anEvent]

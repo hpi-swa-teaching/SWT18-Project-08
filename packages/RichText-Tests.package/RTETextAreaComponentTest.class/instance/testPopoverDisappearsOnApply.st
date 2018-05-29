@@ -1,6 +1,6 @@
-testing
+as yet unclassified
 testPopoverDisappearsOnApply
 
-	self testPopoverAppearsByMouse.
-	self click: (self popover findWidgetOfKind: PHButton labelled: #bold).
-	self assert: self popover isInWorld not.
+	self selectTextByMouse.
+	self click: (self textArea popover findWidgetOfKind: PHButton labelled: #bold).
+	self assert: self textArea popover isInWorld not.

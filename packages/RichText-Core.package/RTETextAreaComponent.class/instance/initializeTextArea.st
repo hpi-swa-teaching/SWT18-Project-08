@@ -4,5 +4,5 @@ initializeTextArea
 	self coreObject: (RTETextComponent new
 						position: self position;
 				    	 	multiLine: true).
-	self addMorph: self coreObject
+	self add: self coreObject
 	

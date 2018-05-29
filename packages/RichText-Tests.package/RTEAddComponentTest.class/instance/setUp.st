@@ -1,4 +1,4 @@
 accessing
 setUp
 	super setUp.
-	component := (self initialize: RTEAddComponent)
+	self component: (self initialize: RTEAddComponent)

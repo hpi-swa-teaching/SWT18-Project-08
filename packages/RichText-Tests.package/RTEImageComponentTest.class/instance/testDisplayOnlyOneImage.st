@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 testDisplayOnlyOneImage
 
 	0 to: 10 do: [:i|

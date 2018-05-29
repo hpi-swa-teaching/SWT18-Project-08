@@ -1,3 +1,3 @@
 accessing
 coreObject
-	^ component coreObject
+	^ self component coreObject

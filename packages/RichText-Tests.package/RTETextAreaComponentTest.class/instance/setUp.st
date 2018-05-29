@@ -1,5 +1,5 @@
-helper
+as yet unclassified
 setUp
 
 	super setUp.
-	component := (self initialize: RTETextAreaComponent)
+	self component: (self initialize: RTETextAreaComponent).

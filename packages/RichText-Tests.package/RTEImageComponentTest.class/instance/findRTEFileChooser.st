@@ -1,4 +1,4 @@
-helper
+as yet unclassified
 findRTEFileChooser
 
 	^ (Array
