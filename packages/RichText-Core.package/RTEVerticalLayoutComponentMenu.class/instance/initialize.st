@@ -1,5 +1,4 @@
 as yet unclassified
 initialize
 
-	super initialize.
-	self addDeleteButton
+	super initialize
