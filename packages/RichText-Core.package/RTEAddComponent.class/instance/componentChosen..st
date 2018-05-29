@@ -7,7 +7,7 @@ componentChosen: componentClass
 		extent: self extent;
 		position: self position.
 		
-	self component add: (self component menu) at: 1.
+	self component addMorph: (self component menu).
 	(self owner class = RTEVerticalLayoutComponent)
 		ifTrue: [self component menu addInsertButtons].
 	self addMorph: self component.

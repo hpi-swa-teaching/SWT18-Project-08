@@ -1,7 +1,7 @@
 initialization
 initializeVerticalLayoutButton
 
-	^ ((PHButton label: 'vertical' icon: #iconBook) "can be changed to a prettier icon"
+	^ ((PHButton label: 'vertical' icon: #iconBars) 
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 

@@ -1,7 +1,7 @@
 initialization
 initializeHeaderButton
 
-	^ ((PHButton label: 'header' icon: #iconBook) "can be changed to a prettier icon"
+	^ ((PHButton label: 'header' icon: #iconBook)
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
