@@ -1,15 +1,12 @@
 as yet unclassified
 openPopover: anEvent
-	"| mousePosition newPosition |"
-	self popover openFor: self event: anEvent takeFocus: true.
+
+	"self popover openFor: self event: anEvent takeFocus: false."
 	
 	self flag: #refactor.
-	"REMOVE OLD CODE"
+	"not sure which version we should use"
 	
-	"self popover resizeToPreferred."
-	"TODO get real cursor position"
-	"mousePosition := (EventSensor cursorPoint min: (self position + self extent)) max: self position.
-	newPosition := mousePosition - ((self popover extent x / 2) @ 0) + ( 0 @ self popover arrowTipSize)."
-	"self popover position: (self position x) @ (self position y + 80).""newPosition.""
+	self popover resizeToPreferred.
 	(self popover isInWorld) ifTrue: [self popover delete].
-	self popover openInWorld"
+	self popover position: (self popover openPositionFor: self).
+	self popover openInWorld.

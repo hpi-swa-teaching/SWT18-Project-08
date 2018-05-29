@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 setUp
 	super setUp.
-	self component: (self initialize: RTEHeaderComponent).
+	component := (self initialize: RTEHeaderComponent)

@@ -4,7 +4,8 @@
 	"instance" : {
 		"component" : "AJ 5/24/2018 17:23",
 		"component:" : "AJ 5/24/2018 17:23",
-		"coreObject" : "AJ 5/24/2018 18:18",
-		"initialize:" : "AJ 5/24/2018 15:18",
-		"menu" : "AJ 5/24/2018 17:27",
-		"menuButton:" : "AJ 5/24/2018 15:05" } }
+		"coreObject" : "AJ 5/29/2018 14:15",
+		"initialize:" : "AJ 5/29/2018 14:18",
+		"menu" : "AJ 5/29/2018 14:15",
+		"menuButton:" : "AJ 5/24/2018 15:05",
+		"tearDown" : "AJ 5/29/2018 14:18" } }

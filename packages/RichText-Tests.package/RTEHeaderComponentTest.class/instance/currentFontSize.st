@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 currentFontSize
 
 	^ self coreObject styleContext fontSize

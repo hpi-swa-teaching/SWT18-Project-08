@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 tesH1LargerH2LargerH3
 
 	| h1size h2size h3size |
@@ -12,7 +12,5 @@ tesH1LargerH2LargerH3
 	h3size := self currentFontSize.
 	
 	self assert: h1size > h2size.
-	self assert: h2size > h3size. 
-	
-	
+	self assert: h2size > h3size	
 	

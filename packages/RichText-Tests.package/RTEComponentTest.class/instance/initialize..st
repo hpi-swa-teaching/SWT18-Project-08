@@ -1,3 +1,3 @@
 accessing
 initialize: aClass
-	^ aClass new openInWorld: world; yourself.
+	^ aClass new openInWorld: world; yourself

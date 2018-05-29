@@ -1,7 +1,7 @@
-as yet unclassified
+testing
 testPopoverDisappearsOnFocusLost
 
-	self selectTextByMouse.
+	self testPopoverAppearsByMouse.
 	self simulateMouseEvent: #mouseDown 
-		at: (self textArea center) buttons: #(left) start: (self textArea center) morph: (self textArea popover).
-	self assert: self textArea popover isInWorld not.
+		at: (self textArea center) buttons: #(left) start: (self textArea center) morph: (component).
+	self assert: self popover isInWorld not.
