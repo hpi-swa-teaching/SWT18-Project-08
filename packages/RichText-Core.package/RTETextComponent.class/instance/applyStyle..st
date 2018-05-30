@@ -1,4 +1,4 @@
-as yet unclassified
+text manipulation
 applyStyle: aStyle
 
 	self popover delete.
