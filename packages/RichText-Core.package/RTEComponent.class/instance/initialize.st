@@ -5,5 +5,4 @@ initialize
 	
 	self
 		vertical: true;
-		extent: (500 @ 200) withScalingFactor;
-		padding: (3 @ 3)
+		extent: (500 @ 200) withScalingFactor

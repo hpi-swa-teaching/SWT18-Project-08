@@ -1,4 +1,5 @@
-as yet unclassified
+private
 cancelHit
+
 	super cancelHit.
 	promise rejectWith: nil

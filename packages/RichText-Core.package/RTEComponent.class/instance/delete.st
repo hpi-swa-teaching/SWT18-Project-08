@@ -1,6 +1,7 @@
 initialization
 delete
+	(self coreObject notNil) ifTrue: [self coreObject delete].
 	self menu delete.
-	(self owner class = RTEAddComponent) ifTrue: [self owner delete].
-	super delete.
-	self layoutChanged
+	(self owner class = RTEAddComponent) ifTrue: [self owner coreObject: nil.
+	self owner dialogToggle show].
+	super delete

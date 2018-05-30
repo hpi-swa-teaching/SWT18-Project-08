@@ -1,5 +1,5 @@
-as yet unclassified
-checkIfHasSelection
+event handling
+hasSelection
 
 	^ (self selectionBounds first ~= self selectionBounds second)
 	
