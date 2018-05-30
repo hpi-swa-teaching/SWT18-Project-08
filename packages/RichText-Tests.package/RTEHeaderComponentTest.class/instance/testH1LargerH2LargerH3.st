@@ -1,5 +1,5 @@
-testing
-tesH1LargerH2LargerH3
+as yet unclassified
+testH1LargerH2LargerH3
 
 	| h1size h2size h3size |
 	self click: (self menuButton:  'h1').
@@ -12,4 +12,7 @@ tesH1LargerH2LargerH3
 	h3size := self currentFontSize.
 	
 	self assert: h1size > h2size.
-	self assert: h2size > h3size
+	self assert: h2size > h3size. 
+	
+	
+	

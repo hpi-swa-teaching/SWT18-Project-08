@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RichTextEditor",
+	"name" : "RTEVerticalLayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "RTEComponent",
 	"type" : "normal" }

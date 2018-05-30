@@ -1,6 +1,5 @@
 initialization
 initialize 
 	
-	super initialize.	
-	self addDeleteButton.
+	super initialize.
 	self	add: (self initializeFilePickerButton)

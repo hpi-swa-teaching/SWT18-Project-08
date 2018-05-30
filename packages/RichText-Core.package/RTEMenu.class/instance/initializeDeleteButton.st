@@ -1,7 +1,7 @@
 initialization
-addDeleteButton
+initializeDeleteButton
 	
-	self add: ((PHButton icon: #iconTrash)
+	^((PHButton icon: #iconTrash)
 		when: #clicked 
 		send: #deleteComponent 
 		to: self 
