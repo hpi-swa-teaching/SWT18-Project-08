@@ -11,8 +11,7 @@ testSupmorphAddedToVerticalLayoutByClickOnUpOrDown
 	imageButton :=  addComponent dialog findWidgetOfKind: PHButton labelled: 'image'.
 	self click: (imageButton).
 	
-	"self click: (addComponent component findWidgetOfKind: PHButton withIcon: #IconAngle_up). somehow doenst work"
-	self click: (addComponent component findWidgetOfKind: PHButton labelled: 'u').
+	self click: (addComponent component findWidgetOfKind: PHButton withIcon: #iconAngle_up).
 	
 	self assert: self component submorphCount equals: submorphCount + 1
 	
