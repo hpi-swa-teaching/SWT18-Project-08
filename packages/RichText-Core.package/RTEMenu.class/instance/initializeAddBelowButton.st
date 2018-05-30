@@ -1,7 +1,7 @@
 initialization
 initializeAddBelowButton
 	
-	^ ((PHButton icon: #iconAngle_down)
+	^ ((PHButton label: 'u' icon: #iconAngle_down)
 		when: #clicked 
 		send: #insertComponentBelow
 		to: self 

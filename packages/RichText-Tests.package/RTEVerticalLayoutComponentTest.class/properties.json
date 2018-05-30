@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RTETextAreaComponentTest",
+	"name" : "RTEVerticalLayoutComponentTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "RTEComponentTest",
 	"type" : "normal" }
