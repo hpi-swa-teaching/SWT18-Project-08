@@ -1,4 +1,4 @@
-as yet unclassified
+private
 okHit
 
 	super okHit.

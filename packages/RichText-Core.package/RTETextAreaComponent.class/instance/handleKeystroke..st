@@ -1,4 +1,0 @@
-initialization
-handleKeystroke: anEvent
-
-	^ false.

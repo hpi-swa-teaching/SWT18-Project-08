@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 open: aWorld
 	| model |
 	self postOpen. "Funny name in this context, should be renamed, but whatever..."
