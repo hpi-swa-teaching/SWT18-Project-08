@@ -1,0 +1,15 @@
+{
+	"category" : "RichText-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"popover",
+		"buttons" ],
+	"name" : "RTETextArea",
+	"pools" : [
+		 ],
+	"super" : "PHTextArea",
+	"type" : "normal" }

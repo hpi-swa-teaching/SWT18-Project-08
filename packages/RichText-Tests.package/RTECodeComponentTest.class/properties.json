@@ -10,5 +10,5 @@
 	"name" : "RTECodeComponentTest",
 	"pools" : [
 		 ],
-	"super" : "RTETextAreaComponentTest",
+	"super" : "RTETextComponentTest",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
 menu
-	^ self component menu
+	^ component menu
