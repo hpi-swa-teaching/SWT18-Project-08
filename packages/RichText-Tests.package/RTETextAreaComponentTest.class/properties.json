@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTETextAreaComponentTest",
+	"pools" : [
+		 ],
+	"super" : "RTEComponentTest",
+	"type" : "normal" }

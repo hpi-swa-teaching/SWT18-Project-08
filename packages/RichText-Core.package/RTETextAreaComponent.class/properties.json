@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTETextAreaComponent",
+	"pools" : [
+		 ],
+	"super" : "RTEComponent",
+	"type" : "normal" }
