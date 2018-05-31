@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"newWith:" : "PUB 5/31/2018 15:24" },
+		 },
 	"instance" : {
-		"initialComponent" : "PUB 5/31/2018 15:00",
-		"initialComponent:" : "PUB 5/31/2018 15:00",
-		"initialize" : "TH 5/31/2018 17:43",
+		"initialize" : "TH 5/31/2018 18:25",
 		"initializeMenu" : "PUB 5/31/2018 14:45" } }
