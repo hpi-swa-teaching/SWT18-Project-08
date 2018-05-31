@@ -2,13 +2,20 @@
 	"class" : {
 		"newWith:" : "AJ 5/24/2018 18:09" },
 	"instance" : {
-		"addInsertButtons" : "TH 5/24/2018 16:13",
+		"addInsertButtons" : "PUB 5/31/2018 14:48",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
 		"deleteComponent" : "AJ 5/24/2018 18:06",
 		"initialize" : "AJ 5/30/2018 18:35",
 		"initializeAddAboveButton" : "TH 5/24/2018 16:32",
 		"initializeAddBelowButton" : "TH 5/30/2018 11:56",
+		"initializeAddLeftButton" : "PUB 5/31/2018 14:49",
+		"initializeAddRightButton" : "PUB 5/31/2018 14:47",
 		"initializeDeleteButton" : "PUB 5/29/2018 17:10",
-		"insertComponentAbove" : "TH 5/24/2018 17:33",
-		"insertComponentBelow" : "TH 5/24/2018 17:31" } }
+		"insertComponentAbove" : "PUB 5/31/2018 16:55",
+		"insertComponentBelow" : "PUB 5/31/2018 16:55",
+		"insertComponentLeft" : "PUB 5/31/2018 16:50",
+		"insertComponentRight" : "PUB 5/31/2018 16:51",
+		"wrapInHorizontalLayout" : "PUB 5/31/2018 16:44",
+		"wrapInLayout:" : "PUB 5/31/2018 16:49",
+		"wrapInVerticalLayout" : "PUB 5/31/2018 16:47" } }

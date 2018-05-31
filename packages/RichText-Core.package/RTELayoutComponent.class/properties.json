@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RTEVerticalLayoutComponent",
+		"initialComponent" ],
+	"name" : "RTELayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "RTELayoutComponent",
+	"super" : "RTEComponent",
 	"type" : "normal" }
