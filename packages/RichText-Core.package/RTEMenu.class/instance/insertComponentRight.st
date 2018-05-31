@@ -4,7 +4,7 @@ insertComponentRight
 	|addComponent|
 	addComponent := RTEAddComponent new.
 	(self component owner owner vertical)
-		ifTrue: [self wrapInHorizontalLayout]
-		ifFalse: [self component owner owner addMorph: addComponent behind: self component owner]
+		ifTrue: [self wrapInHorizontalLayout].
+	self component owner owner addMorph: addComponent behind: self component owner
 		
 			

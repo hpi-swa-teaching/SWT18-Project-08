@@ -10,7 +10,7 @@ componentChosen: componentClass
 		extent: self extent;
 		position: self position;
 		addMorph: (self coreObject menu).
-	(self owner class = RTEVerticalLayoutComponent)
+	(self owner class = RTEVerticalLayoutComponent or: self owner class = RTEHorizontalLayoutComponent)
 		ifTrue: [self coreObject menu addInsertButtons].
 	self addMorph: self coreObject.
 	self dialog delete.
