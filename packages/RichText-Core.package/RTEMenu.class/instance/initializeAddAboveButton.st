@@ -3,6 +3,6 @@ initializeAddAboveButton
 	
 	^ ((PHButton icon: #iconAngle_up)
 		when: #clicked 
-		send: #insertComponentAbove
-		to: self 
-		withArguments: #())
+		send: #insertComponent:
+		to: self component
+		withArguments: #(#above))
