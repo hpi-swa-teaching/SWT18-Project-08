@@ -13,5 +13,4 @@ componentChosen: componentClass
 	(self owner class = RTEVerticalLayoutComponent)
 		ifTrue: [self coreObject menu addInsertButtons].
 	self addMorph: self coreObject.
-	self dialog delete.
-	self dialogToggle hide
+	self menu hide

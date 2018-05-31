@@ -1,8 +1,5 @@
 {
 	"class" : {
-		"initialize" : "AJ 5/31/2018 14:57",
-		"open" : "PUB 5/29/2018 17:18",
-		"unload" : "AJ 5/31/2018 14:57" },
+		"open" : "PUB 5/29/2018 17:18" },
 	"instance" : {
-		"initialize" : "PUB 5/29/2018 17:21",
-		"paneColorToUseWhenNotActive" : "AJ 5/29/2018 19:18" } }
+		"initialize" : "AJ 5/31/2018 15:45" } }
