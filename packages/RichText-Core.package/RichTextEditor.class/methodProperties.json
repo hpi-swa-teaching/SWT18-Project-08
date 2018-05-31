@@ -1,5 +1,9 @@
 {
 	"class" : {
-		"open" : "PUB 5/29/2018 17:18" },
+		"initialize" : "AJ 5/31/2018 16:14",
+		"open" : "PUB 5/29/2018 17:18",
+		"registerInOpenMenu" : "AJ 5/31/2018 16:14",
+		"unload" : "AJ 5/31/2018 16:14",
+		"unregisterFromOpenMenu" : "AJ 5/31/2018 16:14" },
 	"instance" : {
 		"initialize" : "AJ 5/31/2018 15:45" } }
