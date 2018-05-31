@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 open
 
 	^ self new openInWindowLabeled: 'RichTextEditor'
