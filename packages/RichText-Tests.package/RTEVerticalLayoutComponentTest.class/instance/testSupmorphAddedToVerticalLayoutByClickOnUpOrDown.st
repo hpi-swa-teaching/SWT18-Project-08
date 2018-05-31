@@ -7,7 +7,7 @@ testSupmorphAddedToVerticalLayoutByClickOnUpOrDown
 	addComponent := self component findWidgetOfKind: RTEAddComponent.
 	self click: (addComponent).
 	
-	imageButton :=  addComponent dialog findWidgetOfKind: PHButton labelled: 'image'.
+	imageButton :=  addComponent menu findWidgetOfKind: PHButton labelled: 'image'.
 	self click: (imageButton).
 	
 	self click: (addComponent coreObject menu findWidgetOfKind: PHButton withIcon: #iconAngle_up).

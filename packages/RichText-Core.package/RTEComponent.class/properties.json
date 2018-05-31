@@ -11,5 +11,5 @@
 	"name" : "RTEComponent",
 	"pools" : [
 		 ],
-	"super" : "PHCard",
+	"super" : "PHWidget",
 	"type" : "normal" }

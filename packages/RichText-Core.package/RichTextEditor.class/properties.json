@@ -10,5 +10,5 @@
 	"name" : "RichTextEditor",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "PHScrollArea",
 	"type" : "normal" }
