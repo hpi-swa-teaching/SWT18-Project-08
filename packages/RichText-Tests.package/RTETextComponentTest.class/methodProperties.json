@@ -3,14 +3,15 @@
 		 },
 	"instance" : {
 		"deselectText" : "AJ 5/29/2018 19:09",
+		"popoverButton:" : "KB 5/31/2018 21:12",
 		"selectTextByKeypress" : "AJ 5/29/2018 18:50",
 		"selectTextByMouse" : "AJ 5/29/2018 19:09",
 		"setUp" : "AJ 5/29/2018 19:34",
 		"tearDown" : "AJ 5/29/2018 18:52",
 		"testPopoverAppearsByKeypress" : "AJ 5/29/2018 19:09",
 		"testPopoverAppearsByMouse" : "AJ 5/29/2018 19:09",
-		"testPopoverDisappearsOnApply" : "AJ 5/29/2018 19:09",
+		"testPopoverDisappearsOnApply" : "KB 5/31/2018 21:12",
 		"testPopoverDisappearsOnFocusLost" : "AJ 5/29/2018 19:09",
 		"testTextAreaIsWritable" : "AJ 5/29/2018 19:08",
-		"testTextColors" : "AJ 5/29/2018 19:43",
+		"testTextColors" : "KB 5/31/2018 21:13",
 		"textArea" : "AJ 5/29/2018 18:55" } }

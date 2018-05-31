@@ -1,4 +1,4 @@
 accessing
 menuButton: aLabel
 
-	^ self menu findWidgetOfKind: PHButton labelled: aLabel
+	^ self menu submorphNamed: aLabel

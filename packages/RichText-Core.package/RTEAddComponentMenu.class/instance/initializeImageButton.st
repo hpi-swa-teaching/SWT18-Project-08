@@ -1,7 +1,8 @@
 initialization
 initializeImageButton
 
-	^ ((PHButton label: 'image' icon: #iconImage)
+	^ (((PHButton icon: #iconImage)
+		name: 'image')
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 

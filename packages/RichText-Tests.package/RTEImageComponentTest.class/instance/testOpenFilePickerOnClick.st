@@ -1,5 +1,5 @@
 testing
 testOpenFilePickerOnClick
 
-	self click: (self menuButton: 'choose image'). 
+	self click: (self menuButton: 'file picker'). 
 	self assert: (self findRTEFileChooser) notNil
