@@ -2,17 +2,10 @@
 	"class" : {
 		"newWith:" : "AJ 5/24/2018 18:09" },
 	"instance" : {
-		"addInsertButtons" : "PUB 5/31/2018 14:48",
+		"addInsertButtons" : "TH 5/31/2018 19:52",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
 		"deleteComponent" : "AJ 5/24/2018 18:06",
 		"initialize" : "TH 5/31/2018 17:46",
-		"initializeAddAboveButton" : "TH 5/31/2018 18:47",
-		"initializeAddBelowButton" : "TH 5/31/2018 18:47",
-		"initializeAddLeftButton" : "TH 5/31/2018 18:47",
-		"initializeAddRightButton" : "TH 5/31/2018 18:47",
 		"initializeDeleteButton" : "PUB 5/29/2018 17:10",
-		"insertComponentAbove" : "TH 5/31/2018 18:28",
-		"insertComponentBelow" : "TH 5/31/2018 18:28",
-		"insertComponentLeft" : "TH 5/31/2018 18:27",
-		"insertComponentRight" : "TH 5/31/2018 18:27" } }
+		"initializeInsertionButtonForDirection:" : "TH 5/31/2018 20:02" } }

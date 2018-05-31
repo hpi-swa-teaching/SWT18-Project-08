@@ -1,6 +1,6 @@
 initialization
 wrapInLayout: aSymbol
-	"this should be done like this"
+
 	| layoutComponent previousIndex previousOwner |
 	previousOwner := self owner owner.
 	previousIndex := self owner owner submorphIndexOf: self owner.

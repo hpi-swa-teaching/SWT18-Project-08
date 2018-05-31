@@ -1,7 +1,7 @@
 initialization
 addInsertButtons
 
-	self add: (self initializeAddAboveButton).
-	self add: (self initializeAddBelowButton).
-	self add: (self initializeAddLeftButton).
-	self add: (self initializeAddRightButton)
+	self add: (self initializeInsertionButtonForDirection: #up).
+	self add: (self initializeInsertionButtonForDirection: #down).
+	self add: (self initializeInsertionButtonForDirection: #left).
+	self add: (self initializeInsertionButtonForDirection: #right)
