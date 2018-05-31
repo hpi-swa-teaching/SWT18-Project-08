@@ -7,6 +7,9 @@ What is this pull doing? What new feature? Anything special? Describe it here.
 # Is everything tested?
 Please describe what the new tests are testing.
 
+# Is it release relevant?
+If yes, add a small description to the release notes.
+
 # Screenshot
 You have something cool to share? Add an screenshot to show how your new code should act.
 
@@ -32,7 +35,7 @@ You have something cool to share? Add an screenshot to show how your new code sh
    self otherMethod
    ```
    - [ ] static values are stored on class Side
-   - [ ] every function has an category
+   - [ ] every function has a category
  - [ ] basic UX
    - [ ] UI is intuitive to use (tested by the reviewer! reject if not)
    - [ ] ...
