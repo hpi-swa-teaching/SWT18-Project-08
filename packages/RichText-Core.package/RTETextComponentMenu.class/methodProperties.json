@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "PUB 5/29/2018 17:12" } }
+		"applyAlignment:" : "AJ 6/2/2018 14:11",
+		"initialize" : "AJ 6/2/2018 14:11",
+		"initializeAlignmentButtons" : "AJ 6/2/2018 14:29" } }
