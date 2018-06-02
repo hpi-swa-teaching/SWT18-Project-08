@@ -3,7 +3,7 @@ addColorButtons: aButtonGroup
 
 	RTETextArea colors keysDo: [:color | aButtonGroup add: 
 										   (((PHButton new)
-											   name: color;
+											   name: ('makeText_',color);
 											   color: (RTETextArea colors at: color))
 										   when: #clicked 
 										   send: #applyColor: 

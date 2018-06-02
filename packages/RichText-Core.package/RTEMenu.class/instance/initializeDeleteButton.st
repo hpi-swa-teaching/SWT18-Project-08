@@ -1,7 +1,7 @@
 initialization
 initializeDeleteButton
 	
-	^(((PHButton icon: #iconTrash) name: 'trash')
+	^(((PHButton icon: #iconTrash) name: 'deleteComponent')
 		when: #clicked 
 		send: #deleteComponent 
 		to: self 

@@ -1,4 +1,4 @@
 testing
 popoverButton: aLabel
 
-	^ self textArea popover submorphs first submorphNamed: aLabel
+	^ self textArea popover submorphs first submorphNamed: aLabel.

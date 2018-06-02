@@ -2,5 +2,5 @@ text manipulation
 applyColor: aColorSymbol
 
 	self popover delete.
-	self toggleAttributeForSelection: (TextColor new color: (RTETextArea colors at: aColorSymbol)).
+	self addApplicationStyles: (PHStyle forAny color: (RTETextArea colors at: aColorSymbol)).
 	self clearSelection 
