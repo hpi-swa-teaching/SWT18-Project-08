@@ -1,10 +1,7 @@
 initialization
 initializeAlignmentButtons
 	
-	| alignments |
-	
-	alignments := #(left center right justify).
-	alignments do: [:alignment |
+	#(left center right" justify") do: [:alignment |
 		self add: ((PHButton 
 			icon: (('iconAlign_',alignment)) asSymbol)
 		      name: 'align_',alignment;

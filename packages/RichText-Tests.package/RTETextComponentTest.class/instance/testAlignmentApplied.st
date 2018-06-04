@@ -9,7 +9,7 @@ testAlignmentApplied
 		assert: component coreObject alignment equals: #center;
 	
 		click: (self menuButtonByName: 'align_right');
-		assert: component coreObject alignment equals: #right;
+		assert: component coreObject alignment equals: #right";
 	
 		click: (self menuButtonByName: 'align_justify');
-		assert: component coreObject alignment equals: #justify
+		assert: component coreObject alignment equals: #justify"
