@@ -1,0 +1,4 @@
+initialization
+reorderComponentInDirection: aDirection
+	
+	self menu changeUpAndDownReorderButtonsToLeftAndRight
