@@ -1,7 +1,7 @@
 insertion
 addInsertButtons
 
-	self add: (self initializeInsertionButtonForDirection: #up).
-	self add: (self initializeInsertionButtonForDirection: #down).
-	self add: (self initializeInsertionButtonForDirection: #left).
-	self add: (self initializeInsertionButtonForDirection: #right)
+	self add: (self initializeInsertionButtonForDirection: #up);
+		add: (self initializeInsertionButtonForDirection: #down);
+		add: (self initializeInsertionButtonForDirection: #left);
+		add: (self initializeInsertionButtonForDirection: #right)

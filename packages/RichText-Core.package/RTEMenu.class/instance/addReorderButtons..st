@@ -1,5 +1,6 @@
 reorganization
 addReorderButtons: aDirection
+
 	aDirection == #vertical
 		ifTrue: [self 
 					add: (self initializeReorderButtonForDirection: #up);
