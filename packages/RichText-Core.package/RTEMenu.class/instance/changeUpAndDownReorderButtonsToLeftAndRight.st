@@ -2,6 +2,7 @@ reorganization
 changeUpAndDownReorderButtonsToLeftAndRight
 
 	| moveUpButton moveDownButton |
+	
 	self flag: #refactor.
 	"should be in one method"
 	moveUpButton := self findWidgetOfKind: PHButton withIcon: #'iconArrow_up'.

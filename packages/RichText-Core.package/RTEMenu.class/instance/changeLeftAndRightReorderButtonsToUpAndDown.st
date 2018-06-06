@@ -2,6 +2,7 @@ reorganization
 changeLeftAndRightReorderButtonsToUpAndDown
 
 	| moveLeftButton moveRightButton |
+	
 	self flag: #refactor.
 	moveLeftButton := self findWidgetOfKind: PHButton withIcon: #'iconArrow_left'.
 	moveLeftButton removeAllMorphs;

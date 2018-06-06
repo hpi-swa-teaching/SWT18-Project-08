@@ -2,6 +2,7 @@ configuration
 wrapInLayout: aSymbol
 
 	| layoutComponent previousIndex previousOwner |
+	
 	self wrappingLayout: aSymbol.
 	previousOwner := self owner.
 	previousIndex := self owner submorphIndexOf: self.
