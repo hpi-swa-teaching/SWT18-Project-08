@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buttonWithIcon:existsInMenuOf:" : "TH 6/6/2018 11:39",
-		"clickButton" : "TH 6/6/2018 11:43",
-		"clickButtonWithIcon:inWidget:" : "TH 6/6/2018 11:46",
-		"clickButtonWithLabel:inWidget:" : "TH 6/6/2018 11:46",
-		"setUp" : "TH 6/6/2018 11:30",
-		"testWrappingLayoutChanged" : "TH 6/6/2018 11:51" } }
+		"buttonWithIcon:existsInMenuOf:" : "TH 6/6/2018 11:59",
+		"setUp" : "TH 6/6/2018 12:19",
+		"testReorderWidgetUpwards" : "TH 6/6/2018 12:45",
+		"testWrappingLayoutChanged" : "TH 6/6/2018 12:20",
+		"widgetAtIndex:" : "TH 6/6/2018 12:35" } }

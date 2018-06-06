@@ -3,9 +3,7 @@ testSupmorphAddedToVerticalLayoutByClickOnUpOrDown
 
 	| addComponent imageButton previousSubmorphCount|
 	previousSubmorphCount := self component submorphCount.
-	
 	addComponent := self component findWidgetOfKind: RTEAddComponent.
-	self click: (addComponent).
 	
 	imageButton :=  addComponent dialog findWidgetOfKind: PHButton labelled: 'image'.
 	self click: (imageButton).
