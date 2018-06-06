@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"wrappingLayout",
-		"menu",
-		"coreObject" ],
-	"name" : "RTEComponent",
+		 ],
+	"name" : "RTEHorizontalLayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "RTELayoutComponent",
 	"type" : "normal" }

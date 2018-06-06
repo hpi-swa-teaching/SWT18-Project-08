@@ -1,16 +1,14 @@
 {
-	"category" : "RichText-Core",
+	"category" : "RichText-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"wrappingLayout",
-		"menu",
-		"coreObject" ],
-	"name" : "RTEComponent",
+		 ],
+	"name" : "RTELayoutComponentTest",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "RTEComponentTest",
 	"type" : "normal" }

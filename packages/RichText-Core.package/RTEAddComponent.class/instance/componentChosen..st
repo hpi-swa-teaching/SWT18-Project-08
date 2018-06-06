@@ -6,11 +6,10 @@ componentChosen: componentClass
 	
 	self coreObject ifNotNilDo: [:a|self coreObject delete].
 	self coreObject: componentClass new.
+	self addMorph: self coreObject.
+	self coreObject wrappingLayout: self wrappingLayout.
 	self coreObject
 		extent: self extent;
 		position: self position;
 		addMorph: (self coreObject menu).
-	(self owner class = RTEVerticalLayoutComponent)
-		ifTrue: [self coreObject menu addInsertButtons].
-	self addMorph: self coreObject.
 	self menu hide

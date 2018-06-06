@@ -10,5 +10,5 @@
 	"name" : "RTEVerticalLayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "RTEComponent",
+	"super" : "RTELayoutComponent",
 	"type" : "normal" }

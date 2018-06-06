@@ -2,5 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"componentChosen:" : "AJ 5/31/2018 15:57",
-		"initialize" : "AJ 5/31/2018 15:58" } }
+		"changeReorderButtonsToHorizontal" : "TH 6/6/2018 17:29",
+		"changeReorderButtonsToVertical" : "TH 6/6/2018 17:29",
+		"componentChosen:" : "TH 6/6/2018 18:53",
+		"initialize" : "AJ 5/31/2018 15:58",
+		"insertComponentInDirection:" : "TH 6/6/2018 18:53",
+		"layoutWrapForInsertionInDirection:" : "TH 6/6/2018 18:53",
+		"reorderComponentInDirection:" : "TH 6/6/2018 19:22",
+		"wrapInLayout:" : "TH 6/6/2018 19:22" } }
