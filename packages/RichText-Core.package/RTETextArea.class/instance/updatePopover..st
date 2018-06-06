@@ -1,6 +1,8 @@
 event handling
 updatePopover: anEvent
 
+	self flag: #refactor. "duplicate popover delete"
 	self hasSelection 
-		ifTrue: [self openPopover: anEvent].
-	self deletePopover
+		ifTrue:[self deletePopover; 
+				openPopover: anEvent]
+		ifFalse: [self deletePopover]
