@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"menu",
-		"coreObject",
-		"wrappingLayout" ],
+		"coreObject" ],
 	"name" : "RTEComponent",
 	"pools" : [
 		 ],
-	"super" : "PHCard",
+	"super" : "PHWidget",
 	"type" : "normal" }
