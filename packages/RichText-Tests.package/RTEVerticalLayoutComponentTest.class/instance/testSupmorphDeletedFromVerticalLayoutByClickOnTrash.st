@@ -1,13 +1,12 @@
 as yet unclassified
 testSupmorphDeletedFromVerticalLayoutByClickOnTrash
 
-	| addComponent deleteButton previousSubmorphCount|
+	| addComponent previousSubmorphCount|
 	
 	previousSubmorphCount := self component submorphCount.
-	addComponent := self component findWidgetOfKind: RTEAddComponent.
+	addComponent := self widgetAtIndex: 1.
 	
-	deleteButton :=  addComponent dialog findWidgetOfKind: PHButton withIcon: #iconTrash.
-	self click: (deleteButton).
+	self clickButtonWithIcon: #iconTrash inWidget: addComponent dialog.
 	
 	self assert: self component submorphCount equals: previousSubmorphCount - 1
 	

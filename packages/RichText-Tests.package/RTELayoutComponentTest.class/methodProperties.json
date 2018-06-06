@@ -4,6 +4,6 @@
 	"instance" : {
 		"buttonWithIcon:existsInMenuOf:" : "TH 6/6/2018 11:59",
 		"setUp" : "TH 6/6/2018 12:19",
-		"testReorderWidgetUpwards" : "TH 6/6/2018 12:45",
+		"testReorderWidgetCorrectly" : "TH 6/6/2018 13:30",
 		"testWrappingLayoutChanged" : "TH 6/6/2018 12:20",
 		"widgetAtIndex:" : "TH 6/6/2018 12:35" } }
