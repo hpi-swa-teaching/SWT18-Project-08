@@ -1,4 +1,4 @@
-initialization
+reorganization
 reorderComponentInDirection: aDirection
 	
 	| previousIndex previousOwner |

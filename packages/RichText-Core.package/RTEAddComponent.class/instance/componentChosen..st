@@ -12,5 +12,4 @@ componentChosen: componentClass
 		extent: self extent;
 		position: self position;
 		addMorph: (self coreObject menu).
-	
 	self menu hide

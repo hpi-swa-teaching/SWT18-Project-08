@@ -1,5 +1,6 @@
-initialization
+reorganization
 changeLeftAndRightReorderButtonsToUpAndDown
+
 	| moveLeftButton moveRightButton |
 	self flag: #refactor.
 	moveLeftButton := self findWidgetOfKind: PHButton withIcon: #iconArrow_left.
@@ -7,4 +8,4 @@ changeLeftAndRightReorderButtonsToUpAndDown
 	moveLeftButton add: (PHIcon perform: #iconArrow_up).
 	moveRightButton := self findWidgetOfKind: PHButton withIcon: #iconArrow_right.
 	moveRightButton removeAllMorphs. 
-	moveRightButton add: (PHIcon perform: #iconArrow_down).
+	moveRightButton add: (PHIcon perform: #iconArrow_down)

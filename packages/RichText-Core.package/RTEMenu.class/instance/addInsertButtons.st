@@ -1,4 +1,4 @@
-initialization
+insertion
 addInsertButtons
 
 	self add: (self initializeInsertionButtonForDirection: #up).

@@ -1,4 +1,4 @@
-initialization
+reorganization
 addReorderButtons: aDirection
 	aDirection == #vertical
 		ifTrue: [self 

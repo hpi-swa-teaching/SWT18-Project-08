@@ -1,4 +1,4 @@
-initialization
+configuration
 wrapInLayout: aSymbol
 
 	| layoutComponent previousIndex previousOwner |

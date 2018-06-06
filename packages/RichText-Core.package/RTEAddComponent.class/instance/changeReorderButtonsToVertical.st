@@ -1,4 +1,4 @@
-as yet unclassified
+reorganization
 changeReorderButtonsToVertical
 
 	self coreObject notNil 

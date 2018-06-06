@@ -1,4 +1,4 @@
-initialization
+insertion
 insertComponentInDirection: aDirection
 
 	self layoutWrapForInsertionInDirection: aDirection.
@@ -9,7 +9,7 @@ insertComponentInDirection: aDirection
 	(aDirection == #up)
 		ifTrue: [self owner addMorph: (RTEAddComponent new wrappingLayout: #vertical) inFrontOf: self].
 	(aDirection == #down)
-		ifTrue: [self owner addMorph: (RTEAddComponent new wrappingLayout: #vertical) behind: self].
+		ifTrue: [self owner addMorph: (RTEAddComponent new wrappingLayout: #vertical) behind: self]
 	
 	
 		

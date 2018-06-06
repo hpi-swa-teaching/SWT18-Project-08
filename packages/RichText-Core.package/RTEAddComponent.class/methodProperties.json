@@ -4,9 +4,9 @@
 	"instance" : {
 		"changeReorderButtonsToHorizontal" : "TH 6/6/2018 17:29",
 		"changeReorderButtonsToVertical" : "TH 6/6/2018 17:29",
-		"componentChosen:" : "TH 6/6/2018 17:16",
+		"componentChosen:" : "TH 6/6/2018 18:53",
 		"initialize" : "AJ 5/31/2018 15:58",
-		"insertComponentInDirection:" : "TH 6/6/2018 15:57",
-		"layoutWrapForInsertionInDirection:" : "TH 6/6/2018 17:28",
+		"insertComponentInDirection:" : "TH 6/6/2018 18:53",
+		"layoutWrapForInsertionInDirection:" : "TH 6/6/2018 18:53",
 		"reorderComponentInDirection:" : "TH 6/5/2018 22:56",
 		"wrapInLayout:" : "TH 6/6/2018 17:31" } }

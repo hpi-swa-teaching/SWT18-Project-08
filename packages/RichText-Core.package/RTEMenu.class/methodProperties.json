@@ -2,17 +2,15 @@
 	"class" : {
 		"newWith:" : "AJ 5/24/2018 18:09" },
 	"instance" : {
-		"addComponent" : "TH 6/6/2018 17:15",
 		"addInsertButtons" : "TH 5/31/2018 19:52",
 		"addReorderButtons:" : "TH 6/5/2018 17:47",
-		"changeLeftAndRightReorderButtonsToUpAndDown" : "TH 6/5/2018 18:42",
-		"changeReorderButtons" : "TH 6/6/2018 17:22",
-		"changeUpAndDownReorderButtonsToLeftAndRight" : "TH 6/5/2018 15:17",
+		"changeLeftAndRightReorderButtonsToUpAndDown" : "TH 6/6/2018 18:57",
+		"changeUpAndDownReorderButtonsToLeftAndRight" : "TH 6/6/2018 18:57",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
 		"deleteComponent" : "AJ 5/24/2018 18:06",
+		"handlingComponent" : "TH 6/6/2018 18:55",
 		"initialize" : "TH 6/6/2018 17:07",
 		"initializeDeleteButton" : "PUB 5/29/2018 17:10",
-		"initializeInsertionButtonForDirection:" : "TH 6/6/2018 16:02",
-		"initializeReorderButtonForDirection:" : "TH 6/6/2018 16:02",
-		"setReorderButtons" : "TH 6/6/2018 16:51" } }
+		"initializeInsertionButtonForDirection:" : "TH 6/6/2018 18:55",
+		"initializeReorderButtonForDirection:" : "TH 6/6/2018 18:55" } }
