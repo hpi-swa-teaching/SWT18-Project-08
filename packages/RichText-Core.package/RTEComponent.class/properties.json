@@ -8,7 +8,7 @@
 	"instvars" : [
 		"menu",
 		"coreObject",
-		"layout" ],
+		"wrappingLayout" ],
 	"name" : "RTEComponent",
 	"pools" : [
 		 ],

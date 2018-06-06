@@ -2,7 +2,7 @@ initialization
 initialize
 	| baseComponent |
 	super initialize.
-	baseComponent := RTEVerticalLayoutComponent new add: (RTEAddComponent new layout: #vertical).
+	baseComponent := RTEVerticalLayoutComponent new add: (RTEAddComponent new wrappingLayout: #vertical).
 	self
 		withLayout;
 		vertical: true;
