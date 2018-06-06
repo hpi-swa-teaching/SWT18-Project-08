@@ -5,7 +5,7 @@ testSupmorphAddedToVerticalLayoutByClickOnUpOrDown
 	previousSubmorphCount := self component submorphCount.
 	addComponent := self widgetAtIndex: 1.
 	
-	self clickButtonWithLabel: 'image' inWidget: addComponent dialog.
+	self clickButtonWithLabel: 'image' inWidget: addComponent.
 	
 	self clickButtonWithIcon: #iconAngle_up inWidget: addComponent coreObject.
 	self assert: self component submorphCount equals: previousSubmorphCount + 1.

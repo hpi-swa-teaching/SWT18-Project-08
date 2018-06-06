@@ -5,12 +5,12 @@ testReorderWidgetCorrectly
 	addComponent := (self widgetAtIndex: 1).
 	
 	self click: addComponent.
-	self clickButtonWithLabel: 'image' inWidget: addComponent dialog.
+	self clickButtonWithLabel: 'image' inWidget: addComponent.
 	
 	self clickButtonWithIcon: #iconAngle_down inWidget: addComponent coreObject. "insert object below"
 	
 	self click: (self widgetAtIndex: 2).
-	self clickButtonWithLabel: 'header' inWidget: addComponent submorphAfter dialog.
+	self clickButtonWithLabel: 'header' inWidget: addComponent submorphAfter.
 	
 	self assert: (self widgetAtIndex: 1) coreObject class equals: RTEImageComponent.
 	self assert: (self widgetAtIndex: 2) coreObject class equals: RTEHeaderComponent.

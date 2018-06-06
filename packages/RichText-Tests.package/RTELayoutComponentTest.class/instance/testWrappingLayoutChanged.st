@@ -5,7 +5,7 @@ testWrappingLayoutChanged
 	addComponent := self component findWidgetOfKind: RTEAddComponent.
 	
 	self click: addComponent.
-	self clickButtonWithLabel: 'image' inWidget: addComponent dialog.
+	self clickButtonWithLabel: 'image' inWidget: addComponent.
 	
 	self clickButtonWithIcon: #iconAngle_right inWidget: addComponent coreObject. "insert object to the right"
 	
