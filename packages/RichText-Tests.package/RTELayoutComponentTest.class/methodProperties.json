@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buttonWithIcon:existsInMenuOf:" : "TH 6/6/2018 11:39",
+		"clickButton" : "TH 6/6/2018 11:43",
+		"clickButtonWithIcon:inWidget:" : "TH 6/6/2018 11:46",
+		"clickButtonWithLabel:inWidget:" : "TH 6/6/2018 11:46",
+		"setUp" : "TH 6/6/2018 11:30",
+		"testWrappingLayoutChanged" : "TH 6/6/2018 11:51" } }

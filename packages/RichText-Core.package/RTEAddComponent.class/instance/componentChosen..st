@@ -10,8 +10,12 @@ componentChosen: componentClass
 		position: self position;
 		addMorph: (self coreObject menu).
 	self addMorph: self coreObject.
+	
+	self coreObject addDependent: self owner.
+	
 	self owner vertical 
 		ifTrue: [self coreObject menu addReorderButtons: #vertical]
 		ifFalse: [self coreObject menu addReorderButtons: #horizontal].
 	self dialog delete.
-	self dialogToggle hide
+	self dialogToggle hide.
+	Transcript show: self coreObject identityHash
