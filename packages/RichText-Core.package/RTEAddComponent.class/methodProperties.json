@@ -2,10 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"componentChosen:" : "TH 5/30/2018 17:07",
-		"dialog" : "AJ 5/24/2018 17:57",
-		"dialog:" : "AJ 5/24/2018 17:57",
-		"dialogToggle" : "AJ 5/24/2018 17:57",
-		"dialogToggle:" : "AJ 5/24/2018 17:57",
-		"initialize" : "AJ 5/29/2018 19:16",
-		"initializeDialogToggle" : "AJ 5/24/2018 22:19" } }
+		"componentChosen:" : "AJ 5/31/2018 15:57",
+		"initialize" : "AJ 5/31/2018 15:58" } }

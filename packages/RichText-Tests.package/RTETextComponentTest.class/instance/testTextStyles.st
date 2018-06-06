@@ -1,11 +1,12 @@
 testing
 testTextStyles
+	|runValues|
 	
 	self textArea text: 'test'.
-	self textArea selectAll.
-	
+
 	RTETextArea styles keysDo: [:style |
-		self mouseRelease: self textArea buttons: #(left).
 		self textArea selectAll.
+		self mouseRelease: self textArea buttons: #(left).
 		self click: (self popoverButton: ('makeText_',style)).
-		self assert: (self textArea styleContext fontStyle) equals: ((RTETextArea styles at: style asSymbol) value second)]
+		runValues := (self textArea text asText) runs values first.
+		self assert: ((runValues at: (runValues size)) emphasisCode) equals: ((RTETextArea styles at: style asSymbol) value second)]

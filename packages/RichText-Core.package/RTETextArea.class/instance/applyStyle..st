@@ -2,5 +2,5 @@ text manipulation
 applyStyle: aStyle
 
 	self popover delete.
-	self addApplicationStyles: (PHStyle forAny fontStyle: aStyle).
+	self toggleAttributeForSelection: (TextEmphasis new emphasisCode: aStyle).
 	self clearSelection 

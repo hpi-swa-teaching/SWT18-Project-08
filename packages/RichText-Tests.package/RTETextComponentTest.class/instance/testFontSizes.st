@@ -8,8 +8,11 @@ testFontSizes
 	self mouseRelease: self textArea buttons: #(left).
 	
 	inputField:= self popoverButton: 'fontSizeInputField'.
-	inputField text: '12'.
+	inputField text: ''.
+	
+	self keyStroke: inputField key: $1.
+	self keyStroke: inputField key: $2.
 	self keyStroke: inputField key: (Character cr).
-
-	self assert: (self textArea styleContext fontSize) equals: 12.
+	self assert: (self textArea styleContext fontSize) equals: 12
 		
+	
