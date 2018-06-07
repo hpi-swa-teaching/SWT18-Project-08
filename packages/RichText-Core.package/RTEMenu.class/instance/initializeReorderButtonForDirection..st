@@ -7,5 +7,5 @@ initializeReorderButtonForDirection: aDirection
 		send: #reorderComponentInDirection:
 		to: (self handlingComponent)
 		with: aDirection).
-	self initializeToolTipForButton: button withText: ('moves component ',aDirection) asString.
+	button addTooltip: ('moves component ',aDirection) asString.
 	^ button

@@ -10,5 +10,5 @@ initialize
 			send: #setLevel:
 			to: (self component)
 			with: ('h',index) asSymbol).
-		self initializeToolTipForButton: button withText: ((headlineTypes at: index),' headline').
+		button addTooltip: ((headlineTypes at: index),' headline').
 		self add: button at: (1 + index)]

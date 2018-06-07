@@ -6,6 +6,6 @@ initializeDeleteButton
 		send: #deleteComponent 
 		to: self 
 		withArguments: #()).
-	self initializeToolTipForButton: self deleteButton withText: 'deletes this component'.
+	self deleteButton addTooltip: 'deletes this component'.
 	^self deleteButton 
 	

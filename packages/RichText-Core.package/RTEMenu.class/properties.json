@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"component",
-		"deleteButton" ],
+		"deleteButton",
+		"reorderButtons",
+		"insertButtons" ],
 	"name" : "RTEMenu",
 	"pools" : [
 		 ],

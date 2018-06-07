@@ -1,11 +1,11 @@
 initialization
 initializeImageButton
 
-	self imageButton: ((PHButton label: 'image' icon: #iconImage)
+	self imageButton: ((PHButton icon: #iconImage) name: 'addImageComponent';
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
 		with: RTEImageComponent).
-	self initializeToolTipForButton: self imageButton withText: ('add','<name>', 'component').
+	self imageButton addTooltip: ('add','<name>', 'component').
 	^ self imageButton
 	

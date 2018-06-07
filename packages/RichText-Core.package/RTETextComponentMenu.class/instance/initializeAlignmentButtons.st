@@ -10,6 +10,6 @@ initializeAlignmentButtons
 				send: #applyAlignment: 
 				to: (self component)
 				with: alignment).
-			self initializeToolTipForButton: button withText: ('align ',alignment) asString.
+			button addTooltip: ('align ',alignment) asString.
 			self add: button].
 	(self submorphNamed: 'align_left') addStyleClass: #success

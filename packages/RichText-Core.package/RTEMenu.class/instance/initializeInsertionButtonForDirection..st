@@ -7,5 +7,5 @@ initializeInsertionButtonForDirection: aDirection
 		send: #insertComponentInDirection:
 		to: (self handlingComponent)
 		with: aDirection).
-	self initializeToolTipForButton: button withText: ('adds component ',aDirection) asString.
+	button addTooltip: ('adds component ',aDirection) asString.
 	^ button

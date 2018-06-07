@@ -1,10 +1,13 @@
 reorganization
 addReorderButtons: aDirection
 
+	self reorderButtons add: (self initializeReorderCategoryButton).
 	aDirection == #vertical
-		ifTrue: [self 
+		ifTrue: [self reorderButtons
 					add: (self initializeReorderButtonForDirection: #up);
 					add: (self initializeReorderButtonForDirection: #down)]
-		ifFalse: [self
+		ifFalse: [self reorderButtons
 					add: (self initializeReorderButtonForDirection: #left);
-					add: (self initializeReorderButtonForDirection: #right)]
+					add: (self initializeReorderButtonForDirection: #right)].
+	self hideCategory: self reorderButtons.
+	self add: self reorderButtons
