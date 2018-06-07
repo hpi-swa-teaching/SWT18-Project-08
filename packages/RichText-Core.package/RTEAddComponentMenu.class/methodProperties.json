@@ -2,16 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"codeButton" : "TH 6/7/2018 16:27",
-		"codeButton:" : "TH 6/7/2018 16:27",
-		"headerButton" : "TH 6/7/2018 16:27",
-		"headerButton:" : "TH 6/7/2018 16:27",
-		"imageButton" : "TH 6/7/2018 16:27",
-		"imageButton:" : "TH 6/7/2018 16:27",
 		"initialize" : "MB 6/7/2018 16:28",
-		"initializeCodeButton" : "TH 6/7/2018 19:25",
-		"initializeHeaderButton" : "TH 6/7/2018 19:26",
-		"initializeImageButton" : "TH 6/7/2018 19:26",
-		"initializeTextButton" : "TH 6/7/2018 19:26",
-		"textButton" : "TH 6/7/2018 16:27",
-		"textButton:" : "TH 6/7/2018 16:27" } }
+		"initializeCodeButton" : "TH 6/7/2018 19:57",
+		"initializeHeaderButton" : "TH 6/7/2018 19:56",
+		"initializeImageButton" : "TH 6/7/2018 19:56",
+		"initializeTextButton" : "TH 6/7/2018 19:56" } }
