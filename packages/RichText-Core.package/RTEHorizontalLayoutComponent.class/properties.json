@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RTEVerticalLayoutComponentMenu",
+	"name" : "RTEHorizontalLayoutComponent",
 	"pools" : [
 		 ],
-	"super" : "RTEMenu",
+	"super" : "RTELayoutComponent",
 	"type" : "normal" }

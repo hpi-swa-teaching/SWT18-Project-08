@@ -1,20 +1,18 @@
 as yet unclassified
 testSupmorphAddedToVerticalLayoutByClickOnUpOrDown
 
-	| addComponent imageButton previousSubmorphCount|
+	| addComponent previousSubmorphCount|
+	self flag: #refactor "Tim das machst du!".
 	previousSubmorphCount := self component submorphCount.
+	addComponent := (self widgetAtIndex: 1).
 	
-	addComponent := self component findWidgetOfKind: RTEAddComponent.
-	self click: (addComponent).
+	self click: ((self widgetAtIndex: 1) menu submorphNamed: 'addImageComponent').
 	
-	imageButton :=  addComponent menu findWidgetOfKind: PHButton labelled: 'image'.
-	self click: (imageButton).
-	
-	self click: (addComponent coreObject menu findWidgetOfKind: PHButton withIcon: #iconAngle_up).
+	self clickButtonWithIcon: #iconAngle_up inWidget: (self widgetAtIndex: 1) coreObject.
 	self assert: self component submorphCount equals: previousSubmorphCount + 1.
-	self assert: (addComponent submorphBefore class = RTEAddComponent).
+	self assert: ((self widgetAtIndex: 2) submorphBefore class = RTEAddComponent).
 	
-	self click: (addComponent coreObject menu findWidgetOfKind: PHButton withIcon: #iconAngle_down).
+	self clickButtonWithIcon: #iconAngle_down inWidget: (self widgetAtIndex: 2) coreObject.
 	self assert: self component submorphCount equals: previousSubmorphCount + 2.
-	self assert: (addComponent submorphAfter class = RTEAddComponent).
+	self assert: ((self widgetAtIndex: 2) submorphAfter class = RTEAddComponent)
 	

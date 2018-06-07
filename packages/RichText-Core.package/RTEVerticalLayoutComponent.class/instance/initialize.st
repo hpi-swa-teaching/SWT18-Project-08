@@ -1,6 +1,6 @@
-nil
+initialization
 initialize 
 
 	super initialize.
-	self initializeMenu.
-	self add: (RTEAddComponent new)
+	self	vertical: true
+	

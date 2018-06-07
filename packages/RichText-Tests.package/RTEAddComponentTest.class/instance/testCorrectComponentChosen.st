@@ -1,5 +1,5 @@
 testing
 testCorrectComponentChosen
 
-	self click: (component menu findWidgetOfKind: PHButton labelled: 'image').
+	self click: (component menu submorphNamed: 'addImageComponent').
 	self assert: (component submorphs first class) = RTEImageComponent
