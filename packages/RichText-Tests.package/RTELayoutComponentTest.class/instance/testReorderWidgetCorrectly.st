@@ -1,16 +1,17 @@
-helper
+as yet unclassified
 testReorderWidgetCorrectly
 
-	| addComponent header prevIndex |
-	addComponent := (self widgetAtIndex: 1).
+
+	| header prevIndex |
 	
-	self click: addComponent.
-	self clickButtonWithLabel: 'image' inWidget: addComponent.
+	self click: (self widgetAtIndex: 1).
+	self click: ((self widgetAtIndex: 1) menu submorphNamed: 'addImageComponent' ).
 	
-	self clickButtonWithIcon: #iconAngle_down inWidget: addComponent coreObject. "insert object below"
+	self clickButtonWithIcon: #iconAngle_down inWidget: (self widgetAtIndex: 1) coreObject. "insert object below"
 	
 	self click: (self widgetAtIndex: 2).
-	self clickButtonWithLabel: 'header' inWidget: addComponent submorphAfter.
+	self click: ((self widgetAtIndex: 2) menu submorphNamed: 'addHeaderComponent').
+
 	
 	self assert: (self widgetAtIndex: 1) coreObject class equals: RTEImageComponent.
 	self assert: (self widgetAtIndex: 2) coreObject class equals: RTEHeaderComponent.
