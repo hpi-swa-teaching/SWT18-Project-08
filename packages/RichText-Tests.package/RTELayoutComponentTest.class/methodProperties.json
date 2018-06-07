@@ -3,9 +3,7 @@
 		 },
 	"instance" : {
 		"buttonWithIcon:existsInMenuOf:" : "TH 6/6/2018 11:59",
-
 		"setUp" : "MB 6/7/2018 15:37",
 		"testReorderWidgetCorrectly" : "MB 6/7/2018 15:51",
 		"testWrappingLayoutChanged" : "MB 6/7/2018 15:54",
-
 		"widgetAtIndex:" : "TH 6/6/2018 12:35" } }
