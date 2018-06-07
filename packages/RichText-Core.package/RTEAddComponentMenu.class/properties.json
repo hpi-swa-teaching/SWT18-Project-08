@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"codeButton",
+		"headerButton",
+		"imageButton",
+		"textButton" ],
 	"name" : "RTEAddComponentMenu",
 	"pools" : [
 		 ],

@@ -2,8 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"codeButton" : "TH 6/7/2018 16:27",
+		"codeButton:" : "TH 6/7/2018 16:27",
+		"headerButton" : "TH 6/7/2018 16:27",
+		"headerButton:" : "TH 6/7/2018 16:27",
+		"imageButton" : "TH 6/7/2018 16:27",
+		"imageButton:" : "TH 6/7/2018 16:27",
 		"initialize" : "TH 6/6/2018 18:57",
-		"initializeCodeButton" : "AJ 5/24/2018 22:10",
-		"initializeHeaderButton" : "AJ 5/24/2018 18:10",
-		"initializeImageButton" : "AJ 5/24/2018 18:10",
-		"initializeTextButton" : "AJ 5/29/2018 19:12" } }
+		"initializeCodeButton" : "TH 6/7/2018 16:25",
+		"initializeHeaderButton" : "TH 6/7/2018 16:28",
+		"initializeImageButton" : "TH 6/7/2018 16:28",
+		"initializeTextButton" : "TH 6/7/2018 16:29",
+		"textButton" : "TH 6/7/2018 16:27",
+		"textButton:" : "TH 6/7/2018 16:27" } }

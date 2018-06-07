@@ -1,8 +1,11 @@
 initialization
 initializeReorderButtonForDirection: aDirection
 
-	^ ((PHButton icon: ('iconArrow_',aDirection) asSymbol)
+	| button |
+	button := ((PHButton icon: ('iconArrow_',aDirection) asSymbol)
 		when: #clicked 
 		send: #reorderComponentInDirection:
 		to: (self handlingComponent)
-		with: aDirection)
+		with: aDirection).
+	self initializeToolTipForButton: button withText: ('moves component ',aDirection) asString.
+	^ button

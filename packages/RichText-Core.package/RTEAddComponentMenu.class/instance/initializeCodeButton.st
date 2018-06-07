@@ -1,8 +1,10 @@
 initialization
 initializeCodeButton
 
-	^ ((PHButton label: 'code' icon: #iconCode)
+	self codeButton: ((PHButton label: 'code' icon: #iconCode)
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
-		with: RTECodeAreaComponent)
+		with: RTECodeAreaComponent).
+	self initializeToolTipForButton: self codeButton withText: ('add','<name>', 'component').
+	^ self codeButton

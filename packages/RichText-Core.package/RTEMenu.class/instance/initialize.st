@@ -2,4 +2,4 @@ initialization
 initialize
 
 		super initialize.
-		self add: self initializeDeleteButton
+		self add: (self initializeDeleteButton)

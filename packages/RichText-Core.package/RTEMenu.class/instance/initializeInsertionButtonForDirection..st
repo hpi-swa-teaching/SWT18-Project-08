@@ -1,8 +1,11 @@
 initialization
 initializeInsertionButtonForDirection: aDirection
 
-	^ ((PHButton icon: ('iconAngle_',aDirection) asSymbol)
+	| button |
+	button := ((PHButton icon: ('iconAngle_',aDirection) asSymbol)
 		when: #clicked 
 		send: #insertComponentInDirection:
 		to: (self handlingComponent)
-		with: aDirection)
+		with: aDirection).
+	self initializeToolTipForButton: button withText: ('adds component ',aDirection) asString.
+	^ button
