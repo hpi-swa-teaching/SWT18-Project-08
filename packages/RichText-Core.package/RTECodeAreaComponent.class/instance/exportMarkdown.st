@@ -1,4 +1,4 @@
 as yet unclassified
 exportMarkdown
 
-	^ '```\n',(self coreObject text),'\n```'
+	^ '```',(Character cr),(self coreObject text),(Character cr),'```'
