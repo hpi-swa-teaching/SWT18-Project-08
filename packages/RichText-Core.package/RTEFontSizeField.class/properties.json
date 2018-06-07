@@ -1,14 +1,14 @@
 {
-	"category" : "RichText-Tests",
+	"category" : "RichText-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"fontSizeField" ],
-	"name" : "RTETextComponentTest",
+		"textArea" ],
+	"name" : "RTEFontSizeField",
 	"pools" : [
 		 ],
-	"super" : "RTEComponentTest",
+	"super" : "RTEInputField",
 	"type" : "normal" }

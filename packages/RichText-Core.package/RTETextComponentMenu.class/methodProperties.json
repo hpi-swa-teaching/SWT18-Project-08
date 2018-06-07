@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "AJ 6/2/2018 14:11",
-		"initializeAlignmentButtons" : "TH 6/7/2018 17:02" } }
+		"initialize" : "MB 6/7/2018 12:26",
+		"initializeAlignmentButtons" : "TH 6/7/2018 17:02",
+		"initializeFontSizeField" : "MB 6/7/2018 12:42" } }
