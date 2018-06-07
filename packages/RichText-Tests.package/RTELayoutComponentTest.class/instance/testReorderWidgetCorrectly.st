@@ -1,6 +1,7 @@
 as yet unclassified
 testReorderWidgetCorrectly
 
+
 	| header prevIndex |
 	
 	self click: (self widgetAtIndex: 1).
@@ -10,6 +11,7 @@ testReorderWidgetCorrectly
 	
 	self click: (self widgetAtIndex: 2).
 	self click: ((self widgetAtIndex: 2) menu submorphNamed: 'addHeaderComponent').
+
 	
 	self assert: (self widgetAtIndex: 1) coreObject class equals: RTEImageComponent.
 	self assert: (self widgetAtIndex: 2) coreObject class equals: RTEHeaderComponent.
