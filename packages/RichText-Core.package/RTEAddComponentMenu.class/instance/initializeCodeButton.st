@@ -1,7 +1,7 @@
 initialization
 initializeCodeButton
 
-	^ ((PHButton label: 'code' icon: #iconCode)
+	^ (((PHButton icon: #iconCode) name: 'addCodeComponent')
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
