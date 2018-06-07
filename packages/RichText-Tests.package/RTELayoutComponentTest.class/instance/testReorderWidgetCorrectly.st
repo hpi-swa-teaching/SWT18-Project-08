@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 testReorderWidgetCorrectly
 
 	| addComponent header prevIndex |

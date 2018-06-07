@@ -11,4 +11,4 @@ testExportMarkdown
 	
 	component coreObject text: 'Headline3'.
 	component setLevel: #h3.
-	self assert: component exportMarkdown equals: '### Headline3'.
+	self assert: component exportMarkdown equals: '### Headline3'

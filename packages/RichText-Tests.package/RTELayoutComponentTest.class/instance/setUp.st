@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 setUp
 
 	| rte verticalLayoutComponent scrollContainer |

@@ -1,4 +1,4 @@
-configuration
+api
 exportMarkdown
 
 	^ self coreObject exportMarkdown
