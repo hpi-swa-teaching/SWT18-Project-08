@@ -2,13 +2,13 @@ as yet unclassified
 testH1LargerH2LargerH3
 
 	| h1size h2size h3size |
-	self click: (self menuButton:  'h1').
+	self click: (self menuButtonByName:  'h1').
 	h1size := self currentFontSize.
 	
-	self click: (self menuButton: 'h2').
+	self click: (self menuButtonByName: 'h2').
 	h2size := self currentFontSize.
 	
-	self click: (self menuButton: 'h3').
+	self click: (self menuButtonByName: 'h3').
 	h3size := self currentFontSize.
 	
 	self assert: h1size > h2size.

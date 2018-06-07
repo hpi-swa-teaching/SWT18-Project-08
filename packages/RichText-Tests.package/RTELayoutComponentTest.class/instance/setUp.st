@@ -2,6 +2,8 @@ as yet unclassified
 setUp
 
 	| rte verticalLayoutComponent scrollContainer |
+
+	self flag: #refactor.
 	super setUp.
 	rte := RichTextEditor new.
 	scrollContainer := rte findWidgetOfKind: PHScrollContainer.
