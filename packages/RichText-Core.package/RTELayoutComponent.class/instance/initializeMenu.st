@@ -1,5 +1,5 @@
 initialization
 initializeMenu
 
-	self menu: (RTELayoutComponentMenu newWith: self);
+	self menu: (RTEMenu newWith: self);
 			     position: self position
