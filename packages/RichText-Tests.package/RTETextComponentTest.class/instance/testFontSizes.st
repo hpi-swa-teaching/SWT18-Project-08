@@ -1,18 +1,16 @@
 testing
-testFontSizes
-	
-	|inputField|
-	
+testFontSizes	
+
 	self textArea text: 'test'.
 	self textArea selectAll.
 	self mouseRelease: self textArea buttons: #(left).
 	
-	inputField:= self popoverButton: 'fontSizeInputField'.
-	inputField text: ''.
+	self fontSizeField: (self menuButtonByName: 'fontSizeField').
+	fontSizeField text: ''.
 	
-	self keyStroke: inputField key: $1.
-	self keyStroke: inputField key: $2.
-	self keyStroke: inputField key: (Character cr).
+	self keyStroke: fontSizeField key: $1.
+	self keyStroke: fontSizeField key: $2.
+	self keyStroke: fontSizeField key: (Character cr).
 	self assert: (self textArea styleContext fontSize) equals: 12
 		
 	
