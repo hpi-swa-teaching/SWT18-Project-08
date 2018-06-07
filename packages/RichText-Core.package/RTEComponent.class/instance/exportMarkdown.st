@@ -1,0 +1,4 @@
+initialization
+exportMarkdown
+
+	self subclassResponsibility

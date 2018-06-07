@@ -8,4 +8,5 @@ openFilePicker
 		setSuffixes: {'png' . 'gif' . 'bmp' . 'jpg' . 'jpeg' }).
 	(fc open: self world) 
 		then: [:stream | 
+			self filename: stream name.
 			self applyImageFrom: (Form fromBinaryStream: stream).]
