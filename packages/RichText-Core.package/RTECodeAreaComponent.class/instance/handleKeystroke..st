@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 handleKeystroke: anEvent
 
 	^ true.
