@@ -1,0 +1,4 @@
+accessing
+changeReorderButtonsToVertical
+
+	self menu changeLeftAndRightReorderButtonsToUpAndDown

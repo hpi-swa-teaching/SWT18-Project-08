@@ -4,6 +4,7 @@ changeLeftAndRightReorderButtonsToUpAndDown
 	| moveLeftButton moveRightButton |
 	
 	self flag: #refactor.
+	"should be in one method, identify buttons by name instead of icon"
 	moveLeftButton := self findWidgetOfKind: PHButton withIcon: #'iconArrow_left'.
 	moveLeftButton removeAllMorphs;
 		add: (PHIcon perform: #'iconArrow_up').

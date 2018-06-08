@@ -2,5 +2,5 @@ reorganization
 changeReorderButtonsToVertical
 
 	self coreObject notNil 
-		ifTrue: [self coreObject menu changeLeftAndRightReorderButtonsToUpAndDown].
+		ifTrue: [self coreObject changeReorderButtonsToVertical].
 	self menu changeLeftAndRightReorderButtonsToUpAndDown
