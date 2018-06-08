@@ -5,6 +5,7 @@ initializeTextArea
 	self coreObject: (RTETextArea new
 						position: self position;
 				    	 	multiLine: true).
-	self add: self coreObject
+	self add: self coreObject.
+	self menu hideCategory: self coreObject colorButtonGroup 
 	
 	
