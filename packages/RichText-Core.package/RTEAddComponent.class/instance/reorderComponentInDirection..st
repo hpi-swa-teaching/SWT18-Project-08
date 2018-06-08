@@ -9,4 +9,5 @@ reorderComponentInDirection: aDirection
 		ifTrue: [previousOwner addMorph: self inFrontOf: (self submorphBefore)].
 	(aDirection == #down or: aDirection == #right)
 		ifTrue: [self submorphAfter notNil 
-					ifTrue: [previousOwner addMorph: self behind: (self submorphAfter).]]
+					ifTrue: [previousOwner addMorph: self behind: (self submorphAfter).]].
+	self menu closeAllButtonDropdowns

@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"componentChosen:" : "TH 6/8/2018 16:12",
+		"componentChosen:" : "TH 6/8/2018 16:40",
 		"initialize" : "AJ 5/31/2018 15:58",
-		"insertComponentInDirection:" : "TH 6/8/2018 15:31",
+		"insertComponentInDirection:" : "TH 6/8/2018 16:50",
 		"layoutWrapForInsertionInDirection:" : "TH 6/8/2018 15:32",
-		"reorderComponentInDirection:" : "TH 6/6/2018 19:22",
+		"reorderComponentInDirection:" : "TH 6/8/2018 16:49",
 		"wrapInLayout:" : "TH 6/8/2018 15:34" } }
