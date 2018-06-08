@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"add:" : "TH 6/8/2018 15:26",
+		"addMorph:behind:" : "TH 6/8/2018 15:26",
+		"addMorph:inFrontOf:" : "TH 6/8/2018 15:26",
 		"initialize" : "PUB 5/31/2018 14:41" } }

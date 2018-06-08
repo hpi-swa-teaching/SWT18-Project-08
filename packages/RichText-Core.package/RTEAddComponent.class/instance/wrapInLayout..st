@@ -3,7 +3,7 @@ wrapInLayout: aSymbol
 
 	| layoutComponent previousIndex previousOwner |
 	
-	self wrappingLayout: aSymbol.
+	"self horizontalLayout: true/false. --> this will get fixed once this is a responsibility of layout components"
 	previousOwner := self owner.
 	previousIndex := self owner submorphIndexOf: self.
 	aSymbol == #vertical

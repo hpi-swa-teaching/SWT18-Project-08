@@ -11,4 +11,4 @@ initialize
 			to: (self component)
 			with: ('h',index) asSymbol).
 		button addTooltip: ((headlineTypes at: index),' headline').
-		self add: button at: (1 + index)]
+		self add: button at: (index + 1)]
