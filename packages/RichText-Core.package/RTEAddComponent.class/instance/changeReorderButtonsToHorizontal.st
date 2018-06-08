@@ -3,6 +3,6 @@ changeReorderButtonsToHorizontal
 	
 	self flag: #refactor.
 	"combine changeReorderButtonsToHorizontal and changeReorderButtonsToVertical into one function"
+	super changeReorderButtonsToHorizontal.
 	self coreObject notNil 
-		ifTrue: [self coreObject changeReorderButtonsToHorizontal].
-	self menu changeUpAndDownReorderButtonsToLeftAndRight 
+		ifTrue: [self coreObject changeReorderButtonsToHorizontal]

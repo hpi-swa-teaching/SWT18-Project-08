@@ -1,4 +1,4 @@
-initialization
+api
 insertComponent: aDirection me: aComponent
 
 	| wrapper |

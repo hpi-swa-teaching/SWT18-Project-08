@@ -3,4 +3,4 @@ addInsertButtons
 
 	#(#up #down #left #right)
 		do: [:aDirectionSymbol | self
-				add: (self initializeInsertionButtonForDirection: aDirectionSymbol)]
+				add: (self initializeInsertionButtonFor: aDirectionSymbol)]

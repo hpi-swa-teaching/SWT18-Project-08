@@ -1,4 +1,4 @@
-initialization
+api
 wrap: aComponent IfNeededForInsert: aDirection
 
 	(aDirection == #left or: aDirection == #right)

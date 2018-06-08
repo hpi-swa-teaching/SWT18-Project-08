@@ -1,9 +1,5 @@
-initialization
+api
 reorder: aComponent inDirection: aDirection
-	
-	| previousIndex |
-	
-	previousIndex := self submorphIndexOf: aComponent.
 	
 	(aDirection == #up or: aDirection == #left)
 		ifTrue: [aComponent submorphBefore notNil 

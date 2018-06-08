@@ -7,6 +7,7 @@ componentChosen: componentClass
 	self coreObject ifNotNilDo: [:a|self coreObject delete].
 	self coreObject: componentClass new.
 	self addMorph: self coreObject.
+	"what is wrappingLayout doing?"
 	self coreObject wrappingLayout: self wrappingLayout.
 	self coreObject
 		extent: self extent;

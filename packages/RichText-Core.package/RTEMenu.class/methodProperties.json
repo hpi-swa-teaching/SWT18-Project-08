@@ -2,13 +2,12 @@
 	"class" : {
 		"newWith:" : "AJ 5/24/2018 18:09" },
 	"instance" : {
-		"addInsertButtons" : "AJ 6/8/2018 13:37",
-		"addReorderButtons:" : "TH 6/6/2018 19:02",
-		"changeLeftAndRightReorderButtonsToUpAndDown" : "AJ 6/8/2018 15:16",
-		"changeUpAndDownReorderButtonsToLeftAndRight" : "TH 6/6/2018 19:23",
+		"addInsertButtons" : "AJ 6/8/2018 15:37",
+		"addReorderButtons:" : "AJ 6/8/2018 15:36",
+		"changeMoveIcons:" : "AJ 6/8/2018 15:33",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
 		"initialize" : "TH 6/6/2018 17:07",
 		"initializeDeleteButton" : "AJ 6/8/2018 14:45",
-		"initializeInsertionButtonForDirection:" : "AJ 6/8/2018 15:20",
-		"initializeReorderButtonForDirection:" : "AJ 6/8/2018 15:20" } }
+		"initializeInsertionButtonFor:" : "AJ 6/8/2018 15:37",
+		"initializeReorderButtonFor:" : "AJ 6/8/2018 15:36" } }

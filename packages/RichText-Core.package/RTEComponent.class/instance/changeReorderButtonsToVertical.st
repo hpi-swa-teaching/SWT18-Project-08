@@ -1,4 +1,4 @@
-accessing
+api
 changeReorderButtonsToVertical
 
-	self menu changeLeftAndRightReorderButtonsToUpAndDown
+	self menu changeMoveIcons: ({#left -> #up. #right -> #down} asDictionary)

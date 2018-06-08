@@ -1,5 +1,5 @@
 initialization
-initializeInsertionButtonForDirection: aDirection
+initializeInsertionButtonFor: aDirection
 
 	^ ((PHButton icon: ('iconAngle_',aDirection) asSymbol)
 		name: 'insertComponent',(aDirection asString asCamelCase);
