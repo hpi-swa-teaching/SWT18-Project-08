@@ -2,9 +2,6 @@ initialization
 initialize 
 	
 	super initialize.
-
-	self add: self initializeImageButton;
-		 add: self initializeHeaderButton;
-		 add: self initializeTextButton;
-		 add: self initializeCodeButton
-
+	self add: self initializeImageButton.
+	self textButtons: (PHButtonGroup new vertical: true).
+	self addTextButtons

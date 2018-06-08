@@ -12,4 +12,6 @@ componentChosen: componentClass
 		extent: self extent;
 		position: self position;
 		addMorph: (self coreObject menu).
-	self menu hide
+	self menu hide.
+	(self menu textButtons visible) 
+		ifTrue: [self menu hideCategory: self menu textButtons]
