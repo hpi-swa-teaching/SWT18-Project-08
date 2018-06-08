@@ -2,5 +2,5 @@ initialization
 initialize 
 
 	super initialize.
-	self	vertical: false
+	self vertical: false
 	

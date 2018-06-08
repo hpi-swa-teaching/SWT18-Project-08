@@ -2,8 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "TH 6/8/2018 16:10",
+		"addTextButtons" : "MB 6/8/2018 15:03",
+		"initialize" : "MB 6/8/2018 15:04",
 		"initializeCodeButton" : "TH 6/7/2018 19:57",
 		"initializeHeaderButton" : "TH 6/7/2018 19:56",
 		"initializeImageButton" : "TH 6/7/2018 19:56",
-		"initializeTextButton" : "TH 6/7/2018 19:56" } }
+		"initializeTextButton" : "TH 6/7/2018 19:56",
+		"initializeTextButtonGroup" : "MB 6/7/2018 18:40",
+		"initializeTextToggleButton" : "MB 6/8/2018 14:56",
+		"textButtons" : "MB 6/8/2018 14:01",
+		"textButtons:" : "MB 6/8/2018 14:01" } }

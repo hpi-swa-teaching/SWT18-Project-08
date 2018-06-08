@@ -7,5 +7,6 @@
 		"setUp" : "AJ 5/29/2018 18:44",
 		"testApplySelectedImage" : "AJ 5/29/2018 19:10",
 		"testDisplayOnlyOneImage" : "AJ 5/29/2018 18:45",
+		"testExportMarkdown" : "6/7/2018 18:17:48",
 		"testNoReactionWhenFilePickerClosed" : "MB 6/7/2018 15:36",
 		"testOpenFilePickerOnClick" : "MB 6/7/2018 15:37" } }
