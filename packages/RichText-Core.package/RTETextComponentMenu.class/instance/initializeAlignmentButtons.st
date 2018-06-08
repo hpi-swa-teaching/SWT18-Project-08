@@ -11,5 +11,5 @@ initializeAlignmentButtons
 				to: (self component)
 				with: alignment).
 			button addTooltip: ('align ',alignment) asString.
-			self add: button].
+			self add: button at: self submorphs size - 1].
 	(self submorphNamed: 'align_left') addStyleClass: #success

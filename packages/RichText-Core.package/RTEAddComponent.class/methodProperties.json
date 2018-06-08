@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"changeReorderButtonsToHorizontal" : "TH 6/6/2018 17:29",
-		"changeReorderButtonsToVertical" : "TH 6/6/2018 17:29",
-		"componentChosen:" : "TH 6/8/2018 15:14",
+		"componentChosen:" : "TH 6/8/2018 16:12",
 		"initialize" : "AJ 5/31/2018 15:58",
 		"insertComponentInDirection:" : "TH 6/8/2018 15:31",
 		"layoutWrapForInsertionInDirection:" : "TH 6/8/2018 15:32",
