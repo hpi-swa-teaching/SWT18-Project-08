@@ -1,7 +1,6 @@
 insertion
 addInsertButtons
 
-	self add: (self initializeInsertionButtonForDirection: #up);
-		add: (self initializeInsertionButtonForDirection: #down);
-		add: (self initializeInsertionButtonForDirection: #left);
-		add: (self initializeInsertionButtonForDirection: #right)
+	#(#up #down #left #right)
+		do: [:aDirectionSymbol | self
+				add: (self initializeInsertionButtonForDirection: aDirectionSymbol)]

@@ -1,9 +1,10 @@
 as yet unclassified
 testReorderWidgetCorrectly
 
-
 	| header prevIndex |
-	
+
+	self flag: #refactor.
+	"It's obvious! "
 	self click: (self widgetAtIndex: 1).
 	self click: ((self widgetAtIndex: 1) menu submorphNamed: 'addImageComponent' ).
 	
