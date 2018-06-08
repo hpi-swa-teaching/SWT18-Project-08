@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"initialize" : "TH 6/5/2018 17:37",
-		"initializeMenu" : "MB 6/7/2018 16:33" } }
+		"initializeMenu" : "MB 6/7/2018 16:33",
+		"insertComponentInDirection:atWidget:" : "TH 6/8/2018 16:57",
+		"wrapWidget:forInsertionInDirection:" : "TH 6/8/2018 16:59" } }
