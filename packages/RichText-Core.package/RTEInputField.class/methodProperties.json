@@ -1,5 +1,9 @@
 {
 	"class" : {
-		"acceptedControlKeys" : "KB 6/10/2018 22:33" },
+		"allowedControlKeys" : "AJ 6/11/2018 23:04" },
 	"instance" : {
-		"initialize" : "MB 5/31/2018 16:03" } }
+		"allowedCharacterRegex" : "AJ 6/11/2018 23:08",
+		"allowedCharacterRegex:" : "AJ 6/11/2018 23:09",
+		"keyStroke:" : "AJ 6/11/2018 23:08",
+		"maxInputLength" : "AJ 6/11/2018 22:59",
+		"maxInputLength:" : "AJ 6/11/2018 22:59" } }
