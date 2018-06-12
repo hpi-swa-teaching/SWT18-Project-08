@@ -8,14 +8,14 @@ testReorderWidgetCorrectly
 	firstComponent := component submorphs first.
 	secondComponent := component submorphs second.
 
-	"test moveDown"
+	"test moveDown - do twice to test overflow"
 	1 to: 2 do: [:i |
 		self click: (firstComponent menu submorphNamed: 'moveComponentDown'). 
 	
 		self assert: (component submorphs first) equals: secondComponent.
 		self assert: (component submorphs second) equals: firstComponent]. 
 	
-	"test moveUp"
+	"test moveUp - do twice to test overflow"
 	1 to: 2 do: [:i |
 		self click: (firstComponent menu submorphNamed: 'moveComponentUp'). 
 	
