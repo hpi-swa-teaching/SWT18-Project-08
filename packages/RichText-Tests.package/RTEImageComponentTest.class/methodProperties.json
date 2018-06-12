@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"findRTEFileChooser" : "AJ 5/24/2018 18:49",
+		"findRTEFileChooser" : "AJ 6/12/2018 21:23",
 		"image" : "AJ 5/24/2018 18:22",
 		"setUp" : "AJ 5/29/2018 18:44",
 		"testApplySelectedImage" : "AJ 5/29/2018 19:10",
 		"testDisplayOnlyOneImage" : "AJ 5/29/2018 18:45",
 		"testExportMarkdown" : "AJ 6/7/2018 15:34",
-		"testNoReactionWhenFilePickerClosed" : "MB 6/7/2018 15:36",
+		"testNoReactionWhenFilePickerClosed" : "AJ 6/12/2018 21:22",
 		"testOpenFilePickerOnClick" : "MB 6/7/2018 15:37" } }
