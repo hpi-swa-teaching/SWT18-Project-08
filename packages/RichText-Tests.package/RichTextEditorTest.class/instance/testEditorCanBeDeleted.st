@@ -3,4 +3,4 @@ testEditorCanBeDeleted
 
 	| editor |
 	editor := RichTextEditor openInWorld: world.
-	editor delete.
+	editor delete

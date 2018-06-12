@@ -15,4 +15,4 @@ testSupmorphAddedByClickOnLeftOrRight
 
 	self click: (imageComponent menu submorphNamed: 'insertComponentRight').
 	self assert: component submorphCount equals: 3.
-	self assert: (component submorphIndexOf: addComponent) equals: 2.
+	self assert: (component submorphIndexOf: addComponent) equals: 2

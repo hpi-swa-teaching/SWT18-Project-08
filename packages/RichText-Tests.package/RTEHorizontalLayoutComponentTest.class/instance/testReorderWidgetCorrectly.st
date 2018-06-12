@@ -21,5 +21,5 @@ testReorderWidgetCorrectly
 		self click: (firstAddedComponent menu submorphNamed: 'moveComponentLeft'). 
 	
 		self assert: (component submorphs first) equals: firstComponent.
-		self assert: (component submorphs second) equals: secondComponent].
+		self assert: (component submorphs second) equals: secondComponent]
 	
