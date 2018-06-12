@@ -1,17 +1,19 @@
 {
 	"class" : {
-		"newWith:" : "AJ 5/24/2018 18:09" },
+		"hideCategory:" : "TH 6/12/2018 18:17",
+		"newWith:" : "AJ 5/24/2018 18:09",
+		"showCategory:" : "TH 6/12/2018 18:16" },
 	"instance" : {
 		"addInsertButtons" : "TH 6/12/2018 14:53",
 		"addReorderButtons" : "TH 6/8/2018 15:43",
 		"addReorderButtons:" : "TH 6/12/2018 14:48",
 		"changeMoveIcons:" : "AJ 6/8/2018 15:33",
-		"closeAllButtonDropdowns" : "TH 6/8/2018 16:49",
+		"closeAllButtonDropdowns" : "TH 6/12/2018 17:58",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
 		"deleteButton" : "MB 6/8/2018 15:15",
 		"deleteButton:" : "MB 6/8/2018 15:15",
-		"hideCategory:" : "TH 6/7/2018 19:20",
+		"hideCategory:" : "TH 6/12/2018 18:18",
 		"initialize" : "TH 6/12/2018 14:49",
 		"initializeDeleteButton" : "AJ 6/8/2018 14:45",
 		"initializeInsertCategoryButton" : "TH 6/7/2018 20:02",
@@ -23,5 +25,5 @@
 		"reorderButtons" : "TH 6/7/2018 18:26",
 		"reorderButtons:" : "TH 6/7/2018 18:26",
 		"setReorderButtons" : "TH 6/12/2018 14:53",
-		"showCategory:" : "TH 6/7/2018 19:58",
+		"showCategory:" : "TH 6/12/2018 18:18",
 		"toggleCategory:" : "MB 6/8/2018 15:20" } }

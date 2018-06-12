@@ -1,5 +1,5 @@
 reorganization
 closeAllButtonDropdowns
 
-	self hideCategory: self reorderButtons.
-	self hideCategory: self insertButtons
+	self hideCategory: self reorderButtons;
+		hideCategory: self insertButtons

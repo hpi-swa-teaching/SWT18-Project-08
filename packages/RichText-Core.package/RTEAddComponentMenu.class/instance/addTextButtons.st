@@ -6,4 +6,4 @@ addTextButtons
 					  add: self initializeHeaderButton;
 					  add: self initializeCodeButton.
 	self hideCategory: self textButtons.
-	self add: self textButtons "at: self submorphs size - 1"
+	self addMorph: self textButtons asElementNumber: 2

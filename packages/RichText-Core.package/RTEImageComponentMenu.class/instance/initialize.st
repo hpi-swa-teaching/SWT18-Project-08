@@ -2,4 +2,4 @@ initialization
 initialize 
 	
 	super initialize.
-	self	add: (self initializeFilePickerButton) "at: self submorphs size - 1"
+	self	addMorph: (self initializeFilePickerButton) asElementNumber: 2
