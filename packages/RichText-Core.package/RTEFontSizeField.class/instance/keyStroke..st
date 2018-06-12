@@ -4,4 +4,4 @@ keyStroke: anEvent
 	super keyStroke: anEvent.
 	((anEvent keyString = '<cr>') and: (self text isEmpty not))
 		ifTrue: [	
-				self textArea changeFontSize: self text asInteger].
+				self component changeFontSize: self text asInteger].

@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textArea" ],
+		"component" ],
 	"name" : "RTEFontSizeField",
 	"pools" : [
 		 ],
