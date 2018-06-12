@@ -5,10 +5,9 @@ componentChosen: componentClass
 	"may use cascading? & method is to long !"
 	
 	self coreObject ifNotNilDo: [:a|self coreObject delete].
-	self coreObject: componentClass new.
+	self coreObject: (componentClass newWithLayout: self layout).
 	self addMorph: self coreObject.
 	"what is wrappingLayout doing?"
-	self coreObject wrappingLayout: self wrappingLayout.
 	self coreObject
 		extent: self extent;
 		position: self position;
