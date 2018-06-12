@@ -1,7 +1,8 @@
 testing
 testAddDeleteButton
 
-	| menu |
+	| menu component |
 
-	menu := RTEMenu new.
+	component := RTEVerticalLayoutComponent new.
+	menu := RTEMenu newWith: component.
 	self assert: (menu submorphCount) = 1 "delete button"

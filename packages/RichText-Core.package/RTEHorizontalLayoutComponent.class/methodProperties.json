@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "PUB 5/31/2018 14:41" } }
+		"initialize" : "PUB 5/31/2018 14:41",
+		"wrap:IfNeededForInsert:" : "AJ 6/11/2018 18:08" } }

@@ -3,8 +3,8 @@ addReorderButtons: aDirection
 
 	aDirection == #vertical
 		ifTrue: [self 
-					add: (self initializeReorderButtonForDirection: #up);
-					add: (self initializeReorderButtonForDirection: #down)]
+					add: (self initializeReorderButtonFor: #up);
+					add: (self initializeReorderButtonFor: #down)]
 		ifFalse: [self
-					add: (self initializeReorderButtonForDirection: #left);
-					add: (self initializeReorderButtonForDirection: #right)]
+					add: (self initializeReorderButtonFor: #left);
+					add: (self initializeReorderButtonFor: #right)]

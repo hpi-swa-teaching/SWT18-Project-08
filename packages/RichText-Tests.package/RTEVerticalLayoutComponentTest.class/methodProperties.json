@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "TH 6/6/2018 12:20",
-		"testSupmorphAddedToVerticalLayoutByClickOnUpOrDown" : "MB 6/7/2018 16:05",
-		"testSupmorphDeletedFromVerticalLayoutByClickOnTrash" : "TH 6/6/2018 18:02" } }
+		"setUp" : "AJ 6/12/2018 20:28",
+		"testReorderWidgetCorrectly" : "AJ 6/12/2018 21:07",
+		"testSupmorphAddedByClickOnUpOrDown" : "AJ 6/12/2018 20:54",
+		"testSupmorphDeletedFromVerticalLayoutByClickOnTrash" : "AJ 6/12/2018 20:54",
+		"testWrappingLayoutChanged" : "AJ 6/12/2018 20:44" } }
