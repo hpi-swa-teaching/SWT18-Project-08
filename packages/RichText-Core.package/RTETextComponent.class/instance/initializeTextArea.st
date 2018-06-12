@@ -6,6 +6,6 @@ initializeTextArea
 						position: self position;
 				    	 	multiLine: true).
 	self add: self coreObject.
-	self menu hideCategory: self coreObject colorButtonGroup 
+	"self menu hideCategory: self coreObject colorButtonGroup "
 	
 	

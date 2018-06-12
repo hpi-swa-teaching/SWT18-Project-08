@@ -2,8 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:" : "TH 6/8/2018 15:26",
-		"addMorph:behind:" : "TH 6/8/2018 15:26",
-		"addMorph:inFrontOf:" : "TH 6/8/2018 15:26",
 		"initialize" : "MB 6/8/2018 15:46",
 		"wrap:IfNeededForInsert:" : "AJ 6/11/2018 18:08" } }
