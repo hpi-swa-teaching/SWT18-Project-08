@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "AJ 6/9/2018 15:31",
 	"instvars" : [
-		"horizontalLayout",
 		"menu",
-		"coreObject" ],
+		"coreObject",
+		"layout" ],
 	"name" : "RTEComponent",
 	"pools" : [
 		 ],

@@ -3,7 +3,8 @@ testSupmorphAddedToVerticalLayoutByClickOnUpOrDown
 
 	| addComponent previousSubmorphCount|
 
-	self flag: #refactor "Tim das machst du!".
+	self flag: #refactor 
+	"Tim das machst du!".
 	previousSubmorphCount := self component submorphCount.
 	addComponent := (self widgetAtIndex: 1).
 	

@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"initialize" : "AJ 5/31/2018 16:14",
-		"open" : "PUB 5/29/2018 17:18",
+		"open" : "AJ 6/7/2018 16:20",
 		"registerInOpenMenu" : "AJ 5/31/2018 16:14",
 		"unload" : "AJ 5/31/2018 16:14",
 		"unregisterFromOpenMenu" : "AJ 5/31/2018 16:14" },
 	"instance" : {
-		"coreObject" : "6/7/2018 18:17:44",
-		"coreObject:" : "6/7/2018 18:17:44",
-		"exportMarkdown" : "6/7/2018 18:17:44",
-		"initialize" : "TH 6/8/2018 14:58" } }
+		"coreObject" : "AJ 6/7/2018 15:48",
+		"coreObject:" : "AJ 6/7/2018 15:48",
+		"exportMarkdown" : "AJ 6/7/2018 15:49",
+		"initialize" : "TH 6/12/2018 12:12" } }

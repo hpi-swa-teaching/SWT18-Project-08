@@ -1,10 +1,9 @@
 initialization
 initializeDeleteButton
 	
-	^ ((PHButton icon: #iconTrash)
+	^((PHButton icon: #iconTrash)
+		name: 'deleteComponent';
 		when: #clicked 
-		send: #deleteComponent 
-		to: self 
-		withArguments: #();
-		addTooltip: 'deletes this component')
-	
+		send: #delete
+		to: (self component)
+		withArguments: #())

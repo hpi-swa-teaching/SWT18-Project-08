@@ -4,4 +4,8 @@ initialize
 	super initialize.
 	self
 		extent: 500@200;
-		content: (RTEVerticalLayoutComponent new add: (RTEAddComponent new))
+		
+		flag: #refactor;
+		"adding the addComponent should be handled by the Layout component itself!"
+		coreObject: (RTEVerticalLayoutComponent new addComponent: RTEAddComponent);
+		content: self coreObject

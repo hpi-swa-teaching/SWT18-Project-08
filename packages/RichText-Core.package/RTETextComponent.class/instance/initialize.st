@@ -2,7 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self initializeMenu;
-		 initializeTextArea
-		 
+	self initializeTextArea;
+		initializeMenu
 	

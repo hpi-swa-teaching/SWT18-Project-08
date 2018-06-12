@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"componentChosen:" : "TH 6/8/2018 17:04",
-		"exportMarkdown" : "6/7/2018 18:17:44",
+		"changeReorderButtonsToHorizontal" : "AJ 6/8/2018 15:35",
+		"changeReorderButtonsToVertical" : "AJ 6/8/2018 15:35",
+		"componentChosen:" : "TH 6/12/2018 12:11",
+		"exportMarkdown" : "AJ 6/7/2018 15:33",
 		"initialize" : "AJ 5/31/2018 15:58",
-		"insertComponentInDirection:" : "TH 6/8/2018 16:50",
-		"layoutWrapForInsertionInDirection:" : "TH 6/8/2018 15:32",
-		"reorderComponentInDirection:" : "TH 6/8/2018 16:49",
-		"wrapInLayout:" : "TH 6/8/2018 15:34" } }
+		"insertComponent:me:" : "AJ 6/8/2018 14:16",
+		"reorder:inDirection:" : "AJ 6/8/2018 14:08" } }

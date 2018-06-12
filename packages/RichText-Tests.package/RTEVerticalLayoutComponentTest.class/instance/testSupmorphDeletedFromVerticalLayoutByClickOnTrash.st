@@ -1,9 +1,9 @@
-as yet unclassified
+testing
 testSupmorphDeletedFromVerticalLayoutByClickOnTrash
 
 	| addComponent previousSubmorphCount|
 	
-	previousSubmorphCount := self component submorphCount.
+	previousSubmorphCount := component submorphCount.
 	addComponent := self widgetAtIndex: 1.
 	
 	self clickButtonWithIcon: #iconTrash inWidget: addComponent.

@@ -2,8 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self horizontalLayout: false.
-	
 	self
 		withLayout;
 		vertical: true;

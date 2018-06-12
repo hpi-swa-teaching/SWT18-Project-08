@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 widgetAtIndex: anIndex
 
 	^ self component submorphs at: anIndex

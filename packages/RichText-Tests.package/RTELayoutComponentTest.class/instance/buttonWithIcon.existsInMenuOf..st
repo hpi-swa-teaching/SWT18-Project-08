@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 buttonWithIcon: anIconSymbol existsInMenuOf: aWidget
 
 	self flag: #todo

@@ -1,14 +1,15 @@
 api
 componentChosen: componentClass
 
-	| newComponent |
-
-	newComponent := componentClass new.
-	newComponent
+	self flag: #refactor.
+	"may use cascading? & method is to long !"
+	
+	self coreObject ifNotNilDo: [:a|self coreObject delete].
+	self coreObject: (componentClass newWithLayout: self layout).
+	self addMorph: self coreObject.
+	"what is wrappingLayout doing?"
+	self coreObject
 		extent: self extent;
 		position: self position;
-		addMorph: (newComponent menu).
-	self owner replaceSubmorph: self by: newComponent.
-	(self menu textButtons visible) 
-		ifTrue: [self menu hideCategory: self menu textButtons].
+		addMorph: (self coreObject menu).
 	self menu hide
