@@ -1,7 +1,7 @@
 initialization
 initializeTextToggleButton
 
-	^(((PHButton icon: #iconEdit) name: 'toggleTextButtons')
+	^(((PHButton icon: #iconFile) name: 'toggleTextButtons')
 		when: #clicked
 		send: #toggleCategory:
 		to: self
