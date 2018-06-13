@@ -1,4 +1,4 @@
 initialization
 initializeColorButtonGroup
 
-	^(PHButtonGroup new vertical: true)
+	^((PHButtonGroup new vertical: true) name: 'ColorButtonGroup')

@@ -5,7 +5,7 @@ initialize
 	super initialize.
 	headlineTypes := #('main' 'sub' 'sub sub'). 
 	1 to: 3 do: [:index|
-		button := ((PHButton label: ('h',index))
+		button := ((PHButton label: ('h',index)) name: ('h',index);
 			when: #clicked 
 			send: #setLevel:
 			to: (self component)
