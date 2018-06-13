@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editor" ],
+	"name" : "RichTextEditorMenu",
+	"pools" : [
+		 ],
+	"super" : "PHButtonGroup",
+	"type" : "normal" }

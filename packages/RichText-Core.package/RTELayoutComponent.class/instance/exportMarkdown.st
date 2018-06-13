@@ -5,5 +5,5 @@ exportMarkdown
 	
 	exportString := ''.
 	self submorphs do: [:submorph | 
-		exportString := exportString, (submorph exportMarkdown), (Character cr), (Character cr)].
+		exportString := exportString, (submorph exportMarkdown), (Character cr)].
 	^ exportString
