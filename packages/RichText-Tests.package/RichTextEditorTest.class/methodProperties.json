@@ -4,4 +4,5 @@
 	"instance" : {
 		"testCoreObjectIsVertical" : "AJ 6/12/2018 21:40",
 		"testEditorCanBeDeleted" : "AJ 6/12/2018 23:55",
+		"testExportMarkdownToClipboard" : "AJ 6/13/2018 22:07",
 		"testMarkdownExportGetsPropaginated" : "AJ 6/12/2018 21:46" } }
