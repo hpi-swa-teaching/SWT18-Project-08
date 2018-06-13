@@ -8,4 +8,4 @@ insertComponent: aDirection me: aComponent
 	(aDirection == #left or: aDirection == #up)
 		ifTrue: [wrapper addComponent: RTEAddComponent inFrontOf: aComponent].
 	(aDirection == #right or: aDirection == #down)
-		ifTrue: [wrapper addComponent: RTEAddComponent behind: aComponent] 
+		ifTrue: [wrapper addComponent: RTEAddComponent behind: aComponent].

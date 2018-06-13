@@ -2,6 +2,7 @@
 	"class" : {
 		"initialize" : "AJ 5/31/2018 16:14",
 		"open" : "AJ 6/7/2018 16:20",
+		"openInWorld:" : "AJ 6/12/2018 23:27",
 		"registerInOpenMenu" : "AJ 5/31/2018 16:14",
 		"unload" : "AJ 5/31/2018 16:14",
 		"unregisterFromOpenMenu" : "AJ 5/31/2018 16:14" },

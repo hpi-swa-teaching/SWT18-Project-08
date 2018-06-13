@@ -5,7 +5,7 @@ testFontSizes
 	self textArea selectAll.
 	self mouseRelease: self textArea buttons: #(left).
 	
-	self fontSizeField: (self menuButtonByName: 'fontSizeField').
+	fontSizeField := (self menuButtonByName: 'fontSizeField').
 	fontSizeField text: ''.
 	
 	self keyStroke: fontSizeField key: $1.

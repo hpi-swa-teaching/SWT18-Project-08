@@ -8,4 +8,4 @@ testSupmorphDeletedFromVerticalLayoutByClickOnTrash
 	
 	self assert: component submorphCount equals: 1.	
 	self click: (addComponent menu submorphNamed: 'deleteComponent').
-	self assert: component submorphCount equals: 0.
+	self assert: component submorphCount equals: 0
