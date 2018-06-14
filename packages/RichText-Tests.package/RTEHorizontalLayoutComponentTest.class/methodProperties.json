@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AJ 6/12/2018 20:28",
+		"testReorderWidgetCorrectly" : "MB 6/14/2018 10:40",
+		"testSupmorphAddedByClickOnLeftOrRight" : "TH 6/13/2018 16:04",
+		"testSupmorphDeletedFromVerticalLayoutByClickOnTrash" : "AJ 6/12/2018 23:54",
+		"testWrappingLayoutChanged" : "MB 6/14/2018 10:41" } }

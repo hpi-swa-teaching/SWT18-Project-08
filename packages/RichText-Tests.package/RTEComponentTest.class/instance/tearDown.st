@@ -1,5 +1,5 @@
 accessing
 tearDown
 
-	super tearDown.
 	component delete.
+	super tearDown

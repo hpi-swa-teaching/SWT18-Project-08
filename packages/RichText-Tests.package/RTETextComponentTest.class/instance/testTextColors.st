@@ -7,6 +7,7 @@ testTextColors
 	RTETextArea colors keysDo: [:color |
 		self mouseRelease: self textArea buttons: #(left).
 		self textArea selectAll.
-		self click: (self popoverButton: ('makeText_',color)).
+		self click: ((self textArea popover submorphs first submorphNamed: 'ColorButtonGroup') submorphNamed: 'toggleColorButtons'). 
+		self click: ((self textArea popover submorphs first submorphNamed: 'ColorButtonGroup') submorphNamed: ('makeText_',color)).
 		self assert: (self textArea text asTextMorph selectionColor) equals: (RTETextArea colors at: (color asSymbol))]
 		

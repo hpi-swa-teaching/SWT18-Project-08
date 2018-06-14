@@ -2,6 +2,7 @@
 	"class" : {
 		"initialize" : "AJ 5/31/2018 16:14",
 		"open" : "AJ 6/7/2018 16:20",
+		"openInWorld:" : "AJ 6/12/2018 23:27",
 		"registerInOpenMenu" : "AJ 5/31/2018 16:14",
 		"unload" : "AJ 5/31/2018 16:14",
 		"unregisterFromOpenMenu" : "AJ 5/31/2018 16:14" },
@@ -9,4 +10,4 @@
 		"coreObject" : "AJ 6/7/2018 15:48",
 		"coreObject:" : "AJ 6/7/2018 15:48",
 		"exportMarkdown" : "AJ 6/7/2018 15:49",
-		"initialize" : "AJ 6/7/2018 15:49" } }
+		"initialize" : "TH 6/12/2018 12:12" } }

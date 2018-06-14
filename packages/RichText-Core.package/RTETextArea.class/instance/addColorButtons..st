@@ -7,5 +7,6 @@ addColorButtons: aButtonGroup
 											   color: (RTETextArea colors at: color))
 										   when: #clicked 
 										   send: #applyColor: 
-										   to: self with: color)].
+										   to: self with: color);
+										   addTooltip: ('apply', color)].
 	^ aButtonGroup
