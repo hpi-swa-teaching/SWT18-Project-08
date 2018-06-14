@@ -15,12 +15,14 @@ You have something cool to share? Add an screenshot to show how your new code sh
 
 # other checks
  - [ ] no external ressources needed
- - [ ] methods are formatted correctly
+ - [ ] coding standards 
     - [ ] no `.` at the end of your function
-    - [ ] functions have an empty line between functionname and code (except accessors)
-    - [ ] use cascades wherever possible
+    - [ ] an empty line between functionname and code (except accessors)
+    - [ ] cascades wherever possible
+    - [ ] space around @, binary operators such as '+' or '<=' and after ^
+    - [ ] no '[' or ']' stands alone in a line 
     - [ ] variable definitions...
-      - [ ] ... have an space between before/after the `|` symbol
+      - [ ] ... have an space before/after the `|` symbol
       - [ ] ... have a blank line above and under
       - [ ] ... are used as few as possible
    
