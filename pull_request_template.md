@@ -24,9 +24,14 @@ You have something cool to share? Add an screenshot to show how your new code sh
     - [ ] variable definitions...
       - [ ] ... have an space before/after the `|` symbol
       - [ ] ... have a blank line above and under
-      - [ ] ... are used as few as possible
-    
-   ```smalltalk
+      - [ ] ... are used as few as possible   
+   - [ ] static values are stored on class Side
+   - [ ] every function has a category
+ - [ ] basic UX
+   - [ ] UI is intuitive to use (tested by the reviewer! reject if not)
+   - [ ] ...
+
+ ```smalltalk
    example: aValue
    
    | variable |
@@ -36,9 +41,3 @@ You have something cool to share? Add an screenshot to show how your new code sh
        color: Color red.
    self otherMethod
    ```
-   
-   - [ ] static values are stored on class Side
-   - [ ] every function has a category
- - [ ] basic UX
-   - [ ] UI is intuitive to use (tested by the reviewer! reject if not)
-   - [ ] ...
