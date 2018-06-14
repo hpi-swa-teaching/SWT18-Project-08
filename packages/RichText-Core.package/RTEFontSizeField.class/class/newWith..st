@@ -1,7 +1,7 @@
 as yet unclassified
-newWith: aTextArea
+newWith: aComponent
 
 	^ self 
 		new 
-		textArea: aTextArea;
+		component: aComponent;
 		yourself 
