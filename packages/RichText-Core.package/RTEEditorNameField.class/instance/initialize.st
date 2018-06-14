@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	self 
 		name: 'documentNameInputField';
-		text: '<unnamed document>';
+		placeholder: 'document title';
 		allowedCharacterRegex: '.*';
 		maxInputLength: 50
