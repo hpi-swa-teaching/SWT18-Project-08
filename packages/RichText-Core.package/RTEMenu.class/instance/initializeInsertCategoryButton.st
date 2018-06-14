@@ -1,7 +1,7 @@
 initialization
 initializeInsertCategoryButton
 
-	^ (((PHButton icon: #iconArrows_alt) name: 'insertComponents')
+	^ (((PHButton icon: #iconPlus_square) name: 'insertComponents')
 		when: #clicked 
 		send: #toggleCategory:
 		to: self

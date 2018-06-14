@@ -1,7 +1,7 @@
 initialization
 initializeReorderCategoryButton
 
-	^ (((PHButton icon: #iconApple) name: 'toggleReorderButtons')
+	^ (((PHButton icon: #iconArrows) name: 'toggleReorderButtons')
 		when: #clicked 
 		send: #toggleCategory:
 		to: self
