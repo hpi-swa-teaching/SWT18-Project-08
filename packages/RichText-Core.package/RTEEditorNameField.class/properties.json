@@ -1,0 +1,14 @@
+{
+	"category" : "RichText-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTEEditorNameField",
+	"pools" : [
+		 ],
+	"super" : "RTEInputField",
+	"type" : "normal" }
