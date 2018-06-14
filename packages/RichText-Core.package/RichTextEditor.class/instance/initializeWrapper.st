@@ -1,9 +1,10 @@
 accessing
 initializeWrapper
 
+	self menu: (RichTextEditorMenu newWith: self).
 	^ (PHButtonGroup new
 			name: 'RichTextEditorWrapper';
 			vertical: true;
-			add: (RichTextEditorMenu newWith: self);
+			add: self menu;
 			add: (self coreObject);
 			yourself).

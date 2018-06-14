@@ -1,8 +1,5 @@
-as yet unclassified
+testing
 testExportMarkdownToClipboard
 
-	| editor |
-
-	editor := RichTextEditor new.
 	editor exportMarkdownToClipboard.
 	self assert: (Clipboard clipboardText) equals: (editor exportMarkdown)
