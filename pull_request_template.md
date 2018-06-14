@@ -13,7 +13,7 @@ If yes, add a small description to the release notes.
 # Screenshot
 You have something cool to share? Add an screenshot to show how your new code should act.
 
-# other checks
+# coding style checks
  - [ ] no external ressources needed
  - [ ] coding standards 
     - [ ] no `.` at the end of your function
