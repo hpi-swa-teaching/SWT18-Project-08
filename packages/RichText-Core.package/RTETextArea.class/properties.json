@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"popover",
-		"buttons" ],
+		"buttons",
+		"colorButtonGroup" ],
 	"name" : "RTETextArea",
 	"pools" : [
 		 ],

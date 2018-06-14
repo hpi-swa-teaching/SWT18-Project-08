@@ -6,4 +6,5 @@ reorder: aComponent inDirection: aDirection
 			ifTrue: [self addMorph: aComponent inFrontOf: (aComponent submorphBefore)]].
 	(aDirection == #down or: aDirection == #right)
 		ifTrue: [aComponent submorphAfter notNil 
-			ifTrue: [self addMorph: aComponent behind: (aComponent submorphAfter).]]
+			ifTrue: [self addMorph: aComponent behind: (aComponent submorphAfter).]].
+	aComponent menu closeAllButtonDropdowns.
