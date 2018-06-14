@@ -1,17 +1,25 @@
 {
 	"class" : {
+		"chooseDocument" : "AJ 6/14/2018 20:06",
+		"documents" : "AJ 6/14/2018 20:16",
+		"documents:" : "AJ 6/14/2018 18:01",
 		"initialize" : "AJ 5/31/2018 16:14",
-		"open" : "AJ 6/7/2018 16:20",
-		"openInWorld:" : "AJ 6/12/2018 23:27",
-		"registerInOpenMenu" : "AJ 5/31/2018 16:14",
+		"newDocument" : "AJ 6/14/2018 20:17",
+		"open" : "AJ 6/14/2018 19:24",
+		"openInWorld:" : "AJ 6/14/2018 19:46",
+		"registerInOpenMenu" : "AJ 6/14/2018 20:26",
 		"unload" : "AJ 5/31/2018 16:14",
-		"unregisterFromOpenMenu" : "AJ 5/31/2018 16:14" },
+		"unregisterFromOpenMenu" : "AJ 6/14/2018 20:27" },
 	"instance" : {
 		"coreObject" : "AJ 6/7/2018 15:48",
 		"coreObject:" : "AJ 6/7/2018 15:48",
+		"deleteDocument" : "AJ 6/14/2018 20:00",
 		"exportMarkdown" : "AJ 6/7/2018 15:49",
 		"exportMarkdownToClipboard" : "AJ 6/13/2018 21:55",
-		"initialize" : "AJ 6/13/2018 21:44",
+		"initialize" : "AJ 6/14/2018 19:49",
 		"initializeWrapper" : "AJ 6/14/2018 16:41",
 		"menu" : "AJ 6/14/2018 16:40",
-		"menu:" : "AJ 6/14/2018 16:40" } }
+		"menu:" : "AJ 6/14/2018 16:40",
+		"title" : "AJ 6/14/2018 18:40",
+		"title:" : "AJ 6/14/2018 18:40",
+		"titleCangedTo:" : "AJ 6/14/2018 18:41" } }

@@ -1,4 +1,4 @@
 initialization
 titleInputField
 
-	^ (RTEEditorNameField newWith: self editor)
+	^ ((RTEEditorNameField new) editor: self editor)

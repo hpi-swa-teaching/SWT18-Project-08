@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "AJ 6/13/2018 21:49" },
+		"newWith:" : "AJ 6/14/2018 19:20" },
 	"instance" : {
+		"chooseDocumentButton" : "AJ 6/14/2018 19:54",
+		"deleteDocumentButton" : "AJ 6/14/2018 18:55",
 		"editor" : "AJ 6/13/2018 21:49",
 		"editor:" : "AJ 6/13/2018 21:49",
-		"initialize" : "AJ 6/13/2018 21:47",
-		"markdownExportButton" : "AJ 6/14/2018 17:06",
-		"titleInputField" : "AJ 6/14/2018 17:22" } }
+		"initialize" : "AJ 6/14/2018 20:14",
+		"markdownExportButton" : "AJ 6/14/2018 20:22",
+		"newDocumentButton" : "AJ 6/14/2018 20:14",
+		"titleInputField" : "AJ 6/14/2018 19:42" } }

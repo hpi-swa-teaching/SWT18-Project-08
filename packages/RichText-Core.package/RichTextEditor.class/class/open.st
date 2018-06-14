@@ -1,4 +1,8 @@
 initialize
 open
+	
+	| newEditor |
 
-	^ self new openInWindowLabeled: 'RichTextEditor'; yourself
+	newEditor := (self new openInWindowLabeled: 'RichTextEditor'; yourself).
+	self documents add: newEditor.
+	^ newEditor
