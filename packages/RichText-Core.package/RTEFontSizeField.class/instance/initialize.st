@@ -1,6 +1,9 @@
-as yet unclassified
+initialize
 initialize
 
 	super initialize.
-	self text: '16'.
-	self name: 'fontSizeInputField'
+	self 
+		name: 'fontSizeField';
+		text: '16';
+		allowedCharacterRegex: '[0-9]';
+		maxInputLength: 2
