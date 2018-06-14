@@ -1,4 +1,4 @@
 initialization
 initializeFontSizeField
 
-	self add: (RTEFontSizeField newWith: (self component))
+	self addMorph: (RTEFontSizeField newWith: (self component)) asElementNumber: 2
