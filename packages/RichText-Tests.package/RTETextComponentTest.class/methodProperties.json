@@ -4,7 +4,7 @@
 	"instance" : {
 		"deselectText" : "AJ 5/29/2018 19:09",
 		"inputField:" : "MB 6/7/2018 12:34",
-		"popoverButton:" : "KB 6/2/2018 16:15",
+		"popoverButton:" : "MB 6/13/2018 15:23",
 		"selectTextByKeypress" : "AJ 5/29/2018 18:50",
 		"selectTextByMouse" : "AJ 5/29/2018 19:09",
 		"setUp" : "AJ 5/29/2018 19:34",
@@ -18,6 +18,6 @@
 		"testPopoverDisappearsOnApply" : "KB 6/2/2018 16:14",
 		"testPopoverDisappearsOnFocusLost" : "AJ 5/29/2018 19:09",
 		"testTextAreaIsWritable" : "AJ 5/29/2018 19:08",
-		"testTextColors" : "MB 6/6/2018 14:08",
+		"testTextColors" : "MB 6/13/2018 15:37",
 		"testTextStyles" : "MB 6/6/2018 16:32",
 		"textArea" : "AJ 5/29/2018 18:55" } }

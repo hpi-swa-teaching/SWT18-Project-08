@@ -1,9 +1,10 @@
 initialization
 initializeImageButton
 
-	^ (((PHButton icon: #iconImage) name: 'addImageComponent')
+	^ ((PHButton icon: #iconImage) name: 'addImageComponent';
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 
-		with: RTEImageComponent)
+		with: RTEImageComponent;
+		addTooltip: 'adds an image')
 	
