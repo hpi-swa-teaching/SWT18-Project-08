@@ -1,4 +1,4 @@
-api
+event handling
 handlesMouseOver: evt
 
 	^ true

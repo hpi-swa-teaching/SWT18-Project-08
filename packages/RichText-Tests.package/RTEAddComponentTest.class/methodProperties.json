@@ -4,4 +4,5 @@
 	"instance" : {
 		"setUp" : "AJ 5/29/2018 18:43",
 		"testCorrectComponentChosen" : "MB 6/7/2018 15:33",
-		"testDisplayOnlyOneComponent" : "AJ 5/29/2018 19:11" } }
+		"testDisplayOnlyOneComponent" : "AJ 5/29/2018 19:11",
+		"testMenuAlwaysVisible" : "AJ 6/15/2018 13:38" } }
