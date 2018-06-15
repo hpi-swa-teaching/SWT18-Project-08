@@ -2,6 +2,7 @@ initialization
 initializeTextConfigurationButtons
 
 	self buttons: PHButtonGroup new.
+	self buttons add: self initializeClearStylesButton.
 	self addStyleButtons: self buttons.
 	self colorButtonGroup: self initializeColorButtonGroup.
 	self colorButtonGroup add: self initializeColorToggleButton.
