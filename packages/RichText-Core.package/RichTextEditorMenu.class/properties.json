@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"coreObject",
-		"menu" ],
-	"name" : "RichTextEditor",
+		"editor" ],
+	"name" : "RichTextEditorMenu",
 	"pools" : [
 		 ],
-	"super" : "PHScrollArea",
+	"super" : "PHButtonGroup",
 	"type" : "normal" }
