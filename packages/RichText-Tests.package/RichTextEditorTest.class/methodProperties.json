@@ -2,10 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AJ 6/14/2018 16:46",
-		"tearDown" : "AJ 6/14/2018 16:46",
-		"testCoreObjectIsVertical" : "AJ 6/14/2018 16:46",
-		"testEditorCanBeDeleted" : "AJ 6/14/2018 16:25",
-		"testExportMarkdownToClipboard" : "AJ 6/14/2018 16:44",
-		"testExportMarkdownToClipboardButton" : "AJ 6/14/2018 16:44",
-		"testMarkdownExportGetsPropaginated" : "AJ 6/14/2018 16:45" } }
+		"testCoreObjectIsVertical" : "AJ 6/12/2018 21:40",
+		"testEditorCanBeDeleted" : "AJ 6/12/2018 23:55",
+		"testMarkdownExportGetsPropaginated" : "AJ 6/12/2018 21:46" } }

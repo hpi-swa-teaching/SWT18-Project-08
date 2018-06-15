@@ -1,8 +1,12 @@
-testing
+as yet unclassified
 testMarkdownExportGetsPropaginated
 
-	editor coreObject submorphs first componentChosen: RTETextComponent.	
-	self assert: 
-		(editor exportMarkdown) 
-		equals: 
-		((RTEVerticalLayoutComponent new addComponent: RTETextComponent) exportMarkdown)
+	| editor verticalLayoutComponent |
+
+	editor := RichTextEditor new.
+	editor coreObject submorphs first componentChosen: RTETextComponent.
+	
+	verticalLayoutComponent := RTEVerticalLayoutComponent new.
+	verticalLayoutComponent addComponent: RTETextComponent.
+	
+	self assert: (editor exportMarkdown) equals: (verticalLayoutComponent exportMarkdown)
