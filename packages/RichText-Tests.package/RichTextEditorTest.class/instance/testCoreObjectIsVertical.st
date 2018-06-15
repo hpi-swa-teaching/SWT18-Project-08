@@ -1,4 +1,7 @@
-testing
+as yet unclassified
 testCoreObjectIsVertical
 
-	self assert: (editor coreObject class) equals: RTEVerticalLayoutComponent
+	| component |
+
+	component := RichTextEditor new.
+	self assert: (component coreObject class) equals: RTEVerticalLayoutComponent
