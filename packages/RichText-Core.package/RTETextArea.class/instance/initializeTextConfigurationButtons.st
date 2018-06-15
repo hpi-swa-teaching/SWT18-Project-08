@@ -2,6 +2,7 @@ initialization
 initializeTextConfigurationButtons
 
 	self buttons: PHButtonGroup new.
+	self buttons add: self initializeClearStylesButton.
 	self addStyleButtons: self buttons.
 	
 	self colorButtonGroup: self initializeColorButtonGroup.
@@ -9,7 +10,5 @@ initializeTextConfigurationButtons
 	self addColorButtons: (self colorButtonGroup).
 	
 	self buttons add: self colorButtonGroup;
-				 add: self initializeClearStylesButton;
 				 addApplicationStyles: (PHStyle forAny fontSize: 'small');
 				 position: (self position x) @ (self position y + 80)
-				
