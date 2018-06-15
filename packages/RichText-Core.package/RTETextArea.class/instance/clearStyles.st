@@ -7,4 +7,4 @@ clearStyles
 		self removeAttributeForSelection: (TextEmphasis new emphasisCode: ((RTETextArea styles at: style) second))].
 	
 	(self clearSelection; 
-	 	 popover) delete.
+	 	 popover) delete
