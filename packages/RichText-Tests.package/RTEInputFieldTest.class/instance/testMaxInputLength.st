@@ -1,4 +1,4 @@
-running
+testing
 testMaxInputLength
 
 	inputField maxInputLength: 2.

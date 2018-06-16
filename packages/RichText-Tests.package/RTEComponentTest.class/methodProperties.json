@@ -15,4 +15,6 @@
 		"menuDeleteButton" : "AJ 5/30/2018 18:43",
 		"setUp" : "AJ 5/30/2018 18:53",
 		"tearDown" : "AJ 6/12/2018 23:53",
-		"testDeleteComponent" : "AJ 5/30/2018 18:54" } }
+		"testDeleteComponent" : "AJ 5/30/2018 18:54",
+		"testMenuHideOnFocusLost" : "AJ 6/15/2018 13:38",
+		"testMenuShowOnFocus" : "AJ 6/15/2018 13:35" } }
