@@ -1,4 +1,4 @@
-helper
+testing
 testExportMarkdown
 
 	component filename: 'demofile.jpeg'.

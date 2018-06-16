@@ -1,4 +1,4 @@
-running
+testing
 testAllowedCharacterRegex
 
 	inputField allowedCharacterRegex: '[0-9]'.
