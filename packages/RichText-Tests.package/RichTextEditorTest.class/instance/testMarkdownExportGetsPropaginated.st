@@ -2,7 +2,8 @@ testing
 testMarkdownExportGetsPropaginated
 
 	editor coreObject submorphs first componentChosen: RTETextComponent.	
+	editor title: 'titel'.
 	self assert: 
 		(editor exportMarkdown) 
 		equals: 
-		((RTEVerticalLayoutComponent new addComponent: RTETextComponent) exportMarkdown)
+		'# titel',(Character cr),((RTEVerticalLayoutComponent new addComponent: RTETextComponent) exportMarkdown)
