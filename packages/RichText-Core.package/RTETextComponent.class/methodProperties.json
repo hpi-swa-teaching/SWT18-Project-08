@@ -4,7 +4,9 @@
 	"instance" : {
 		"applyAlignment:" : "AJ 6/2/2018 15:24",
 		"exportMarkdown" : "AJ 6/7/2018 16:52",
-		"handleKeystroke:" : "AJ 5/29/2018 19:15",
-		"initialize" : "AJ 6/8/2018 15:53",
+		"handleKeystroke:" : "MB 6/20/2018 00:42",
+		"importTextFontIfNecessary" : "MB 6/20/2018 00:40",
+		"initialize" : "MB 6/20/2018 00:40",
 		"initializeMenu" : "AJ 6/8/2018 15:53",
-		"initializeTextArea" : "TH 6/12/2018 18:29" } }
+		"initializeTextArea" : "MB 6/17/2018 16:00",
+		"keyStroke:" : "MB 6/20/2018 00:46" } }

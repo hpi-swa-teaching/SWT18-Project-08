@@ -3,5 +3,6 @@ initialize
 
 	super initialize.
 	self initializeTextArea;
-		initializeMenu
+		 initializeMenu;
+		 importTextFontIfNecessary
 	
