@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "AJ 6/12/2018 20:28",
-		"testReorderWidgetCorrectly" : "MB 6/14/2018 10:46",
-		"testSupmorphAddedByClickOnUpOrDown" : "MB 6/13/2018 16:44",
-		"testSupmorphDeletedFromVerticalLayoutByClickOnTrash" : "AJ 6/12/2018 23:54",
-		"testWrappingLayoutChanged" : "MB 6/14/2018 10:48" } }
+		"testReorderWidgetCorrectly" : "AJ 6/19/2018 20:40",
+		"testSupmorphAddedByClickOnUpOrDown" : "AJ 6/19/2018 20:41",
+		"testSupmorphDeletedFromVerticalLayoutByClickOnTrash" : "AJ 6/19/2018 20:41",
+		"testWrappingLayoutChanged" : "AJ 6/19/2018 20:42" } }

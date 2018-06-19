@@ -1,11 +1,13 @@
 testing
 testFontSizes	
 
+	| fontSizeField |
+
 	self textArea text: 'test'.
 	self textArea selectAll.
 	self mouseRelease: self textArea buttons: #(left).
 	
-	fontSizeField := (self menuButtonByName: 'fontSizeField').
+	fontSizeField := (self menuItemNamed: 'fontSizeField').
 	fontSizeField text: ''.
 	
 	self keyStroke: fontSizeField key: $1.

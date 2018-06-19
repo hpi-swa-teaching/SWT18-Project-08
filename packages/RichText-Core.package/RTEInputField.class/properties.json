@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"maxInputLength",
+		"allowedCharacterRegex" ],
 	"name" : "RTEInputField",
 	"pools" : [
 		 ],

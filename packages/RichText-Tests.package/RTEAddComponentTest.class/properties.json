@@ -10,5 +10,5 @@
 	"name" : "RTEAddComponentTest",
 	"pools" : [
 		 ],
-	"super" : "RTEComponentTest",
+	"super" : "RTETestCase",
 	"type" : "normal" }

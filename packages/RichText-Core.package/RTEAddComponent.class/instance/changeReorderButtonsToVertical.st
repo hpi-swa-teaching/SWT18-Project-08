@@ -1,4 +1,4 @@
-reorganization
+api
 changeReorderButtonsToVertical
 
 	self flag: #refactor.

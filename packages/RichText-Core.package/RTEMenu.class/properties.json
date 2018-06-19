@@ -8,8 +8,7 @@
 	"instvars" : [
 		"component",
 		"reorderButtons",
-		"insertButtons",
-		"deleteButton" ],
+		"insertButtons" ],
 	"name" : "RTEMenu",
 	"pools" : [
 		 ],
