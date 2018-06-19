@@ -10,5 +10,5 @@
 	"name" : "RTEImageComponentTest",
 	"pools" : [
 		 ],
-	"super" : "RTEComponentTest",
+	"super" : "RTETestCase",
 	"type" : "normal" }

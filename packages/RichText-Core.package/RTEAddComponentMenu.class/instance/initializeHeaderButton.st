@@ -1,7 +1,7 @@
 initialization
 initializeHeaderButton
 
-	^ ((PHButton icon: #iconHeader) name: 'addHeaderComponent'; "can be changed to a prettier icon"
+	^ ((PHButton icon: #iconHeader) name: 'addHeaderComponent';
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 

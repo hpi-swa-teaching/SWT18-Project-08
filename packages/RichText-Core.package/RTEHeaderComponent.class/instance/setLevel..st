@@ -1,6 +1,7 @@
 api
 setLevel: aSymbol
 
+	self flag: #refactor. "a bit to long"
 	self level ifNotNilDo: [:level | 
 		(self menu findWidgetOfKind: PHButton labelled: level) 
 			removeStyleClass: #success; changed].

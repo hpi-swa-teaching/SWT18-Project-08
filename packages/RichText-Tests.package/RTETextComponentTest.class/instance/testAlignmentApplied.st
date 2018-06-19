@@ -2,13 +2,13 @@ testing
 testAlignmentApplied
 
 	self 
-		click: (self menuButtonByName: 'align_left');
+		click: (self menuItemNamed: 'align_left');
 		assert: component coreObject alignment equals: #left;
 	
-		click: (self menuButtonByName: 'align_center');
+		click: (self menuItemNamed: 'align_center');
 		assert: component coreObject alignment equals: #center;
 	
-		click: (self menuButtonByName: 'align_right');
+		click: (self menuItemNamed: 'align_right');
 		assert: component coreObject alignment equals: #right";
 	
 		click: (self menuButtonByName: 'align_justify');
