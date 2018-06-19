@@ -1,7 +1,7 @@
 testing
 testAllowedCharacterRegex
 
-	inputField allowedCharacterRegex: '[0-9]'.
+	component allowedCharacterRegex: '[0-9]'.
 	self
 		typeAllCharacters;
-		assert: inputField text equals: '0123456789'
+		assert: component text equals: '0123456789'

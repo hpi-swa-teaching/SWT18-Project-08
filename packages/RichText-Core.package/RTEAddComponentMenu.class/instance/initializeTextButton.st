@@ -1,7 +1,7 @@
 initialization
 initializeTextButton
 
-	^ ((PHButton icon: #iconFont) name: 'addTextComponent'; "can be changed to a prettier icon"
+	^ ((PHButton icon: #iconFont) name: 'addTextComponent';
 		when: #clicked 
 		send: #componentChosen: 
 		to: (self component) 

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"component" : "AJ 5/24/2018 17:23",
+		"component:" : "AJ 5/24/2018 17:23",
+		"coreObject" : "AJ 5/29/2018 18:39",
+		"initialize:" : "AJ 5/29/2018 18:42",
+		"menu" : "AJ 6/19/2018 20:35",
+		"menuItemNamed:" : "AJ 6/19/2018 20:35",
+		"menuItemOf:Named:" : "AJ 6/19/2018 20:33",
+		"setUp" : "AJ 5/30/2018 18:53",
+		"tearDown" : "AJ 6/12/2018 23:53",
+		"testDeleteComponent" : "AJ 6/19/2018 20:35",
+		"testMenuHideOnFocusLost" : "AJ 6/15/2018 13:38",
+		"testMenuShowOnFocus" : "AJ 6/15/2018 13:35" } }

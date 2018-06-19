@@ -1,14 +1,8 @@
 initialization
 initialize
 
-	| headlineTypes button|
 	super initialize.
-	headlineTypes := #('main' 'sub' 'sub sub'). 
+	self flag: #refactor.
+	"why do wee need to use at: aNumber? Looks ugly. Think about a more pretty solution"
 	1 to: 3 do: [:index|
-		button := ((PHButton label: ('h',index)) name: ('h',index);
-			when: #clicked 
-			send: #setLevel:
-			to: (self component)
-			with: ('h',index) asSymbol).
-		button addTooltip: ((headlineTypes at: index),' headline').
-		self add: button at: (1 + index)]
+		self add: (self createAndInitializeHeaderButtonForLevel: index) at: (1 + index)]

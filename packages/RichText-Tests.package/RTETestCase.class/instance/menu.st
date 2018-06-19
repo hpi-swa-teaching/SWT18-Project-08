@@ -1,3 +1,4 @@
 accessing
 menu
+
 	^ component menu

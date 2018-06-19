@@ -2,8 +2,8 @@ helper
 setUp
 
 	super setUp.
-	inputField := RTEInputField new openInWorld: world; yourself.
-	inputField 
+	self initialize: RTEInputField.
+	component
 		text: '';
 		allowedCharacterRegex: '.*';
 		maxInputLength: 9999
