@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RTECodeAreaComponent",
+	"name" : "RTECodeComponent",
 	"pools" : [
 		 ],
 	"super" : "RTETextComponent",
