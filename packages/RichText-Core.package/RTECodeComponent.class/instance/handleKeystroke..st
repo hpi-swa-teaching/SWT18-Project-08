@@ -1,4 +1,4 @@
 event handling
 handleKeystroke: anEvent
 
-	^ true.
+	^ true
