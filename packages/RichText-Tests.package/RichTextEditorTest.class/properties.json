@@ -10,5 +10,5 @@
 	"name" : "RichTextEditorTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "RTETestCase",
 	"type" : "normal" }
