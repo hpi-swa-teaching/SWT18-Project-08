@@ -5,7 +5,7 @@ insertComponent: aDirection at: aComponent
 
 	wrapper := self wrap: aComponent IfNeededForInsert: aDirection.
 	
-	(aDirection == #left or: aDirection == #up)
+	(#(#left #up) includes: aDirection)
 		ifTrue: [wrapper addComponent: RTEAddComponent inFrontOf: aComponent].
-	(aDirection == #right or: aDirection == #down)
+	(#(#right #down) includes: aDirection)
 		ifTrue: [wrapper addComponent: RTEAddComponent behind: aComponent].

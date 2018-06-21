@@ -13,5 +13,8 @@ wrap: aComponent IfNeededForInsert: aDirection
 		"self addMorph: (RTEHorizontalLayoutComponent new add: aComponent) behind: aComponent.
 		aComponent changeReorderButtonsToHorizontal.
 		self removeMorph: aComponent."
+		
+		self flag: #refactor.
+		"lower version should work but doesn't :( "
 	].
 	^ aComponent owner
