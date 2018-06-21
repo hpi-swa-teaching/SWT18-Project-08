@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newWith:" : "AJ 6/21/2018 17:20" },
+	"instance" : {
+		"addColorButton:to:" : "AJ 6/21/2018 18:08",
+		"addStyleButtons:" : "AJ 6/21/2018 18:22",
+		"createClearStylesButton" : "AJ 6/21/2018 18:21",
+		"createColorButtonGroup" : "AJ 6/21/2018 18:10",
+		"createColorToggleButtonFor:" : "AJ 6/21/2018 18:03",
+		"hideTextColorButtonGroup" : "AJ 6/21/2018 17:11",
+		"initialize" : "AJ 6/21/2018 18:14",
+		"textArea" : "AJ 6/21/2018 17:21",
+		"textArea:" : "AJ 6/21/2018 17:21" } }

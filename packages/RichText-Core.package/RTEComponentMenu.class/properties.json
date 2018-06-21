@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RTETextComponentMenu",
+		"component",
+		"reorderButtons",
+		"insertButtons" ],
+	"name" : "RTEComponentMenu",
 	"pools" : [
 		 ],
-	"super" : "RTEComponentMenu",
+	"super" : "RTEMenu",
 	"type" : "normal" }

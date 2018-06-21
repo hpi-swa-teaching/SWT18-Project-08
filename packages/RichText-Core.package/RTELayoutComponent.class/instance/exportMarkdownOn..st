@@ -2,5 +2,5 @@ api
 exportMarkdownOn: aStream
 
 	self submorphs do: [:submorph | 
-		submorphs exportMarkdownOn: aStream.
+		submorph exportMarkdownOn: aStream.
 		aStream cr]

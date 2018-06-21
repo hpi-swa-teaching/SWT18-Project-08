@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 hideTextColorButtonGroup
 
 	self colorButtonGroup submorphs do: [:button |
