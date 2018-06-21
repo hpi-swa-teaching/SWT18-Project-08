@@ -1,4 +1,4 @@
 event handling
 handlesMouseOver: evt
 
-	^ self filename isNil not
+	^ self filename notNil

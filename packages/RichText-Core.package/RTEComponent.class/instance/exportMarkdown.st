@@ -1,4 +1,8 @@
 api
 exportMarkdown
 
-	self subclassResponsibility
+	| aStream |
+
+	aStream := WriteStream on: ''.
+	self exportMarkdownOn: aStream.
+	^ aStream contents

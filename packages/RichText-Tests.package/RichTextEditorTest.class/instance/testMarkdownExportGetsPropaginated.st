@@ -5,4 +5,4 @@ testMarkdownExportGetsPropaginated
 	self assert: 
 		(component exportMarkdown) 
 		equals: 
-		((RTEVerticalLayoutComponent new addComponent: RTETextComponent) exportMarkdown)
+		(component coreObject exportMarkdown)
