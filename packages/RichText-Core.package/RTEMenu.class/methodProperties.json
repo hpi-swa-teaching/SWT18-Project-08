@@ -11,6 +11,7 @@
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
 		"hideCategory:" : "TH 6/12/2018 18:18",
+		"highlightButtonNamed:" : "AJ 6/21/2018 16:53",
 		"initialize" : "AJ 6/19/2018 20:21",
 		"initializeDeleteButton" : "AJ 6/8/2018 14:45",
 		"initializeInsertCategoryButton" : "AJ 6/13/2018 20:55",
@@ -23,4 +24,5 @@
 		"reorderButtons:" : "TH 6/7/2018 18:26",
 		"setReorderButtons" : "TH 6/12/2018 14:53",
 		"showCategory:" : "TH 6/12/2018 18:18",
-		"toggleCategory:" : "MB 6/8/2018 15:20" } }
+		"toggleCategory:" : "MB 6/8/2018 15:20",
+		"unhighlightButtonNamed:" : "AJ 6/21/2018 16:53" } }

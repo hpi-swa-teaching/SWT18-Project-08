@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyAlignment:" : "AJ 6/2/2018 15:24",
+		"applyAlignment:" : "AJ 6/21/2018 16:38",
 		"changeFontSize:" : "AJ 6/12/2018 11:59",
 		"createMenu" : "AJ 6/21/2018 15:10",
 		"exportMarkdownOn:" : "AJ 6/21/2018 15:57",
-		"handleKeystroke:" : "AJ 6/19/2018 21:19",
+		"handleKeystroke:" : "AJ 6/21/2018 16:42",
 		"initialize" : "AJ 6/21/2018 15:09",
-		"initializeTextArea" : "TH 6/12/2018 18:29" } }
+		"initializeTextArea" : "AJ 6/21/2018 16:40" } }

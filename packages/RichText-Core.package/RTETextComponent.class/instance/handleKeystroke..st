@@ -2,5 +2,5 @@ api
 handleKeystroke: anEvent
 
 	self flag: #refactor.
-	"need for the keyStroke propagination up to the codeComponent. Should be done better!"
+	"need for the keyStroke propagination up to the codeComponent. Can be removed when Pheno supports different fonts"
 	^ false
