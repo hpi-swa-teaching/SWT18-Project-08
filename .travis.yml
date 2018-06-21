@@ -7,9 +7,7 @@ os:
 
 smalltalk:
   - Squeak-trunk
-  - Squeak-5.1
 
-  
 email:
     recipients:
       - swt-team8-travis@lists.myhpi.de
