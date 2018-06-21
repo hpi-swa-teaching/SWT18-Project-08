@@ -1,8 +1,9 @@
 initialization
 open: aWorld
-	| model |
-	self postOpen. "Funny name in this context, should be renamed, but whatever..."
+
+	"extended FileChooser open to open in a specific world and use a Promise instead"
+	self postOpen.
 	self morphicView openInWorld: aWorld.
 	UserInterfaceTheme current applyTo: self morphicView allMorphs.
-	model := self morphicView model.
+	self morphicView model.
 	^ promise := Promise new
