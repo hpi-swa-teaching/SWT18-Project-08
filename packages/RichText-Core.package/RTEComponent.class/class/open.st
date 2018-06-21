@@ -1,4 +1,5 @@
 as yet unclassified
 open
 
-	^ self new openInWindowLabeled: self className
+	^ self new 
+		openInWindowLabeled: self className

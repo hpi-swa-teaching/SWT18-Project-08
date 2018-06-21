@@ -2,10 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AJ 6/14/2018 16:46",
-		"tearDown" : "AJ 6/14/2018 16:46",
-		"testCoreObjectIsVertical" : "AJ 6/14/2018 16:46",
-		"testEditorCanBeDeleted" : "AJ 6/14/2018 16:25",
-		"testExportMarkdownToClipboard" : "AJ 6/14/2018 16:44",
-		"testExportMarkdownToClipboardButton" : "AJ 6/14/2018 16:44",
-		"testMarkdownExportGetsPropaginated" : "AJ 6/16/2018 15:05" } }
+		"setUp" : "AJ 6/19/2018 20:45",
+		"testCoreObjectIsVertical" : "AJ 6/19/2018 20:44",
+		"testExportMarkdownToClipboard" : "AJ 6/19/2018 20:46",
+		"testExportMarkdownToClipboardButton" : "AJ 6/19/2018 20:46",
+		"testMarkdownExportGetsPropaginated" : "AJ 6/21/2018 21:20" } }

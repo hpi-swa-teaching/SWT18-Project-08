@@ -1,5 +1,5 @@
 testing
 testExportMarkdownToClipboard
 
-	editor exportMarkdownToClipboard.
-	self assert: (Clipboard clipboardText) equals: (editor exportMarkdown)
+	component exportMarkdownToClipboard.
+	self assert: (Clipboard clipboardText) equals: (component exportMarkdown)

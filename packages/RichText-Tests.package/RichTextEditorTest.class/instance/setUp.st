@@ -2,4 +2,4 @@ helper
 setUp
 
 	super setUp.
-	editor := RichTextEditor new
+	self initialize: RichTextEditor.
