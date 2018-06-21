@@ -7,9 +7,11 @@ os:
 
 smalltalk:
   - Squeak-trunk
+  - Squeak-5.1
+
   
 email:
     recipients:
-      - swt-team8-travis@lists.myhpi.de #signup: https://lists.myhpi.de/vxHxL7HvPhpb3c6FvPcH0p1t41qTm6O
+      - swt-team8-travis@lists.myhpi.de
     on_success: change
     on_failure: always
