@@ -1,0 +1,4 @@
+api
+coreObjectDeleted
+
+	self delete

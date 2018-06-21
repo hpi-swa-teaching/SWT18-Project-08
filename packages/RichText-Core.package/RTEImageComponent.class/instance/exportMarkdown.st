@@ -1,4 +1,0 @@
-api
-exportMarkdown
-
-	^ '![](',(self filename),')'

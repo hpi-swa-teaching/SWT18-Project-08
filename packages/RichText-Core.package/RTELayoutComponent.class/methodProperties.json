@@ -5,9 +5,8 @@
 		"addComponent:" : "TH 6/12/2018 11:36",
 		"addComponent:behind:" : "TH 6/12/2018 11:36",
 		"addComponent:inFrontOf:" : "TH 6/12/2018 11:36",
-		"exportMarkdown" : "AJ 6/13/2018 21:56",
-		"initialize" : "TH 6/5/2018 17:37",
-		"initializeMenu" : "AJ 6/8/2018 15:52",
+		"createMenu" : "AJ 6/21/2018 15:28",
+		"exportMarkdownOn:" : "AJ 6/21/2018 16:02",
 		"insertComponent:at:" : "AJ 6/21/2018 14:50",
 		"reorder:inDirection:" : "TH 6/12/2018 17:33",
 		"wrap:IfNeededForInsert:" : "AJ 6/8/2018 14:35" } }

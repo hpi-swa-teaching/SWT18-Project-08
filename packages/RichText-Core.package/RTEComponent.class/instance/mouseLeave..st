@@ -1,4 +1,4 @@
 event handling
 mouseLeave: evt 
 
-	self menu hide
+	self menu ifNotNilDo: [:menu | menu hide]

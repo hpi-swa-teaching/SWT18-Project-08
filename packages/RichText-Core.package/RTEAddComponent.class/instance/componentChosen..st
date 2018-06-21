@@ -1,15 +1,16 @@
 api
 componentChosen: componentClass
 
-	self flag: #refactor.
-	"may use cascading? & method is to long !"
+	| newComponent |
+	
 	self menu closeAllButtonDropdowns.
-	self coreObject ifNotNilDo: [:a|self coreObject delete].
-	self coreObject: (componentClass newWithLayout: self layout).
-	self addMorph: self coreObject.
-	self coreObject
-		extent: self extent;
-		position: self position;
-		addMorph: (self coreObject menu).
+	newComponent := componentClass newWithLayout: self layout.
+	self coreObject 
+		ifNil: 
+			[self addMorph: newComponent]
+		ifNotNil: 
+			[self replaceSubmorph: self coreObject by: newComponent].
+	self coreObject: newComponent.
+	self coreObject addMorph: (self coreObject menu).
 	self menu hide.
 	^ self coreObject
