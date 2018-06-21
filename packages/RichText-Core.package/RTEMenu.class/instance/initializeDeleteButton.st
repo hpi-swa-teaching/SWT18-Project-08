@@ -6,4 +6,5 @@ initializeDeleteButton
 		when: #clicked 
 		send: #delete
 		to: (self component)
-		withArguments: #())
+		withArguments: #();
+		addTooltip: 'delete this component')
