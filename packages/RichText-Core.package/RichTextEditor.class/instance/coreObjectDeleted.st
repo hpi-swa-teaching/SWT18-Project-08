@@ -1,4 +1,0 @@
-api
-coreObjectDeleted
-
-	self delete

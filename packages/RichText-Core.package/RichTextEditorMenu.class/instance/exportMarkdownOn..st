@@ -1,0 +1,4 @@
+initialization
+exportMarkdownOn: aStream
+
+	^ aStream
