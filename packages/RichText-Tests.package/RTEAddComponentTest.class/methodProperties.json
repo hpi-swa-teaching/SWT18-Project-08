@@ -4,6 +4,7 @@
 	"instance" : {
 		"setUp" : "AJ 5/29/2018 18:43",
 		"testCorrectComponentChosen" : "AJ 6/19/2018 20:43",
+		"testDeleteButtonOfCoreObject" : "AJ 6/21/2018 21:02",
 		"testDisplayOnlyOneComponent" : "AJ 5/29/2018 19:11",
 		"testExportMarkdown" : "AJ 6/16/2018 14:35",
 		"testMenuAlwaysVisible" : "AJ 6/15/2018 13:38" } }

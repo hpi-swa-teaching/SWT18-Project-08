@@ -9,6 +9,9 @@ initialize
 		menu: (RichTextEditorMenu newWith: self);
 		extent: 500@200;
 		coreObject: (RTEVerticalLayoutComponent new 
-			addMorph: self menu;
-			addComponent: RTEAddComponent);
-		content: self coreObject
+						addComponent: RTEAddComponent);
+		content: ((PHWidget new)
+			withLayout;
+			vertical: true;
+			add: self menu;
+			add: self coreObject)

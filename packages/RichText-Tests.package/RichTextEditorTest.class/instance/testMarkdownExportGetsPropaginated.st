@@ -1,7 +1,7 @@
 testing
 testMarkdownExportGetsPropaginated
 
-	component coreObject submorphs second componentChosen: RTETextComponent.	
+	component coreObject submorphs first componentChosen: RTETextComponent.	
 	self assert: 
 		(component exportMarkdown) 
 		equals: 
