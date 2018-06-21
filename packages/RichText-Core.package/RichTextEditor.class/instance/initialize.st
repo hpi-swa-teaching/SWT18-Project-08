@@ -6,8 +6,9 @@ initialize
 
 	super initialize.
 	self
+		extent: 500@350;
+		title: '<unnamed document>';
 		menu: (RichTextEditorMenu newWith: self);
-		extent: 500@200;
 		coreObject: (RTEVerticalLayoutComponent new 
 						addComponent: RTEAddComponent);
 		content: ((PHWidget new)
