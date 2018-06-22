@@ -1,7 +1,7 @@
 as yet unclassified
-newWith: aComponent
+newWith: aMenu
 
 	^ self 
 		new 
-		component: aComponent;
+		menu: aMenu;
 		yourself 
