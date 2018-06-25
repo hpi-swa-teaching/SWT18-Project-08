@@ -7,9 +7,9 @@ SmalltalkCISpec {
       #load : [ 'tests' ]
     }
   ],
-  #testing : { 
-    #coverage : {	
-      #packages : [ 'RichText.*' ]	
-    }	
+  #testing : {
+    #coverage : {
+      #packages : [ 'RichText.*' ]
+    }
   }
 }
