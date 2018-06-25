@@ -1,10 +1,9 @@
 api
-reorder: aComponent inDirection: aDirection
-	
-	(aDirection == #up or: aDirection == #left)
-		ifTrue: [aComponent submorphBefore notNil 
-			ifTrue: [self addMorph: aComponent inFrontOf: (aComponent submorphBefore)]].
-	(aDirection == #down or: aDirection == #right)
-		ifTrue: [aComponent submorphAfter notNil 
-			ifTrue: [self addMorph: aComponent behind: (aComponent submorphAfter).]].
-	aComponent menu closeAllButtonDropdowns.
+reorder: aComponent inDirection: aDirection 
+
+	((#(#left #up) includes: aDirection)
+			and: aComponent submorphBefore notNil)
+		ifTrue: [self addMorph: aComponent inFrontOf: aComponent submorphBefore].
+	((#(#right #down) includes: aDirection)
+			and: aComponent submorphAfter notNil)
+		ifTrue: [self addMorph: aComponent behind: aComponent submorphAfter]

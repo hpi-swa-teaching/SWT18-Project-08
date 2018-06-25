@@ -6,4 +6,4 @@ initialize
 		name: 'fontSizeField';
 		text: '16';
 		allowedCharacterRegex: '[0-9]';
-		maxInputLength: 2
+		maxInputLength: 3

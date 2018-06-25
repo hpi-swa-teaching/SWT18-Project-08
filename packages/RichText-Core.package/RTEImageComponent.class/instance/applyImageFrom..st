@@ -1,6 +1,6 @@
 api
 applyImageFrom: aForm
 
-	(self coreObject)
+	self coreObject
 		form: aForm;
 		changed

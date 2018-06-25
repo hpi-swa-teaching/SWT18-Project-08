@@ -10,5 +10,5 @@
 	"name" : "RTEImageComponentMenu",
 	"pools" : [
 		 ],
-	"super" : "RTEMenu",
+	"super" : "RTEComponentMenu",
 	"type" : "normal" }

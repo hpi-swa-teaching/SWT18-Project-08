@@ -1,4 +1,4 @@
-reorganization
+accessing
 hideCategory: aButtonGroup
 
 	aButtonGroup submorphs do: [:button |

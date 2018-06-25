@@ -3,5 +3,5 @@ setUp
 
 	super setUp.
 	component := self initialize: RTEComponent.
-	component menu: (RTEMenu newWith: component).
+	component menu: (RTEComponentMenu newWith: component).
 	component addMorph: (component menu)
