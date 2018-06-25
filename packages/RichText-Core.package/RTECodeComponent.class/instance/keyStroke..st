@@ -1,4 +1,4 @@
 event handling
 keyStroke: anEvent
 
-	self coreObject addAttribute: (TextFontReference toFont: (StrikeFont familyName: #LucidaConsole size: 16)).
+	self coreObject addAttribute: (TextFontReference toFont: (TTCFont familyName: 'SourceCodePro' pointSize: 16  emphasis: 0))
