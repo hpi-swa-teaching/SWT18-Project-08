@@ -1,14 +1,17 @@
 initialization
 initialize
 
-	| wrapper |
+	self flag: #refactor.
+	"adding the addComponent should be handled by the Layout component itself!"
 
 	super initialize.
 	self
+		menu: (RichTextEditorMenu newWith: self);
 		extent: 500@200;
-		
-		flag: #refactor;
-		"adding the addComponent should be handled by the Layout component itself!"
-		coreObject: (RTEVerticalLayoutComponent new addComponent: RTEAddComponent).
-	wrapper := self initializeWrapper.
-	self content: wrapper
+		coreObject: (RTEVerticalLayoutComponent new 
+						addComponent: RTEAddComponent);
+		content: ((PHWidget new)
+			withLayout;
+			vertical: true;
+			add: self menu;
+			add: self coreObject)

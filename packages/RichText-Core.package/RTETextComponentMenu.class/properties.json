@@ -10,5 +10,5 @@
 	"name" : "RTETextComponentMenu",
 	"pools" : [
 		 ],
-	"super" : "RTEMenu",
+	"super" : "RTEComponentMenu",
 	"type" : "normal" }

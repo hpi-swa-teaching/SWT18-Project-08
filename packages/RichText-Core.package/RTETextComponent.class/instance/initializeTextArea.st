@@ -3,9 +3,8 @@ initializeTextArea
 
 	self flag: #refactor.
 	self coreObject: (RTETextArea new
-						position: self position;
-				    	 	multiLine: true).
-	self add: self coreObject.
-	self coreObject hideTextColorButtonGroup
+					   position: self position;
+				    	   multiLine: true).
+	self add: self coreObject
 	
 	

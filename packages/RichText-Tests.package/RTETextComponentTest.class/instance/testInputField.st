@@ -16,7 +16,8 @@ testInputField
 	self keyStroke: fontSizeField key: $5.
 	self keyStroke: fontSizeField key: $6.
 	self keyStroke: fontSizeField key: $2.
-	self assert: fontSizeField text equals: '56'.
+	self keyStroke: fontSizeField key: $1.
+	self assert: fontSizeField text equals: '562'.
 
 	fontSizeField text: ''.	
 	self keyStroke: fontSizeField key: $a.

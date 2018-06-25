@@ -1,4 +1,4 @@
 event handling
 mouseEnter: evt 
 
-	self menu show
+	self menu ifNotNilDo: [:menu | menu show]

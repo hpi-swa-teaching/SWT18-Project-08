@@ -1,12 +1,9 @@
 api
 setLevel: aSymbol
 
-	self flag: #refactor. "a bit to long"
-	self level ifNotNilDo: [:level | 
-		(self menu findWidgetOfKind: PHButton labelled: level) 
-			removeStyleClass: #success; changed].
+	self menu unhighlightButtonNamed: self level.
 
 	self level: aSymbol.
 	self coreObject addApplicationStyles:(RTEHeaderComponent headerStyle at: aSymbol ifAbsent: (PHStyle forAny fontSize: 'xx-large'; fontWeight: 'bold')).
 
-	(self menu findWidgetOfKind: PHButton labelled: (self level)) addStyleClass: #success; changed
+	self menu highlightButtonNamed: self level.

@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyAlignment:" : "AJ 6/2/2018 15:24",
+		"applyAlignment:" : "AJ 6/21/2018 16:38",
 		"changeFontSize:" : "AJ 6/12/2018 11:59",
-		"exportMarkdown" : "AJ 6/7/2018 16:52",
-		"handleKeystroke:" : "AJ 6/19/2018 21:19",
-		"initialize" : "AJ 6/8/2018 15:53",
-		"initializeMenu" : "AJ 6/8/2018 15:53",
-		"initializeTextArea" : "TH 6/12/2018 18:29" } }
+		"createMenu" : "AJ 6/21/2018 15:10",
+		"exportMarkdownOn:" : "AJ 6/21/2018 15:57",
+		"handleKeystroke:" : "MB 6/25/2018 12:06",
+		"initialize" : "AJ 6/21/2018 15:09",
+		"initializeTextArea" : "MB 6/25/2018 12:13",
+		"keyStroke:" : "MB 6/25/2018 23:50" } }

@@ -2,8 +2,6 @@ api
 applyAlignment: anAlignmentSymbol
 
 
-	(self menu submorphNamed: 'align_',(self coreObject alignment asString)) removeStyleClass: #success; changed.
-
+	self menu unhighlightButtonNamed: 'align_',(self coreObject alignment asString).
 	self coreObject alignment: anAlignmentSymbol.
-
-	(self menu submorphNamed: 'align_',(self coreObject alignment asString)) addStyleClass: #success; changed
+	self menu highlightButtonNamed: 'align_',(self coreObject alignment asString)
