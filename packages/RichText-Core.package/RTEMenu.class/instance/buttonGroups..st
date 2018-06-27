@@ -1,3 +1,3 @@
 accessing
-buttonGroups: anObject
-	buttonGroups := anObject
+buttonGroups: anDictionary
+	buttonGroups := anDictionary

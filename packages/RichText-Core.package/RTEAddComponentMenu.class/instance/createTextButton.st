@@ -1,5 +1,5 @@
 initialization
-initializeTextButton
+createTextButton
 
 	^ ((PHButton icon: #iconFont) name: 'addTextComponent';
 		when: #clicked 

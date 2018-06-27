@@ -1,5 +1,5 @@
 initialization
-initializeCodeButton
+createCodeButton
 
 	^ ((PHButton icon: #iconCode) name: 'addCodeComponent';
 		when: #clicked 

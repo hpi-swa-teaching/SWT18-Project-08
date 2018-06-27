@@ -1,5 +1,5 @@
 initialization
-initializeImageButton
+createImageButton
 
 	^ ((PHButton icon: #iconImage) name: 'addImageComponent';
 		when: #clicked 

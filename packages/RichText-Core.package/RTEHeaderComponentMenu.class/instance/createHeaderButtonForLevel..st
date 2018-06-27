@@ -1,5 +1,5 @@
 initialization
-createAndInitializeHeaderButtonForLevel: aLevelNumber
+createHeaderButtonForLevel: aLevelNumber
 
 	^ ((PHButton label: ('h',aLevelNumber)) name: ('h',aLevelNumber);
 			when: #clicked 

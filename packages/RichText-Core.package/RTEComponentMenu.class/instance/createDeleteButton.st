@@ -1,5 +1,5 @@
 initialization
-initializeDeleteButton
+createDeleteButton
 	
 	^((PHButton icon: #iconTrash)
 		name: 'deleteComponent';

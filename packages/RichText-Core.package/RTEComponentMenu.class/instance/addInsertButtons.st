@@ -1,7 +1,7 @@
 insertion
 addInsertButtons
 
-	self insertButtons add: (self initializeInsertCategoryButton).
+	self insertButtons add: (self createInsertCategoryButton).
 	#(#up #down #left #right)
 		do: [:aDirectionSymbol | self insertButtons
 				add: (self initializeInsertionButtonFor: aDirectionSymbol)].

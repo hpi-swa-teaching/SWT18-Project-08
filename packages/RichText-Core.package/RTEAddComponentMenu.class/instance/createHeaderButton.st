@@ -1,5 +1,5 @@
 initialization
-initializeHeaderButton
+createHeaderButton
 
 	^ ((PHButton icon: #iconHeader) name: 'addHeaderComponent';
 		when: #clicked 

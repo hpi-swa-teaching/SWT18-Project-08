@@ -2,13 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTextButtons" : "TH 6/12/2018 17:25",
-		"closeAllButtonDropdowns" : "TH 6/12/2018 17:59",
-		"initialize" : "TH 6/12/2018 17:24",
-		"initializeCodeButton" : "AJ 6/19/2018 21:02",
-		"initializeHeaderButton" : "AJ 6/19/2018 20:04",
-		"initializeImageButton" : "TH 6/7/2018 19:56",
-		"initializeTextButton" : "AJ 6/19/2018 20:04",
-		"initializeTextToggleButton" : "AJ 6/13/2018 20:56",
-		"textButtons" : "MB 6/8/2018 14:01",
-		"textButtons:" : "MB 6/8/2018 14:01" } }
+		"addTextButtons" : "MB 6/27/2018 15:34",
+		"closeAllButtonDropdowns" : "MB 6/27/2018 15:33",
+		"createCodeButton" : "MB 6/27/2018 12:55",
+		"createHeaderButton" : "MB 6/27/2018 12:55",
+		"createImageButton" : "MB 6/27/2018 12:56",
+		"createTextButton" : "MB 6/27/2018 12:56",
+		"createTextToggleCategoryButton" : "MB 6/27/2018 15:35",
+		"initialize" : "MB 6/27/2018 15:34" } }
