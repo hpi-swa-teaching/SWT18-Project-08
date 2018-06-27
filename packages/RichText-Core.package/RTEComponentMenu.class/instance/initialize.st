@@ -7,5 +7,5 @@ initialize
 	self reorderButtons: (PHButtonGroup new vertical: true; name: 'reorderButtons').
 	self insertButtons: (PHButtonGroup new vertical: true; name: 'insertButtons').
 	self component layout notNil 
-		ifTrue: [self setReorderButtons;
-					addInsertButtons]
+		ifTrue: [self createReorderButtons;
+					createInsertButtons]

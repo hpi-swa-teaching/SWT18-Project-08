@@ -4,7 +4,10 @@
 	"instance" : {
 		"buttonGroups" : "MB 6/27/2018 11:41",
 		"buttonGroups:" : "MB 6/27/2018 11:38",
+		"closeAllButtonDropdowns" : "AJ 6/27/2018 19:18",
 		"hideCategory:" : "AJ 6/21/2018 17:57",
+		"highlightButtonNamed:" : "AJ 6/27/2018 19:19",
 		"initialize" : "MB 6/27/2018 12:41",
 		"showCategory:" : "AJ 6/21/2018 17:57",
-		"toggleCategory:" : "MB 6/27/2018 15:46" } }
+		"toggleCategory:" : "MB 6/27/2018 15:46",
+		"unhighlightButtonNamed:" : "AJ 6/27/2018 19:14" } }
