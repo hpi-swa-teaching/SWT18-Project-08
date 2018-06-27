@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu" ],
-	"name" : "RTEFontSizeField",
+		"editor" ],
+	"name" : "RTEEditorNameField",
 	"pools" : [
 		 ],
 	"super" : "RTEInputField",

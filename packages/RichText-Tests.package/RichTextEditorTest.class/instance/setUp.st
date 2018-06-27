@@ -2,4 +2,4 @@ helper
 setUp
 
 	super setUp.
-	self initialize: RichTextEditor.
+	component := RichTextEditor openInWorld: world
