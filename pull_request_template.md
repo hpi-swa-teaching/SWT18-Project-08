@@ -8,34 +8,38 @@ What is this pull doing? What new feature? Anything special? Describe it here.
 Please describe what the new tests are testing.
 
 # Is it release relevant?
-If yes, add a small description to the release notes.
+If yes, add a small description for the release notes here.
 
 # Screenshot
-You have something cool to share? Add an screenshot to show how your new code should act.
+You have something cool to share? Add a screenshot to show how your new code should act.
 
-# other checks
+# coding style checks
  - [ ] no external ressources needed
- - [ ] methods are formatted correctly
+ - [ ] coding standards 
     - [ ] no `.` at the end of your function
-    - [ ] functions have an empty line between functionname and code (except accessors)
-    - [ ] use cascades wherever possible
+    - [ ] an empty line between functionname and code (except accessors)
+    - [ ] cascades wherever possible
+    - [ ] space around `@`, binary operators such as `+` or `<=` and after `^`
+    - [ ] no `or` stands alone in a line 
     - [ ] variable definitions...
-      - [ ] ... have an space between before/after the `|` symbol
+      - [ ] ... have an space before/after the `|` symbol
       - [ ] ... have a blank line above and under
-      - [ ] ... are used as few as possible
-   
-   ```smalltalk
-   example: aValue
-   
-   | variable |
-   
-   self myObject 
-       value: aValue;
-       color: Color red.
-   self otherMethod
-   ```
+      - [ ] ... are used as few as possible   
    - [ ] static values are stored on class Side
    - [ ] every function has a category
+   - [ ] don't use magic numbers (and strings)!
  - [ ] basic UX
    - [ ] UI is intuitive to use (tested by the reviewer! reject if not)
    - [ ] ...
+
+ ```smalltalk
+example: aValue
+   
+   | variable |
+   
+   variable := 5.
+   self myObject 
+       value: aValue + variable;
+       color: Color red.
+   self otherMethod
+   ```
