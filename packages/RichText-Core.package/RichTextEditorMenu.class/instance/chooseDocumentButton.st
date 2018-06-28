@@ -5,6 +5,5 @@ chooseDocumentButton
 		name: 'chooseDocument';
 		when: #clicked 
 		send: #chooseDocument
-		to: (self editor class)
-		withArguments: #();
+		to: (self editor class);
 		addTooltip: 'load another document')
