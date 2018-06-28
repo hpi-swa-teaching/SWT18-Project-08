@@ -1,4 +1,4 @@
 api
 exportMarkdown
 
-	^ self coreObject exportMarkdown
+	^ '# ',self title,(Character cr),(self coreObject exportMarkdown)
