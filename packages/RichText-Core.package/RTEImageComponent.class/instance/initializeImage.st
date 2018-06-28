@@ -1,4 +1,4 @@
-initialize
+initialization
 initializeImage
 
 	self coreObject: (PHImage new

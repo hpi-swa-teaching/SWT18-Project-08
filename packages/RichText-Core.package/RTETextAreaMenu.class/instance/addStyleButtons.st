@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 addStyleButtons
 
 	RTETextArea styles keysAndValuesDo: [:styleName :styleValues| 

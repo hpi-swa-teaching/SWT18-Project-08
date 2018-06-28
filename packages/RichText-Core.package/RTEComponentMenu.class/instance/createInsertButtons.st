@@ -1,9 +1,9 @@
-insertion
+initialization
 createInsertButtons
 
-	self insertButtons add: (self createInsertCategoryButton).
+	(self buttonGroups at: #InsertButtonGroup) add: (self createInsertCategoryButton).
 	#(#up #down #left #right)
-		do: [:aDirectionSymbol | self insertButtons
+		do: [:aDirectionSymbol | (self buttonGroups at: #InsertButtonGroup)
 				add: (self createInsertionButtonFor: aDirectionSymbol)].
-	self add: self insertButtons.
-	self hideCategory: self insertButtons 
+	self add: (self buttonGroups at: #InsertButtonGroup).
+	self hideCategory: (self buttonGroups at: #InsertButtonGroup)

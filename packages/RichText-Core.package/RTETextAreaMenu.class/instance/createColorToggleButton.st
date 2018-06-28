@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createColorToggleButton
 
 	^ ((PHButton icon: #iconEyedropper) 

@@ -1,4 +1,4 @@
-initialize
+initialization
 createMenu
 
 	^ RTEImageComponentMenu newWith: self
