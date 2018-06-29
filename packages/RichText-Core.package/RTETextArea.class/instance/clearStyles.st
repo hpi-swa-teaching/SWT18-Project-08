@@ -1,8 +1,8 @@
 text manipulation
 clearStyles
 
-	RTETextArea colors keysDo: [:color | 
-		self removeAttributeForSelection: (TextColor new color: (RTETextArea colors at: color))].
+	self addAttributeForSelection: (TextColor color: Color black).
+	
 	RTETextArea styles keysDo: [:style |
 		self removeAttributeForSelection: (TextEmphasis new emphasisCode: ((RTETextArea styles at: style) second))].
 	
