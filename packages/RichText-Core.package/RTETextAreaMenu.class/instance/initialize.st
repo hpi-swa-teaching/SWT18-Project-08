@@ -10,6 +10,6 @@ initialize
 	self buttonGroups: Dictionary new.
 	self buttonGroups at: #colorButtonGroup put: self createColorButtonGroup.
 	self add: (self buttonGroups at: #colorButtonGroup).
-	self hideCategory: (self buttonGroups at: #colorButtonGroup).
+	"self hideCategory: (self buttonGroups at: #colorButtonGroup)."
 	
 	self addApplicationStyles: (PHStyle forAny fontSize: 'small').
