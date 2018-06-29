@@ -5,4 +5,4 @@ updatePopover: anEvent
 	self hasSelection 
 		ifTrue:[ self deletePopover; 
 				openPopover: anEvent]
-		ifFalse: [self popover hide.]
+		ifFalse: [self deletePopover.]
