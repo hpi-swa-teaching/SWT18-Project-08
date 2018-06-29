@@ -3,6 +3,6 @@ openColorPicker
 	
 	(NewColorPickerMorph 
 		on: self 
-		originalColor: self color 
-		setColorSelector: #color:) 
+		originalColor: (self text asTextMorph selectionColor) 
+		setColorSelector: #applyColor:) 
 		openNear: self fullBoundsInWorld

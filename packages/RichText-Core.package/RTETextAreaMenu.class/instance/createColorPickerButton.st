@@ -1,10 +1,10 @@
 as yet unclassified
-createColorToggleButtonFor: aButtonGroup
+createColorPickerButton
 
 	^(PHButton icon: #iconEyedropper) 
-			name: 'toggleColorButtons'; 
+			name: 'ColorButton'; 
 			when: #clicked
 			send: #openColorPicker
 				to: self textArea;
-			addTooltip: 'show available colors';
+			addTooltip: 'choose text color';
 			yourself
