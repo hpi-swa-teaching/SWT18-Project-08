@@ -1,0 +1,4 @@
+initialization
+initializeColorPicker
+
+	self colorpicker: NewColorPickerMorph

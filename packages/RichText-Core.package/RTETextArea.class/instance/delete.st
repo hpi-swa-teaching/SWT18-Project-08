@@ -1,5 +1,6 @@
 event handling
 delete
 
-	(self popover notNil) ifTrue: [self popover delete].
+	self deleteColorPicker;
+		 deletePopover.
 	super delete

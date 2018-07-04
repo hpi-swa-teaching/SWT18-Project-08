@@ -1,10 +1,10 @@
-as yet unclassified
+initialization
 createColorPickerButton
 
 	^(PHButton icon: #iconEyedropper) 
 			name: 'ColorButton'; 
 			when: #clicked
-			send: #openColorPicker
+			send: #toggleColorPicker
 				to: self textArea;
 			addTooltip: 'choose text color';
 			yourself

@@ -1,8 +1,8 @@
 text manipulation
 openColorPicker 
 	
-	(NewColorPickerMorph 
+	self colorpicker: (NewColorPickerMorph  
 		on: self 
 		originalColor: (self text asTextMorph selectionColor) 
-		setColorSelector: #applyColor:) 
-		openNear: self fullBoundsInWorld
+		setColorSelector: #applyColor:).
+	self colorpicker openNear: self fullBoundsInWorld

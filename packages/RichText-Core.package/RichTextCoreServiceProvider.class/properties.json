@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"popover",
-		"colorpicker" ],
-	"name" : "RTETextArea",
+		 ],
+	"name" : "RichTextCoreServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "PHTextArea",
+	"super" : "ServiceProvider",
 	"type" : "normal" }
