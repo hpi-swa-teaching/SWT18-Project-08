@@ -13,7 +13,6 @@
 		"deletePopover" : "AJ 5/29/2018 19:50",
 		"hasSelection" : "AJ 5/24/2018 18:12",
 		"initialize" : "AJ 6/21/2018 17:18",
-		"initializeColorPicker" : "MB 7/4/2018 11:38",
 		"initializePopover" : "AJ 6/21/2018 20:32",
 		"keyStroke:" : "MB 7/4/2018 11:43",
 		"mouseUp:" : "MB 7/4/2018 11:43",
@@ -21,5 +20,5 @@
 		"openPopover:" : "AJ 5/29/2018 19:51",
 		"popover" : "AJ 5/20/2018 15:24",
 		"popover:" : "AJ 5/20/2018 15:24",
-		"toggleColorPicker" : "MB 7/4/2018 11:51",
+		"toggleColorPicker" : "MB 7/4/2018 18:25",
 		"updatePopover:" : "MB 7/4/2018 11:28" } }
