@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createClearStylesButton
 
 	^ ((PHButton icon: #iconEraser) 
@@ -6,4 +6,5 @@ createClearStylesButton
 		when: #clicked 
 			send: #clearStyles
 			to: self textArea;
-		addTooltip: 'clears all styles')
+		addTooltip: 'clears all styles';
+		addApplicationStyles: (PHStyle forAny fontSize: 'small'))

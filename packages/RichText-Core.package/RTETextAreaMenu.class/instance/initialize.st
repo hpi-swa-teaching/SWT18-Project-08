@@ -1,15 +1,10 @@
-as yet unclassified
+initialization
 initialize
 
 	self flag: #refactor.
 
 	super initialize.
 	self add: self createClearStylesButton.
-	self addStyleButtons: self.
-	
-	self buttonGroups: Dictionary new.
-	self buttonGroups at: #colorButtonGroup put: self createColorButtonGroup.
-	self add: (self buttonGroups at: #colorButtonGroup).
-	self hideCategory: (self buttonGroups at: #colorButtonGroup).
-	
-	self addApplicationStyles: (PHStyle forAny fontSize: 'small').
+	self addStyleButtons.
+	self createColorButtonGroup.
+	"self addApplicationStyles: (PHStyle forAny fontSize: 'small')"

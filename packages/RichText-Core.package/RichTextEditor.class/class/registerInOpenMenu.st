@@ -2,5 +2,6 @@ class initialization
 registerInOpenMenu
 
 	(TheWorldMenu respondsTo: #registerOpenCommand:) ifTrue: [
-		TheWorldMenu unregisterOpenCommand: 'Rich Text Editor'.
-		TheWorldMenu registerOpenCommand: {'Rich Text Editor'. {self. #open}}]
+		self unregisterFromOpenMenu.
+		TheWorldMenu registerOpenCommand: {'Rich Text Editor (new)'. {self. #open}}.
+		TheWorldMenu registerOpenCommand: {'Rich Text Editor (open)'. {self. #chooseDocument }}]

@@ -8,6 +8,7 @@
 		"testApplySelectedImage" : "AJ 5/29/2018 19:10",
 		"testDisplayOnlyOneImage" : "AJ 6/21/2018 15:48",
 		"testExportMarkdown" : "AJ 6/7/2018 15:34",
+		"testImageDisplayedWithMinSize" : "KB 6/28/2018 15:47",
 		"testMenuAlwaysVisibleWhenNoFileChosen" : "AJ 6/15/2018 13:45",
 		"testMenuReactsToFocusChangeWhenFileChosen" : "AJ 6/16/2018 14:47",
 		"testNoReactionWhenFilePickerClosed" : "AJ 6/19/2018 20:35",

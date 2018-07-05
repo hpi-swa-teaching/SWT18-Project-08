@@ -3,11 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Documents" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"coreObject",
-		"menu" ],
+		"menu",
+		"title" ],
 	"name" : "RichTextEditor",
 	"pools" : [
 		 ],

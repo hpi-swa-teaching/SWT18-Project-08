@@ -1,11 +1,11 @@
-as yet unclassified
+initialization
 createColorButtonGroup
-	
-	| newButtonGroup |
 
-	newButtonGroup := (PHButtonGroup new vertical: true) 
-		name: 'ColorButtonGroup'.
-	newButtonGroup add: (self createColorToggleButtonFor: newButtonGroup).
+
+	self buttonGroups at: #ColorButtonGroup put:((PHButtonGroup new vertical: true) 
+		name: 'ColorButtonGroup').
+	(self buttonGroups at: #ColorButtonGroup) add: (self createColorToggleButton).
 	RTETextArea colors keysDo: [:color | 
-		self addColorButton: color to: newButtonGroup].
-	^ newButtonGroup addApplicationStyles: (PHStyle forAny fontSize: 'small')
+		self addColorButton: color].
+	self add: (self buttonGroups at: #ColorButtonGroup).
+	self hideCategory: (self buttonGroups at: #ColorButtonGroup)

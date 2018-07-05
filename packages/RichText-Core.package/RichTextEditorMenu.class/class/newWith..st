@@ -1,5 +1,6 @@
-as yet unclassified
+class initialization
 newWith: aRichTextEditor
+
 	^ self
 		basicNew
 		editor: aRichTextEditor;
