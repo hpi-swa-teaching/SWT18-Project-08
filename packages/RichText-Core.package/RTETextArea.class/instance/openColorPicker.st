@@ -5,4 +5,6 @@ openColorPicker
 		on: self 
 		originalColor: (self text asTextMorph selectionColor) 
 		setColorSelector: #applyColor:).
-	self colorpicker openNear: self fullBoundsInWorld
+	self colorpicker openNear: self fullBoundsInWorld.
+	(self colorpicker submorphs at:2) delete.
+	

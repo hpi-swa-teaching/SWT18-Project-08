@@ -9,5 +9,4 @@ keyStroke: anEvent
 	(self owner handleKeystroke: anEvent)
 		ifTrue: [self owner keyStroke: anEvent].
 		
-	self updatePopover: anEvent;
-		 deleteColorPicker 
+	self updatePopover: anEvent
