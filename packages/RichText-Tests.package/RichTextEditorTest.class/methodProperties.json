@@ -6,7 +6,7 @@
 		"tearDown" : "AJ 6/24/2018 22:42",
 		"testCoreObjectIsVertical" : "AJ 6/19/2018 20:44",
 		"testEditorGetDeletedFromList" : "AJ 6/24/2018 22:31",
-		"testEditorGetSaved" : "AJ 6/24/2018 22:22",
+		"testEditorGetSaved" : "AJ 6/28/2018 16:07",
 		"testExportMarkdownToClipboard" : "AJ 6/19/2018 20:46",
 		"testExportMarkdownToClipboardButton" : "AJ 6/19/2018 20:46",
 		"testMarkdownExportGetsPropaginated" : "AJ 6/21/2018 21:57",
