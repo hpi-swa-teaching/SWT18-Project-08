@@ -1,9 +1,8 @@
 reorganization
-changeMoveIcons: aFromToDictionary
-
+changeMoveIcons: aDictionary
 	| button |
 
-	aFromToDictionary keysDo: [:key |
+	aDictionary keysDo: [:key |
 		button := self findWidgetOfKind: PHButton withIcon: ('iconArrow_',key) asSymbol.
 		button removeAllMorphs;
-		add: (PHIcon perform: ('iconArrow_',(aFromToDictionary at: key)) asSymbol).]
+		add: (PHIcon perform: ('iconArrow_',(aDictionary at: key)) asSymbol).]
