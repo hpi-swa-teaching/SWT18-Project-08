@@ -3,7 +3,9 @@ deleteDocumentWithoutPrompt
 
 	| allDocuments |
 
-	self topLevel delete.
+	self topLevel notNil 
+		ifTrue: [self topLevel delete]
+		ifFalse: [self delete].
 	allDocuments := self class documents.
 	allDocuments removeAllSuchThat: [:document | document == self].
 	self class documents: allDocuments

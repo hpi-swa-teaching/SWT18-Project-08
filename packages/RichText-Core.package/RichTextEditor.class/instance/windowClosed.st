@@ -2,4 +2,4 @@ accessing
 windowClosed
 
 	self isSaved 
-		ifFalse: [self saveIfWished].
+		ifFalse: [self saveIfWished]

@@ -1,4 +1,6 @@
 accessing
 save
 
-	RichTextEditor documents add: self
+	self isSaved 
+		ifFalse: [RichTextEditor documents add: self]
+	
