@@ -1,5 +1,5 @@
 initialization
-createAndInitializeAlignmentButton: anAlignment
+createAlignmentButton: anAlignment
 	
 	^ (PHButton 
 			icon: (('iconAlign_',anAlignment)) asSymbol)

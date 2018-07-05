@@ -1,4 +1,4 @@
-initialization
+accessing
 highlightButtonNamed: aName
 
 	aName ifNotNil:
