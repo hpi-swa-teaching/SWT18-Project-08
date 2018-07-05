@@ -1,4 +1,8 @@
 initialize
 openInWorld: aWorld
 
-	^ self new openInWindowLabeled: 'RichTextEditor' inWorld: aWorld
+	| newEditor |
+
+	newEditor := (self new openInWindowLabeled: 'RichTextEditor' inWorld: aWorld; yourself).
+	self documents add: newEditor.
+	^ newEditor

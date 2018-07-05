@@ -4,14 +4,14 @@
 		"newWith:" : "AJ 5/24/2018 18:09",
 		"showCategory:" : "TH 6/12/2018 18:16" },
 	"instance" : {
-		"changeMoveIcons:" : "AJ 6/8/2018 15:33",
+		"changeMoveIcons:" : "MB 6/28/2018 16:03",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
-		"createDeleteButton" : "MB 6/27/2018 12:38",
-		"createInsertButtons" : "AJ 6/27/2018 19:22",
-		"createInsertCategoryButton" : "MB 6/27/2018 11:48",
-		"createInsertionButtonFor:" : "MB 6/27/2018 11:49",
-		"createReorderButtonFor:" : "AJ 6/27/2018 19:12",
-		"createReorderButtons" : "AJ 6/27/2018 19:20",
-		"createReorderCategoryButton" : "MB 6/27/2018 11:50",
-		"initialize" : "AJ 6/27/2018 19:21" } }
+		"createDeleteButton" : "MB 7/3/2018 20:19",
+		"createInsertButtons" : "MB 6/28/2018 16:12",
+		"createInsertCategoryButton" : "MB 6/28/2018 15:54",
+		"createInsertionButtonFor:" : "MB 6/28/2018 15:59",
+		"createReorderButtonFor:" : "MB 6/28/2018 15:58",
+		"createReorderButtons" : "MB 6/28/2018 16:12",
+		"createReorderCategoryButton" : "MB 6/28/2018 15:55",
+		"initialize" : "MB 6/28/2018 16:11" } }

@@ -3,9 +3,8 @@ initialize
 
 	super initialize.
 	self add: self createDeleteButton.
-	self buttonGroups at: #reorderButtonGroup put: self createReorderCategoryButton.
-	self reorderButtons: (PHButtonGroup new vertical: true; name: 'reorderButtons').
-	self insertButtons: (PHButtonGroup new vertical: true; name: 'insertButtons').
+	self buttonGroups at: #ReorderButtonGroup put: (PHButtonGroup new vertical: true; name: 'reorderButtons');
+					     at: #InsertButtonGroup put: (PHButtonGroup new vertical: true; name: 'insertButtons').
 	self component layout notNil 
 		ifTrue: [self createReorderButtons;
-					createInsertButtons]
+		 			 createInsertButtons]

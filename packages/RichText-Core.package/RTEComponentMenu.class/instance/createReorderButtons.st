@@ -1,13 +1,13 @@
 reorganization
 createReorderButtons
 
-	self reorderButtons add: (self createReorderCategoryButton).
+	(self buttonGroups at: #ReorderButtonGroup) add: (self createReorderCategoryButton).
 	self component layout vertical
-		ifTrue: [self reorderButtons 
+		ifTrue: [(self buttonGroups at: #ReorderButtonGroup)
 					add: (self createReorderButtonFor: #up);
 					add: (self createReorderButtonFor: #down)]
-		ifFalse: [self reorderButtons 
+		ifFalse: [(self buttonGroups at: #ReorderButtonGroup)
 					add: (self createReorderButtonFor: #left);
 			 		add: (self createReorderButtonFor: #right)].
-	self hideCategory: self reorderButtons.
-	self add: self reorderButtons
+	self hideCategory: (self buttonGroups at: #ReorderButtonGroup).
+	self add: (self buttonGroups at: #ReorderButtonGroup)
