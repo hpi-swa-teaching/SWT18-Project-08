@@ -1,5 +1,5 @@
 initialization
-markdownExportButton
+createMarkdownExportButton
 
 	^ ((PHButton icon: #iconCopy)
 		name: 'exportMarkdownToClipboard';

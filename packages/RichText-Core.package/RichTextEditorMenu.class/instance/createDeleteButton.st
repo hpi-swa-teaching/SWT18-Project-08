@@ -1,5 +1,5 @@
 initialization
-deleteDocumentButton
+createDeleteButton
 
 	^ ((PHButton icon: #iconTrash)
 		name: 'deleteDocument';

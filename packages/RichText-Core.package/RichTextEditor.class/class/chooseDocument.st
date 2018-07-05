@@ -1,11 +1,8 @@
-class initialization
+initialize
 chooseDocument
 
-	| document selectionIndex |
+	| documents documentNames |
 
-	selectionIndex := (ListChooser chooseFrom: (self documents collect: [:entry | entry := entry title]) title: 'Documents').
-	(selectionIndex > 0)
-	ifTrue: [
-		document := (self documents at: selectionIndex).
-		document isInWorld
-			ifFalse: [document openInWindowLabeled: (document title)]]
+	documents := RichTextEditor documents copyWith: self newDocument.
+	documentNames := documents collect: [:entry | entry := entry title].
+	self documentChosen: (ListChooser chooseFrom: documentNames title: 'Documents') from: documents.

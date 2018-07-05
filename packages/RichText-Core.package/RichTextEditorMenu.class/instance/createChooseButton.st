@@ -1,5 +1,5 @@
 initialization
-chooseDocumentButton
+createChooseButton
 
 	^ ((PHButton icon: #iconFile)
 		name: 'chooseDocument';

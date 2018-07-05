@@ -3,8 +3,9 @@ initialize
 
 	super initialize.
 	self 
-		add: self deleteDocumentButton;
-		add: self newDocumentButton;
-		add: self chooseDocumentButton;
-		add: self titleInputField;
-		add: self markdownExportButton
+		add: self createDeleteButton;
+		add: self createSaveButton;
+		add: self createNewDocumentButton;
+		add: self createChooseButton;
+		add: self createTitleInputField;
+		add: self createMarkdownExportButton

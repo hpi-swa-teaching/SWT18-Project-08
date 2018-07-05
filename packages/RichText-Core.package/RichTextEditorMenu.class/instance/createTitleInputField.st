@@ -1,4 +1,4 @@
 initialization
-titleInputField
+createTitleInputField
 
 	^ ((RTEEditorNameField new) editor: self editor)

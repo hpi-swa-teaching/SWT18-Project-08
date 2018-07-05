@@ -1,4 +1,5 @@
-class initialization
+accessing
 newDocument
+
 	^ (RichTextEditor new
-		title: 'new document')
+		title: 'new (unsaved) document')
