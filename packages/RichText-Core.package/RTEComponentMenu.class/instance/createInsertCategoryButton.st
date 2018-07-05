@@ -5,5 +5,5 @@ createInsertCategoryButton
 		when: #clicked 
 		send: #toggleCategory:
 		to: self
-		with: (self buttonGroups at: #InsertButtonGroup);
+		with: self insertButtons;
 		addTooltip: 'insert components around me')

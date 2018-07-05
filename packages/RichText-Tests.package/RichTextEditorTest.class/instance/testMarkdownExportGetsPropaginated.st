@@ -1,9 +1,8 @@
 testing
 testMarkdownExportGetsPropaginated
 
-	component coreObject submorphs first componentChosen: RTETextComponent.
-	component title: 'new document'.
+	component coreObject submorphs first componentChosen: RTETextComponent.	
 	self assert: 
-		(component exportMarkdown)
+		(component exportMarkdown) 
 		equals: 
-		 '# new document', (Character cr), (component coreObject exportMarkdown)
+		(component coreObject exportMarkdown)

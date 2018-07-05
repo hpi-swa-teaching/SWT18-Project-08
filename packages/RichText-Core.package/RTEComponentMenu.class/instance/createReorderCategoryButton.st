@@ -5,5 +5,5 @@ createReorderCategoryButton
 		when: #clicked 
 		send: #toggleCategory:
 		to: self
-		with: (self buttonGroups at: #ReorderButtonGroup);
+		with: self reorderButtons;
 		addTooltip: 'reorder components')

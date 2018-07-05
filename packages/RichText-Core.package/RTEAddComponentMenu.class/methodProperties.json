@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTextButtons" : "MB 6/28/2018 16:07",
+		"addTextButtons" : "MB 6/27/2018 15:34",
 		"closeAllButtonDropdowns" : "MB 6/27/2018 15:33",
-		"createCodeButton" : "MB 6/28/2018 16:06",
-		"createHeaderButton" : "MB 6/28/2018 16:06",
-		"createImageButton" : "MB 6/28/2018 16:06",
-		"createTextButton" : "MB 6/28/2018 16:05",
+		"createCodeButton" : "MB 6/27/2018 12:55",
+		"createHeaderButton" : "MB 6/27/2018 12:55",
+		"createImageButton" : "MB 6/27/2018 12:56",
+		"createTextButton" : "MB 6/27/2018 12:56",
 		"createTextToggleCategoryButton" : "MB 6/27/2018 15:35",
 		"initialize" : "MB 6/27/2018 15:34" } }
