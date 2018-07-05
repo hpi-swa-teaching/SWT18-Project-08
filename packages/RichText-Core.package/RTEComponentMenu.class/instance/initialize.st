@@ -9,4 +9,5 @@ initialize
 		ifTrue: [self createReorderButtons;
 		 			 createInsertButtons].
 	self ignoreLayout: true.
-	self position: (self component position)"-(0@(self height))"
+	
+	

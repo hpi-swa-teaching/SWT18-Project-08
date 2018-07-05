@@ -4,5 +4,5 @@ initializeMenu
 	self createMenu ifNotNilDo: [:newMenu |
 		self menu ifNotNil: 
 			[self menu delete].
-		self addMorph: newMenu.
+		newMenu openInWorld.
 		self menu: newMenu].
