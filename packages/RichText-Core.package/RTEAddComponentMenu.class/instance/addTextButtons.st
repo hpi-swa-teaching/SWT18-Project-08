@@ -1,9 +1,10 @@
-as yet unclassified
+initialization
 addTextButtons
 
-	self textButtons add: (self initializeTextToggleButton);
-					  add: self initializeTextButton;
-					  add: self initializeHeaderButton;
-					  add: self initializeCodeButton.
-	self hideCategory: self textButtons.
-	self addMorph: self textButtons asElementNumber: 2
+	self buttonGroups at: #TextButtonGroup put: (PHButtonGroup new vertical: true).
+	(self buttonGroups at: #TextButtonGroup) add: self createTextToggleCategoryButton;
+					  							add: self createTextButton;
+					 							add: self createHeaderButton;
+												add: self createCodeButton.
+	self hideCategory: (self buttonGroups at: #TextButtonGroup).
+	self addMorph: (self buttonGroups at: #TextButtonGroup) asElementNumber: 2
