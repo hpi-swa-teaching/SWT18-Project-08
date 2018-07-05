@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"exportLatexOn:" : "AJ 7/5/2018 15:43",
 		"exportMarkdownOn:" : "AJ 6/21/2018 15:58",
 		"handleKeystroke:" : "AJ 6/21/2018 16:42",
 		"initialize" : "AJ 6/21/2018 16:45",
