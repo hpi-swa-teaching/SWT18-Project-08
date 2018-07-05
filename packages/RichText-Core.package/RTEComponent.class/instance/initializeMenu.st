@@ -5,4 +5,4 @@ initializeMenu
 		self menu ifNotNil: 
 			[self menu delete].
 		self addMorph: newMenu.
-		self menu: newMenu.].
+		self menu: newMenu].

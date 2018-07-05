@@ -7,4 +7,6 @@ initialize
 					     at: #InsertButtonGroup put: (PHButtonGroup new vertical: true; name: 'insertButtons').
 	self component layout notNil 
 		ifTrue: [self createReorderButtons;
-		 			 createInsertButtons]
+		 			 createInsertButtons].
+	self ignoreLayout: true.
+	self position: (self component position)"-(0@(self height))"
