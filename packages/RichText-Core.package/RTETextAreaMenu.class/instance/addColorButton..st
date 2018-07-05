@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 addColorButton: aColor
 
 	(self buttonGroups at: #ColorButtonGroup) add: ((PHButton new)

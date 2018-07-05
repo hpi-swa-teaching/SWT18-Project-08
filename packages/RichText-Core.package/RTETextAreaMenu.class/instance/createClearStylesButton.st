@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 createClearStylesButton
 
 	^ ((PHButton icon: #iconEraser) 

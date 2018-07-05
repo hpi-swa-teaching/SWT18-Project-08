@@ -1,5 +1,5 @@
 event handling
 delete
 
-	super delete.
-	self deletePopover
+	(self popover notNil) ifTrue: [self popover delete].
+	super delete

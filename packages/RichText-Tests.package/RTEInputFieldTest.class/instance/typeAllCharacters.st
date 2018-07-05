@@ -1,4 +1,9 @@
 helper
 typeAllCharacters
 
-	self typeString: '0123456789',Character alphabet On: component
+	| keys |
+	
+	keys := 'abcdefghijklmnopqrstuvwxyz0123456789'.
+	keys do: [:key |
+		self keyStroke: component key: (key asCharacter).
+	]

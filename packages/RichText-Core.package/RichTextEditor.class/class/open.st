@@ -1,4 +1,4 @@
 initialize
 open
-	
-	^ self openInWorld: World
+
+	^ self new openInWindowLabeled: 'RichTextEditor'; yourself

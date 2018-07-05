@@ -6,5 +6,5 @@ clearStyles
 	RTETextArea styles keysDo: [:style |
 		self removeAttributeForSelection: (TextEmphasis new emphasisCode: ((RTETextArea styles at: style) second))].
 	
-	self clearSelection.
-	self popover delete
+	(self clearSelection; 
+	 	 popover) delete
