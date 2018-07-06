@@ -2,6 +2,7 @@ initialization
 initialize
 
 	super initialize.
+	self focus: true.
 	self add: self createDeleteButton.
 	self buttonGroups at: #ReorderButtonGroup put: (PHButtonGroup new vertical: true; name: 'reorderButtons');
 					     at: #InsertButtonGroup put: (PHButtonGroup new vertical: true; name: 'insertButtons').
