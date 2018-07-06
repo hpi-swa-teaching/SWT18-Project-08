@@ -1,12 +1,9 @@
 testing
 testWrappingLayoutChanged
 
-	| addComponent |
-
-	component addComponent: RTEAddComponent.
-	addComponent := component submorphs first.
+	self setUpInsertTests.
 	
-	self click: ((self menuItemOf: addComponent Named: 'insertButtons')  submorphNamed: 'insertComponents'). 
-	self click: ((self menuItemOf: addComponent Named: 'insertButtons') submorphNamed: 'insertComponentUp'). 
+	self click: ((self menuItemOf: firstComponent Named: 'insertButtons') submorphNamed: 'insertComponents');
+		 click: ((self menuItemOf: firstComponent Named: 'insertButtons') submorphNamed: 'insertComponentUp'). 
 	
-	self assert: addComponent owner class = RTEVerticalLayoutComponent
+	self assert: firstComponent owner class = RTEVerticalLayoutComponent

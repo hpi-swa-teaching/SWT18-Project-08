@@ -1,4 +1,4 @@
-helper
+setup
 tearDown
 
 	super tearDown.

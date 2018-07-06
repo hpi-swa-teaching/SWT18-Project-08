@@ -1,6 +1,6 @@
 testing
 testExportMarkdownToClipboardButton
 
-	self click: (self menuItemOf: component Named: 'exportMarkdownToClipboard').
+	self click: (self menuItemNamed: 'exportMarkdownToClipboard').
 	
-	self assert: (Clipboard clipboardText) equals: (component exportMarkdown)
+	self assert: Clipboard clipboardText = component exportMarkdown

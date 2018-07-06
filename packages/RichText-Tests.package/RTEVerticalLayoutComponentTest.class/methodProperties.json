@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "AJ 6/12/2018 20:28",
-		"testReorderWidgetCorrectly" : "AJ 6/19/2018 20:40",
-		"testSupmorphAddedByClickOnUpOrDown" : "AJ 6/19/2018 20:41",
-		"testSupmorphDeletedFromVerticalLayoutByClickOnTrash" : "AJ 6/19/2018 20:41",
-		"testWrappingLayoutChanged" : "AJ 6/19/2018 20:42" } }
+		"testDeleteComponentFromHorizontalLayout" : "MB 7/6/2018 11:15",
+		"testInsertComponentDown" : "MB 7/6/2018 11:08",
+		"testInsertComponentUp" : "MB 7/6/2018 11:06",
+		"testReorderComponentDown" : "MB 7/5/2018 16:48",
+		"testReorderComponentUp" : "MB 7/5/2018 16:48",
+		"testWrappingLayoutChanged" : "MB 7/6/2018 11:17" } }

@@ -1,18 +1,15 @@
 testing
 testH1LargerH2LargerH3
 
-	| h1size h2size h3size |
-	self click: (self menuItemNamed:  'h1').
-	h1size := self currentFontSize.
+	| currentFontSizes |
 	
-	self click: (self menuItemNamed: 'h2').
-	h2size := self currentFontSize.
+	currentFontSizes := Array new: 3.
+	1 to: 3 do: [:i|
+		self click: (self menuItemNamed: 'h', i).
+		currentFontSizes at: i put: self currentFontSize].
 	
-	self click: (self menuItemNamed: 'h3').
-	h3size := self currentFontSize.
-	
-	self assert: h1size > h2size.
-	self assert: h2size > h3size. 
+	self assert: (currentFontSizes at: 1) > (currentFontSizes at: 2).
+	self assert: (currentFontSizes at: 2) > (currentFontSizes at: 3) 
 	
 	
 	

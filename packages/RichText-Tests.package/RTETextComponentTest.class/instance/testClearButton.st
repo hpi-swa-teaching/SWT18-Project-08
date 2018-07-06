@@ -9,7 +9,7 @@ testClearButton
 				
 	self mouseRelease: self textArea buttons: #(left);
 		click: (self popoverButton: 'clearStyles');
-		assert: (self textArea text asText) runs values first isEmpty equals: true
+		assert: (self textArea text asText) runs values first isEmpty = true
 	
 		
 	

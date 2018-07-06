@@ -1,6 +1,6 @@
 testing
 testDisplayOnlyOneImage
 
-	0 to: 10 do: [:i|
-		component applyImageFrom: (Form makeStar).
-		self assert: (component submorphs size) equals: 2.] "menu + image"
+	10 timesRepeat:  
+		[component applyImageFrom: Form makeStar.
+		 self assert: component submorphs size = 2] "menu + image"

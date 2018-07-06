@@ -1,4 +1,4 @@
-accessing
+testing
 testDeleteComponent
 
 	self assert: component isInWorld.
