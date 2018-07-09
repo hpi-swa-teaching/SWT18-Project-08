@@ -1,3 +1,3 @@
 accessing
 focus
-	^ focus
+	^ focus ifNil: [focus := false]
