@@ -15,4 +15,5 @@ componentChosen: componentClass
 	self coreObject menu 
 				openInWorld;
 				hide.
+	self menu hide.
 	^ self coreObject

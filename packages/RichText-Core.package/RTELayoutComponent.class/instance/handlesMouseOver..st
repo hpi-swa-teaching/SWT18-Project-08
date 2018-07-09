@@ -1,4 +1,4 @@
-event handling
+reorganization
 handlesMouseOver: evt
 
-	^ true
+	^ false
