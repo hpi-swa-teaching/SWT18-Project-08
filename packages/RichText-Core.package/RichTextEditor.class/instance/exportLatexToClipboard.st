@@ -1,4 +1,4 @@
 api
 exportLatexToClipboard
 
-	Clipboard clipboardText: (self exportLatex)
+	Clipboard clipboardText: self exportLatex
