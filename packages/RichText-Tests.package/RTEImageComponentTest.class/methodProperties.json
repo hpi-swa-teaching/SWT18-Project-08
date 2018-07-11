@@ -9,7 +9,7 @@
 		"testDisplayOnlyOneImage" : "MB 7/5/2018 15:29",
 		"testExportMarkdown" : "MB 7/5/2018 15:30",
 		"testImageDisplayedWithMinSize" : "MB 7/5/2018 15:35",
-		"testMenuAlwaysVisibleWhenNoFileChosen" : "MB 7/5/2018 15:59",
+		"testMenuAlwaysVisibleWhenNoFileChosen" : "MB 7/11/2018 20:02",
 		"testMenuReactsToFocusChangeWhenFileChosen" : "MB 7/5/2018 15:56",
 		"testNoReactionWhenFilePickerClosed" : "MB 7/5/2018 15:41",
 		"testOpenFilePickerOnClick" : "MB 7/5/2018 15:45" } }

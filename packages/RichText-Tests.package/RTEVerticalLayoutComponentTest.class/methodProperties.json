@@ -4,8 +4,8 @@
 	"instance" : {
 		"setUp" : "AJ 6/12/2018 20:28",
 		"testDeleteComponentFromHorizontalLayout" : "MB 7/6/2018 11:15",
-		"testInsertComponentDown" : "MB 7/6/2018 11:08",
-		"testInsertComponentUp" : "MB 7/6/2018 11:06",
-		"testReorderComponentDown" : "MB 7/5/2018 16:48",
-		"testReorderComponentUp" : "MB 7/5/2018 16:48",
-		"testWrappingLayoutChanged" : "MB 7/6/2018 11:17" } }
+		"testInsertComponentDown" : "MB 7/11/2018 20:12",
+		"testInsertComponentUp" : "MB 7/11/2018 20:12",
+		"testReorderComponentDown" : "MB 7/11/2018 19:58",
+		"testReorderComponentUp" : "MB 7/11/2018 19:59",
+		"testWrappingLayoutChanged" : "MB 7/11/2018 20:00" } }
