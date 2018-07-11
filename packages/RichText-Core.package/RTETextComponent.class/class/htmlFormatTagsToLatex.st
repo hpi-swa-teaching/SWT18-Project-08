@@ -1,5 +1,5 @@
 converting
-htmlTagsToLatex
+htmlFormatTagsToLatex
 
 	^ OrderedDictionary newFrom:
 	{ 
