@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"firstAddedComponent" : "MB 7/5/2018 16:35",
+		"firstAddedComponent:" : "MB 7/5/2018 16:35",
+		"firstComponent" : "MB 7/5/2018 16:33",
+		"firstComponent:" : "MB 7/5/2018 16:33",
+		"secondComponent" : "MB 7/5/2018 16:33",
+		"secondComponent:" : "MB 7/5/2018 16:33",
+		"setUpInsertTests" : "MB 7/6/2018 11:14",
+		"setUpReorderTests" : "MB 7/5/2018 16:35" } }

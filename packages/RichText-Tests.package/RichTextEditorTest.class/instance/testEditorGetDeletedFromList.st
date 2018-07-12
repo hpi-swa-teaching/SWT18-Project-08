@@ -2,6 +2,6 @@ testing
 testEditorGetDeletedFromList
 
 	component save.
-	self assert: (RichTextEditor documents anySatisfy: [:editor | editor == component]).
+	self assert: component isSaved.
 	component deleteDocumentWithoutPrompt.
-	self assert: (RichTextEditor documents anySatisfy: [:editor | editor == component]) not
+	self deny: component isSaved 

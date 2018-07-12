@@ -1,15 +1,9 @@
 testing
 testAlignmentApplied
 
-	self 
-		click: (self menuItemNamed: 'align_left');
-		assert: component coreObject alignment equals: #left;
+	| lcr |
+	lcr := #(left center right).
 	
-		click: (self menuItemNamed: 'align_center');
-		assert: component coreObject alignment equals: #center;
-	
-		click: (self menuItemNamed: 'align_right');
-		assert: component coreObject alignment equals: #right";
-	
-		click: (self menuButtonByName: 'align_justify');
-		assert: component coreObject alignment equals: #justify"
+	lcr do: [:a|
+		self click: (self menuItemNamed: ('align_', a));
+		assert: component coreObject alignment = a asSymbol]

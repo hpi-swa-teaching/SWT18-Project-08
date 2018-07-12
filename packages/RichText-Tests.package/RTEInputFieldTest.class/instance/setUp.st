@@ -1,4 +1,4 @@
-helper
+setup
 setUp
 
 	super setUp.
