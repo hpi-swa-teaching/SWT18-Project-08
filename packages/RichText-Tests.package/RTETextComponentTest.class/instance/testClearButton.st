@@ -3,7 +3,7 @@ testClearButton
 	
 	self textArea text: 'test';
 				  selectAll;
-				  toggleAttributeForSelection: (TextColor new color: (RTETextArea colors at: 'green'));
+				  toggleAttributeForSelection: (TextColor new color: Color green);
 				  toggleAttributeForSelection: (TextEmphasis new emphasisCode: ((RTETextArea styles at: 'bold') second));
 				  selectAll.
 				
