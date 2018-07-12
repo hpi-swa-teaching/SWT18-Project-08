@@ -6,10 +6,10 @@
 		"image" : "AJ 5/24/2018 18:22",
 		"setUp" : "AJ 5/29/2018 18:44",
 		"testApplySelectedImage" : "AJ 5/29/2018 19:10",
-		"testDisplayOnlyOneImage" : "KB 7/9/2018 16:39",
+		"testDisplayOnlyOneImage" : "TH 7/12/2018 13:25",
 		"testExportMarkdown" : "AJ 6/7/2018 15:34",
 		"testImageDisplayedWithMinSize" : "KB 6/28/2018 15:47",
-		"testMenuAlwaysVisibleWhenNoFileChosen" : "TH 7/12/2018 09:58",
-		"testMenuReactsToFocusChangeWhenFileChosen" : "TH 7/12/2018 09:17",
+		"testMenuAlwaysVisibleWhenNoFileChosen" : "TH 7/12/2018 13:23",
+		"testMenuReactsToFocusChangeWhenFileChosen" : "TH 7/12/2018 13:28",
 		"testNoReactionWhenFilePickerClosed" : "AJ 6/19/2018 20:35",
 		"testOpenFilePickerOnClick" : "AJ 6/19/2018 20:35" } }

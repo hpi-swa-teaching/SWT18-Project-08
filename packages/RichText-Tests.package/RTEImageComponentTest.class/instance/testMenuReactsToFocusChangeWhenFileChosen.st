@@ -4,8 +4,8 @@ testMenuReactsToFocusChangeWhenFileChosen
 	component filename: 'demofile.jpg'.
 	
 	component menu hide.
-	component mouseEnter: nil.
+	self mouseEnter: component.
 	self assert: component menu visible.
 	
-	component mouseLeave: nil.
+	self mouseLeave: component.
 	self assert: component menu visible not

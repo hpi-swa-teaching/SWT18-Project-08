@@ -4,7 +4,7 @@ testMenuAlwaysVisibleWhenNoFileChosen
 	component filename: nil.
 	"component menu show."
 	
-	component menu mouseEnter: nil.
+	self mouseEnter: component.
 	self assert: component menu visible.
-	component menu mouseLeave: nil.
+	self mouseLeave: component.
 	self assert: component menu visible
