@@ -9,4 +9,4 @@ testTextColors
 	self textArea colorpicker colorSelected: Color green.
 	self click: (self popoverButton: 'ColorButton').
 
-	self assert: (self textArea text asTextMorph selectionColor) equals: Color green.
+	self assert: (self textArea text asTextMorph selectionColor) = Color green.

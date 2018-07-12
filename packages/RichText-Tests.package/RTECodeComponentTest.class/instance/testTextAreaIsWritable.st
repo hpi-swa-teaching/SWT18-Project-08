@@ -1,4 +1,0 @@
-testing
-testTextAreaIsWritable
-
-	super testTextAreaIsWritable

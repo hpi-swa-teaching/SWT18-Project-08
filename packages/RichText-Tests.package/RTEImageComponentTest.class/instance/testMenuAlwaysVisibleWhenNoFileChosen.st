@@ -1,10 +1,12 @@
 testing
 testMenuAlwaysVisibleWhenNoFileChosen
 
+	self flag: #refactor.
 	component filename: nil.
 	component menu show.
-	self
+	self 
 		mouseEnter: component;
 		assert: component menu visible;
 		mouseLeave: component;
 		assert: component menu visible
+	

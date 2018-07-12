@@ -4,5 +4,4 @@
 	"instance" : {
 		"setUp" : "AJ 6/19/2018 21:02",
 		"testBackgroundColorApplied" : "AJ 6/19/2018 21:27",
-		"testExportMarkdown" : "AJ 6/7/2018 17:11",
-		"testTextAreaIsWritable" : "AJ 6/19/2018 21:04" } }
+		"testExportMarkdown" : "AJ 6/7/2018 17:11" } }
