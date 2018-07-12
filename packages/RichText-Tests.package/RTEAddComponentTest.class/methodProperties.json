@@ -6,6 +6,7 @@
 		"testCorrectComponentChosen" : "AJ 6/19/2018 20:43",
 		"testDeleteButtonOfCoreObject" : "MB 7/5/2018 15:10",
 		"testDisplayOnlyOneComponent" : "MB 7/5/2018 15:17",
+		"testExportLatex" : "AJ 7/6/2018 09:15",
 		"testExportMarkdownWithComponent" : "MB 7/5/2018 15:18",
 		"testExportMarkdownWithoutComponent" : "MB 7/5/2018 15:18",
 		"testMenuVisibleAtMouseEnter" : "MB 7/5/2018 15:23",

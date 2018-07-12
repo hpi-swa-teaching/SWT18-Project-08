@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activateAttributesEnding:starting:" : "AJ 7/12/2018 09:22",
+		"cr" : "AJ 7/12/2018 09:30",
+		"deactivateAttributesEnding:starting:" : "AJ 7/12/2018 09:22",
+		"nextPut:" : "AJ 7/12/2018 09:27",
+		"nextPutAll:" : "AJ 7/12/2018 09:27",
+		"nextPutText:" : "AJ 7/12/2018 09:33",
+		"writeContent:" : "AJ 7/12/2018 09:31",
+		"writeEndTagFor:" : "AJ 7/12/2018 09:48",
+		"writeStartTagFor:" : "AJ 7/12/2018 09:49" } }
