@@ -1,4 +1,4 @@
 accessing
-hasPicture
+hasImage
 
 	^ self filename notNil

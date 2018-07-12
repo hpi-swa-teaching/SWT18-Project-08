@@ -5,5 +5,5 @@ applyImageFrom: aForm
 	self coreObject
 		form: aForm;
 		minSize: self defaultMinSize;
-		changed.
-	self mouseLeave: nil "somehow the menu appears only with this line"
+		changed
+	

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"configure" : "TH 7/12/2018 00:42",
 		"createAlignmentButton:" : "MB 6/27/2018 12:53",
 		"initialize" : "KB 7/9/2018 15:12",
 		"initializeAlignmentButtons" : "MB 6/27/2018 12:54",
