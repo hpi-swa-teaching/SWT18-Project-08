@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 writeContent: aString
 
 	aString do: [:char |

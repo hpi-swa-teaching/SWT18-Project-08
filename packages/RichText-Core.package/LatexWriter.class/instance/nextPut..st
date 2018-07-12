@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 nextPut: aCharacter
 
 	^ stream nextPut: aCharacter

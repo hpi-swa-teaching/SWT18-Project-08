@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 writeStartTagFor: aTextAttribute
 
 	[aTextAttribute openLatexOn: self]
