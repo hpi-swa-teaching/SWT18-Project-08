@@ -6,5 +6,4 @@ createClearStylesButton
 		when: #clicked 
 			send: #clearStyles
 			to: self textArea;
-		addTooltip: 'clears all styles';
-		addApplicationStyles: (PHStyle forAny fontSize: 'small'))
+		addTooltip: 'clears all styles')
