@@ -1,0 +1,3 @@
+accessing
+firstComponent
+	^ firstComponent

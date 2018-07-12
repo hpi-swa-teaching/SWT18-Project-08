@@ -1,14 +1,11 @@
 testing
 testExportMarkdown
 
-	component coreObject text: 'Headline1'.
-	component setLevel: #h1.
-	self assert: component exportMarkdown equals: '# Headline1'.
+	| hashes |
 	
-	component coreObject text: 'Headline2'.
-	component setLevel: #h2.
-	self assert: component exportMarkdown equals: '## Headline2'.
+	hashes := #('#' '##' '###').
 	
-	component coreObject text: 'Headline3'.
-	component setLevel: #h3.
-	self assert: component exportMarkdown equals: '### Headline3'
+	1 to: 3 do: [:i|
+		component coreObject text: 'Headline',i.
+		component setLevel: (('h', i) asSymbol).
+		self assert: component exportMarkdown equals: ((hashes at: i),' ','Headline',i)].

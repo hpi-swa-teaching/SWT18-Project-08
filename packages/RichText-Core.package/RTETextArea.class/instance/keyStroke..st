@@ -8,8 +8,5 @@ keyStroke: anEvent
 
 	(self owner handleKeystroke: anEvent)
 		ifTrue: [self owner keyStroke: anEvent].
-	
-	self hasSelection 
-		ifTrue: [self openPopover: anEvent]
-		ifFalse:[self popover delete]
-	
+		
+	self updatePopover: anEvent

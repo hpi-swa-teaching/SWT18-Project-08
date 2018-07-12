@@ -2,6 +2,6 @@ testing
 testAllowedCharacterRegex
 
 	component allowedCharacterRegex: '[0-9]'.
-	self
+	self 
 		typeAllCharacters;
-		assert: component text equals: '0123456789'
+		assert: component text = '0123456789'
