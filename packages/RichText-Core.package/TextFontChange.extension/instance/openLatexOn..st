@@ -1,0 +1,7 @@
+*RichText-Core
+openLatexOn: aWriteStream 
+	"put on the given stream the tag to open the html  
+	representation of the receiver"
+	| font |
+	font := TextStyle default fontAt: fontNumber.
+	font openLatexOn: aWriteStream

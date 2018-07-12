@@ -1,14 +1,13 @@
 {
 	"class" : {
-		"htmlFormatTagsToLatex" : "AJ 7/11/2018 21:17" },
+		 },
 	"instance" : {
 		"applyAlignment:" : "AJ 6/21/2018 16:38",
 		"changeFontSize:" : "AJ 6/12/2018 11:59",
 		"createMenu" : "AJ 6/22/2018 21:59",
-		"exportLatexOn:" : "AJ 7/11/2018 21:17",
+		"exportLatexOn:" : "AJ 7/12/2018 10:26",
 		"exportMarkdownOn:" : "AJ 6/21/2018 15:57",
 		"handleKeystroke:" : "MB 6/25/2018 12:06",
-		"htmlColorTagsToLatex:" : "AJ 7/11/2018 21:50",
 		"initialize" : "AJ 6/21/2018 15:09",
 		"initializeTextArea" : "MB 6/25/2018 12:13",
 		"keyStroke:" : "MB 6/25/2018 23:50" } }

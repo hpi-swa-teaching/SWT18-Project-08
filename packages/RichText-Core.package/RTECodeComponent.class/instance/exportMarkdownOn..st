@@ -4,6 +4,6 @@ exportMarkdownOn: aStream
 	aStream
 		nextPutAll: '```';
 		cr;
-		nextPutAll: self coreObject text;
+		nextPutAll: self coreObject text asString;
 		cr;
 		nextPutAll: '```'

@@ -1,4 +1,4 @@
-accessing
+api
 exportLatexOn: aStream
 
 	aStream 
