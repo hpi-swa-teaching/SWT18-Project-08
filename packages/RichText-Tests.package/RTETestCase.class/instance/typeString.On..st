@@ -1,4 +1,4 @@
-accessing
+setup
 typeString: aString On: aComponent
 
 	aString do: [:key |

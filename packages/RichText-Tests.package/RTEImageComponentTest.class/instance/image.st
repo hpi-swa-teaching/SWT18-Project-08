@@ -1,4 +1,4 @@
-helper
+accessing
 image
 
 	^ self coreObject

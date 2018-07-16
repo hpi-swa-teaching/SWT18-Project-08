@@ -3,4 +3,4 @@ applyStyle: aStyle
 
 	(self toggleAttributeForSelection: (TextEmphasis new emphasisCode: aStyle);
 		 clearSelection;
-		 popover) delete.
+		 popover) delete

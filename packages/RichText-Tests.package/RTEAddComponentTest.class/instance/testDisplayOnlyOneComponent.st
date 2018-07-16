@@ -1,7 +1,6 @@
 testing
 testDisplayOnlyOneComponent
 
-	0 to: 3 do: [:i|
-		component componentChosen: RTEHeaderComponent.
-		self assert: (component submorphs size) equals: 2.] 
-	
+	10 timesRepeat: 
+		[component componentChosen: RTEImageComponent.
+		 self assert: component submorphs size = 2]  "menu + RTEImageComponent"	

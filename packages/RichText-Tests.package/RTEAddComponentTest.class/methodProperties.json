@@ -4,7 +4,10 @@
 	"instance" : {
 		"setUp" : "AJ 5/29/2018 18:43",
 		"testCorrectComponentChosen" : "AJ 6/19/2018 20:43",
-		"testDeleteButtonOfCoreObject" : "AJ 6/21/2018 21:02",
-		"testDisplayOnlyOneComponent" : "KB 7/9/2018 16:52",
-		"testExportMarkdown" : "AJ 6/16/2018 14:35",
-		"testMenuAlwaysVisible" : "AJ 6/15/2018 13:38" } }
+		"testDeleteButtonOfCoreObject" : "MB 7/5/2018 15:10",
+		"testDisplayOnlyOneComponent" : "MB 7/5/2018 15:17",
+		"testExportLatex" : "AJ 7/6/2018 09:15",
+		"testExportMarkdownWithComponent" : "MB 7/5/2018 15:18",
+		"testExportMarkdownWithoutComponent" : "MB 7/5/2018 15:18",
+		"testMenuVisibleAtMouseEnter" : "MB 7/5/2018 15:23",
+		"testMenuVisibleAtMouseLeave" : "MB 7/5/2018 15:23" } }
