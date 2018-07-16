@@ -1,6 +1,6 @@
 helper
 tearDown 
 
-	super tearDown.
 	component save.
-	component deleteDocumentWithoutPrompt
+	component deleteDocumentWithoutPrompt.
+	super tearDown
