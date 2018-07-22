@@ -2,16 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AJ 6/24/2018 22:42",
+		"setUp" : "AJ 7/22/2018 22:00",
 		"tearDown" : "AJ 7/16/2018 23:20",
 		"testAskForSaveOnClose" : "AJ 7/16/2018 23:53",
-		"testCoreObjectIsVertical" : "MB 7/6/2018 20:48",
+		"testCoreObjectIsVertical" : "AJ 7/22/2018 21:55",
 		"testEditorGetDeletedFromList" : "AJ 7/16/2018 23:11",
 		"testEditorGetDeletedFromListWithoutPrompt" : "AJ 7/16/2018 23:11",
-		"testEditorGetSavedByButton" : "AJ 7/16/2018 23:22",
-		"testExportLatexToClipboard" : "AJ 7/16/2018 23:11",
-		"testExportLatexToClipboardButton" : "AJ 7/16/2018 23:11",
-		"testExportMarkdownToClipboard" : "AJ 7/16/2018 23:10",
-		"testExportMarkdownToClipboardButton" : "MB 7/6/2018 20:43",
+		"testEditorGetSavedByButton" : "AJ 7/22/2018 22:19",
+		"testExportLatexToClipboard" : "AJ 7/22/2018 22:17",
+		"testExportMarkdownToClipboard" : "AJ 7/22/2018 22:17",
+		"testLatexExportGetsPropaginated" : "AJ 7/22/2018 21:02",
 		"testMarkdownExportGetsPropaginated" : "MB 7/6/2018 20:45",
 		"testWindowTitleChanges" : "MB 7/6/2018 20:46" } }

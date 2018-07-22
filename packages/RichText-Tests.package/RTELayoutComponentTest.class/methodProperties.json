@@ -2,12 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"firstAddedComponent" : "MB 7/5/2018 16:35",
-		"firstAddedComponent:" : "MB 7/5/2018 16:35",
-		"firstComponent" : "MB 7/5/2018 16:33",
-		"firstComponent:" : "MB 7/5/2018 16:33",
-		"secondComponent" : "MB 7/5/2018 16:33",
-		"secondComponent:" : "MB 7/5/2018 16:33",
+		"addTextComponentWith:" : "AJ 7/22/2018 21:21",
+		"compareExportOrderFrom:" : "AJ 7/22/2018 21:46",
+		"setUpExportTests" : "AJ 7/22/2018 21:20",
 		"setUpInsertTests" : "MB 7/6/2018 11:14",
-		"setUpReorderTests" : "MB 7/5/2018 16:35",
-		"testExportLatex" : "AJ 7/6/2018 09:18" } }
+		"setUpReorderTests" : "MB 7/5/2018 16:35" } }

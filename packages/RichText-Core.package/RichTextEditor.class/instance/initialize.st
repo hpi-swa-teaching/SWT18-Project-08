@@ -10,7 +10,8 @@ initialize
 		title: '<unnamed document>';
 		menu: (RichTextEditorMenu newWith: self);
 		coreObject: (RTEVerticalLayoutComponent new 
-						addComponent: RTEAddComponent);
+						addComponent: RTEAddComponent;
+						yourself);
 		content: ((PHWidget new)
 			withLayout;
 			vertical: true;

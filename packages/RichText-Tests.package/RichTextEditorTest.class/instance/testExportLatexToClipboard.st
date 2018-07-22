@@ -1,6 +1,9 @@
 testing
 testExportLatexToClipboard
 
-	component exportLatexToClipboard.
+	self flag: #fix.
+	"same problem as in testEditorGetSavedByButton"
 
-	self assert: (Clipboard clipboardText) equals: (component exportLatex)
+	self click: (self menuItemNamed: 'exportLatexToClipboard').
+
+	self assert: Clipboard clipboardText = component exportLatex
