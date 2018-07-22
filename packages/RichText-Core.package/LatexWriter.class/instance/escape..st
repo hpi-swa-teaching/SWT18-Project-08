@@ -1,9 +1,6 @@
 helper
-escape: aText
+escape: aChar
 
-	| temp |
-	
-	temp := aText.
-	self class latexEntities do: [:char |
-			temp := temp copyReplaceAll: char with: '\',char].
-	^ temp
+	(self class latexEntities includes: aChar asString)
+		ifTrue: [^ '\',aChar]
+		ifFalse: [^ aChar].

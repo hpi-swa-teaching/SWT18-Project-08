@@ -6,8 +6,8 @@
 		"testDeleteComponentFromHorizontalLayout" : "MB 7/6/2018 11:15",
 		"testExportLatex" : "AJ 7/22/2018 21:47",
 		"testExportMarkdown" : "AJ 7/22/2018 21:47",
-		"testInsertComponentDown" : "MB 7/11/2018 20:12",
-		"testInsertComponentUp" : "MB 7/11/2018 20:12",
+		"testInsertComponentDown" : "AJ 7/22/2018 23:20",
+		"testInsertComponentUp" : "AJ 7/22/2018 23:21",
 		"testReorderComponentDown" : "MB 7/11/2018 19:58",
 		"testReorderComponentUp" : "MB 7/11/2018 19:59",
 		"testWrappingLayoutChanged" : "MB 7/11/2018 20:00" } }
