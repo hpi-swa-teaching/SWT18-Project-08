@@ -8,9 +8,9 @@
 		"testCoreObjectIsVertical" : "AJ 7/22/2018 21:55",
 		"testEditorGetDeletedFromList" : "AJ 7/16/2018 23:11",
 		"testEditorGetDeletedFromListWithoutPrompt" : "AJ 7/16/2018 23:11",
-		"testEditorGetSavedByButton" : "AJ 7/22/2018 22:19",
-		"testExportLatexToClipboard" : "AJ 7/22/2018 22:17",
-		"testExportMarkdownToClipboard" : "AJ 7/22/2018 22:17",
+		"testEditorGetSavedByButton" : "AJ 7/22/2018 22:23",
+		"testExportLatexToClipboard" : "AJ 7/22/2018 22:23",
+		"testExportMarkdownToClipboard" : "AJ 7/22/2018 22:23",
 		"testLatexExportGetsPropaginated" : "AJ 7/22/2018 21:02",
 		"testMarkdownExportGetsPropaginated" : "MB 7/6/2018 20:45",
 		"testWindowTitleChanges" : "MB 7/6/2018 20:46" } }
