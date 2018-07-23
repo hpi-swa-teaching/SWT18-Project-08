@@ -10,5 +10,6 @@
 		"exportMarkdownOn:" : "AJ 6/21/2018 16:09",
 		"handlesMouseOver:" : "AJ 6/15/2018 12:38",
 		"initializeMenu" : "KB 7/9/2018 14:23",
-		"insertComponent:at:" : "AJ 6/21/2018 14:50",
-		"reorder:inDirection:" : "AJ 6/8/2018 14:08" } }
+		"insertInDirection:" : "TH 7/23/2018 14:53",
+		"needsMenu" : "TH 7/23/2018 14:17",
+		"reorderInDirection:" : "TH 7/23/2018 14:46" } }

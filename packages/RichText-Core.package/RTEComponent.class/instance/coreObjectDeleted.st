@@ -1,4 +1,4 @@
 initialization
-createMenu
+coreObjectDeleted 
 
 	self subclassResponsibility

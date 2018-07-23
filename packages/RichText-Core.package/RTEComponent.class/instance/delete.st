@@ -1,12 +1,9 @@
 initialization
 delete
 
-	self coreObject ifNotNilDo: [:coreObject | coreObject delete].
-	self menu ifNotNilDo: [:menu | menu delete].
-	
-	self flag: #refactor.
-	"ask someone who is a pro"
-	((self owner notNil) and: ((self owner isKindOf: PasteUpMorph) not))
-		ifTrue: 
-			[self owner coreObjectDeleted].
+	self coreObject ifNotNil: [coreObject delete].
+	self menu ifNotNil: [menu delete].
+	self owner ifNotNil: [
+		(self owner isKindOf: PasteUpMorph)
+			ifFalse: [self owner coreObjectDeleted]].
 	super delete

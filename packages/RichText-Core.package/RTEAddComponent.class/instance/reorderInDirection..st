@@ -1,4 +1,4 @@
 reorganization
-reorder: aComponent inDirection: aDirection
+reorderInDirection: aDirection
 
 	self owner reorder: self inDirection: aDirection

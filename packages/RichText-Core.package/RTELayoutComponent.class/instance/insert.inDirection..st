@@ -1,5 +1,5 @@
 api
-insertComponent: aDirection at: aComponent
+insert: aComponent inDirection: aDirection
 
 	| wrapper |
 
