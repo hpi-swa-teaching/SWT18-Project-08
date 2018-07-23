@@ -4,6 +4,7 @@
 	"instance" : {
 		"allowedCharacterRegex" : "AJ 6/11/2018 23:08",
 		"allowedCharacterRegex:" : "AJ 6/11/2018 23:09",
-		"keyStroke:" : "AJ 6/21/2018 16:57",
+		"exceedsMaxInputLength" : "TH 7/23/2018 16:41",
+		"keyStroke:" : "TH 7/23/2018 16:43",
 		"maxInputLength" : "AJ 6/11/2018 22:59",
 		"maxInputLength:" : "AJ 6/11/2018 22:59" } }
