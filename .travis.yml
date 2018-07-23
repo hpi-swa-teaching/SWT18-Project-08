@@ -5,8 +5,10 @@ os:
   - osx
 
 smalltalk:
-  - Squeak-trunk
-  
+
+  - Squeak6.0alpha
+
+
 email:
     recipients:
       - swt-team8-travis@lists.myhpi.de #signup: https://lists.myhpi.de/vxHxL7HvPhpb3c6FvPcH0p1t41qTm6O
