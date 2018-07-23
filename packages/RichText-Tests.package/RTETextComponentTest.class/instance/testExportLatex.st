@@ -2,8 +2,10 @@ testing
 testExportLatex
 
 	"Basic Text"
-	component coreObject text: 'demotext \&%$#_{}~^'.
-	self assert: component exportLatex equals: 'demotext \\\&\%\$\#\_\{\}\~\^'.
+	component coreObject text: 'demotext \&%$#_{}~^
+'.
+	self assert: component exportLatex equals: 'demotext \\\&\%\$\#\_\{\}\~\^ \\
+'.
 	
 	"formatted Text"
 	(#(#(1 'textbf') #(2 'textit') #(16 'sout') #(4 'underline')) as: OrderedCollection) 
