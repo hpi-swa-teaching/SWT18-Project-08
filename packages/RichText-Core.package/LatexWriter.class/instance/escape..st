@@ -2,5 +2,5 @@ helper
 escape: aChar
 
 	(self class latexEntities includes: aChar asString)
-		ifTrue: [^ '\',aChar]
+		ifTrue: [^ '\', aChar]
 		ifFalse: [^ aChar].

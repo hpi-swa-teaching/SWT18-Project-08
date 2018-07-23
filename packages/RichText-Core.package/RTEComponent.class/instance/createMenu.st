@@ -1,4 +1,3 @@
 api
 createMenu
-
 	^ nil
