@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"defaultHighlightColor" : "TH 7/23/2018 16:30" },
 	"instance" : {
 		"exportLatexOn:" : "AJ 7/12/2018 10:27",
 		"exportMarkdownOn:" : "AJ 7/12/2018 10:27",
 		"handleKeystroke:" : "AJ 6/21/2018 16:42",
-		"initialize" : "MB 7/23/2018 10:36",
+		"initialize" : "TH 7/23/2018 16:32",
 		"keyStroke:" : "AJ 7/22/2018 23:16" } }
