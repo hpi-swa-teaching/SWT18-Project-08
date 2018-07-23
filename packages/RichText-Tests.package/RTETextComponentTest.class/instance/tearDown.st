@@ -2,4 +2,4 @@ setup
 tearDown
 
 	super tearDown.
-	self textArea popover ifNotNilDo: [:popover|popover delete]
+	self textArea popover ifNotNilDo: [:popover | popover delete]

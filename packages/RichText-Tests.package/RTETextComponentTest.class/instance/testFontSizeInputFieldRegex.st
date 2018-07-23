@@ -3,10 +3,10 @@ testFontSizeInputFieldRegex
 
 	| fontSizeField input|
 	
-	input := #($5 $6 $2 $1 a b).
+	input := #($1 $2 $3 $4 a b).
 	fontSizeField := self menuItemNamed: 'fontSizeField'.
 	fontSizeField text: ''.
 	
-	input do:[:i|
+	input do:[:i |
 		self keyStroke: fontSizeField key: i asCharacter].
-	self assert: fontSizeField text = '562'
+	self assert: fontSizeField text = '123'

@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clearWorld" : "AJ 7/22/2018 20:53",
 		"coreObject" : "AJ 5/29/2018 18:39",
 		"initialize:" : "AJ 5/29/2018 18:42",
-		"menuItemNamed:" : "AJ 6/19/2018 20:35",
-		"menuItemOf:Named:" : "AJ 6/19/2018 20:33",
+		"menuItemNamed:" : "MB 7/23/2018 10:04",
+		"menuItemOf:named:" : "MB 7/23/2018 10:04",
 		"run:withSelection:on:" : "AJ 7/16/2018 23:11",
 		"tearDown" : "AJ 7/22/2018 19:32",
-		"typeString:On:" : "AJ 6/22/2018 23:37" } }
+		"typeString:on:" : "MB 7/23/2018 10:40" } }

@@ -1,5 +1,5 @@
 testing
 testExportMarkdown
 
-	component coreObject text: 'democode'.
-	self assert: component exportMarkdown equals: ('```',(Character cr),'democode',(Character cr),'```')
+	self coreObject text: 'democode'.
+	self assert: component exportMarkdown = ('```', Character cr, 'democode', Character cr, '```')

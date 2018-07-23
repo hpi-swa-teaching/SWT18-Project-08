@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddDeleteButton" : "AJ 6/21/2018 18:23",
-		"testComponentVarAfterInitialization" : "AJ 6/21/2018 18:18" } }
+		"setUp" : "MB 7/23/2018 09:59",
+		"testHasDeleteButton" : "MB 7/23/2018 11:48" } }

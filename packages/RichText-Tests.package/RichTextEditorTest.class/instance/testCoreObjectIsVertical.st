@@ -1,4 +1,4 @@
 testing
 testCoreObjectIsVertical
 
-	self assert: component coreObject class = RTEVerticalLayoutComponent
+	self assert: self coreObject class = RTEVerticalLayoutComponent

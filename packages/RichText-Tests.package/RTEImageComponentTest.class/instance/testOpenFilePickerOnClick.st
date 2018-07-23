@@ -1,5 +1,6 @@
 testing
 testOpenFilePickerOnClick
 
-	self click: (self menuItemNamed: 'openFilePicker'). 
-	self deny: self findRTEFileChooser isNil
+	self 
+		click: (self menuItemNamed: 'openFilePicker');
+	 	deny: self findRTEFileChooser isNil

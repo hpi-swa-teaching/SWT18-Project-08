@@ -1,5 +1,5 @@
-as yet unclassified
-headerStyle
+styles
+headerStyles
 
 	^ ({
 		#h1 -> (PHStyle forAny fontSize: 'xx-large'; fontWeight: 'bold').

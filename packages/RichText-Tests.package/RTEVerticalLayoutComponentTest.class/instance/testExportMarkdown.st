@@ -2,4 +2,4 @@ testing
 testExportMarkdown
 
 	self setUpExportTests.
-	self compareExportOrderFrom: #exportMarkdown
+	self checkExportOrderFrom: #exportMarkdown

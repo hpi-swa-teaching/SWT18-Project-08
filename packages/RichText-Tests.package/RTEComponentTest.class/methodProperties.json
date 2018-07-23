@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AJ 7/22/2018 19:46",
-		"testDeleteComponent" : "AJ 7/22/2018 19:46",
-		"testMenuHideOnFocusLost" : "AJ 7/22/2018 19:46",
-		"testMenuShowOnFocus" : "AJ 7/22/2018 19:47" } }
+		"setUp" : "MB 7/23/2018 10:49",
+		"testDeleteComponent" : "MB 7/23/2018 10:49",
+		"testMenuReactsToFocusChange" : "MB 7/23/2018 11:24" } }

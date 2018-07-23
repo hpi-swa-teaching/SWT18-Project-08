@@ -1,5 +1,6 @@
 testing
 testExportLatex
 
-	self setUpExportTests.
-	self compareExportOrderFrom: #exportLatex
+	self 
+		setUpExportTests;
+		checkExportOrderFrom: #exportLatex

@@ -1,10 +1,10 @@
-as yet unclassified
-testMenuHideOnFocusLost
+testing
+testMenuReactsToFocusChange
 
-	component menu show.
+	component menu hide.
 	self
 		"need to enter mouse before we can leave"
 		mouseEnter: component;
 		assert: component menu visible;
 		mouseLeave: component;
-		assert: component menu visible not
+		deny: component menu visible

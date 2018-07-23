@@ -1,4 +1,4 @@
-setup
+accessing
 menuItemNamed: aName
 
-	^ self menuItemOf: component Named: aName
+	^ self menuItemOf: component named: aName

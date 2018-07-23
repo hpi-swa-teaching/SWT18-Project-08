@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AJ 7/22/2018 20:53",
-		"testBackgroundColorApplied" : "AJ 6/19/2018 21:27",
-		"testExportLatex" : "AJ 7/6/2018 09:41",
-		"testExportMarkdown" : "AJ 6/7/2018 17:11",
-		"testFontApplied" : "AJ 7/22/2018 23:19" } }
+		"setUp" : "MB 7/23/2018 10:03",
+		"testBackgroundColorApplied" : "MB 7/23/2018 10:36",
+		"testExportLatex" : "MB 7/23/2018 10:37",
+		"testExportMarkdown" : "MB 7/23/2018 10:38",
+		"testFontApplied" : "MB 7/23/2018 10:48" } }

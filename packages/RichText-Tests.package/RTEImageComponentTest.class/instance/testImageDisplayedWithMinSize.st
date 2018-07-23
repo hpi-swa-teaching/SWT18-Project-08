@@ -2,7 +2,7 @@ testing
 testImageDisplayedWithMinSize
 
 	component applyImageFrom: Form makeStar. 
-	self assert: component coreObject minSize notNil.
+	self assert: self coreObject minSize notNil.
 	
 	component extent: 20 @ 20.
-	self assert: component coreObject minSize = component coreObject extent
+	self assert: self coreObject minSize = self coreObject extent

@@ -1,5 +1,5 @@
-setup
-typeString: aString On: aComponent
+testing
+typeString: aString on: aComponent
 
 	aString do: [:key |
 		self keyStroke: aComponent key: (key asCharacter).]

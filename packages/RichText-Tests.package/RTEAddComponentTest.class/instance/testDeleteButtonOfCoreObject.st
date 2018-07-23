@@ -2,8 +2,8 @@ testing
 testDeleteButtonOfCoreObject
 
 	component componentChosen: RTEImageComponent.
-	self click: (self menuItemOf: component coreObject Named: 'deleteComponent').
+	self click: (self menuItemOf: self coreObject named: 'deleteComponent').
 
-	self flag: #refactor. "is and: in asserts really a good idea?"
-
-	self assert: ((component submorphs size = 1) and: (component submorphs first = component menu) and: (component coreObject = nil))
+	self assert: component submorphCount = 1.
+	self assert: component submorphs first = component menu.
+	self assert: self coreObject = nil

@@ -1,5 +1,6 @@
 testing
 testPopoverAppearsAfterMouseRelease
 
-	self selectTextByMouse.
-	self assert: self textArea popover isInWorld
+	self 
+		selectTextByMouse;
+		assert: self textArea popover isInWorld

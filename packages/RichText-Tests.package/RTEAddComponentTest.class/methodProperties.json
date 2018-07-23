@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"setUp" : "AJ 5/29/2018 18:43",
-		"testCorrectComponentChosen" : "AJ 6/19/2018 20:43",
-		"testDeleteButtonOfCoreObject" : "AJ 7/22/2018 19:39",
+		"setUpExportTests" : "MB 7/23/2018 10:19",
+		"testCorrectComponentChosen" : "MB 7/23/2018 10:06",
+		"testDeleteButtonOfCoreObject" : "MB 7/23/2018 10:11",
 		"testDisplayOnlyOneComponent" : "MB 7/5/2018 15:17",
-		"testExportLatexWithComponent" : "AJ 7/22/2018 19:40",
-		"testExportLatexWithoutComponent" : "AJ 7/22/2018 19:39",
-		"testExportMarkdownWithComponent" : "MB 7/5/2018 15:18",
+		"testExportLatexWithComponent" : "MB 7/23/2018 10:20",
+		"testExportLatexWithoutComponent" : "MB 7/23/2018 10:17",
+		"testExportMarkdownWithComponent" : "MB 7/23/2018 10:20",
 		"testExportMarkdownWithoutComponent" : "MB 7/5/2018 15:18",
-		"testMenuVisibleAtMouseEnter" : "MB 7/5/2018 15:23",
-		"testMenuVisibleAtMouseLeave" : "MB 7/5/2018 15:23" } }
+		"testMenuVisibleAtMouseLeave" : "MB 7/23/2018 11:21" } }

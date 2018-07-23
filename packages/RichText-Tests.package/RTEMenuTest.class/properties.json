@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"menu" ],
 	"name" : "RTEMenuTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "RTETestCase",
 	"type" : "normal" }
