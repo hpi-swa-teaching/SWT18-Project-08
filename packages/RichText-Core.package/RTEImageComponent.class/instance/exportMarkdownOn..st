@@ -1,4 +1,4 @@
 api
 exportMarkdownOn: aStream
 
-	aStream nextPutAll: '![](',(self filename),')'
+	aStream nextPutAll: '![](', self filename, ')'
