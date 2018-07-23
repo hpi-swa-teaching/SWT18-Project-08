@@ -1,4 +1,8 @@
 reorganization
 addComponent: aComponentClass behind: anotherComponent
 
-	super addMorph: (aComponentClass newWithLayout: self) behind: anotherComponent
+	| newComponent |
+	
+	newComponent := aComponentClass newWithLayout: self.
+	super addMorph: newComponent behind: anotherComponent.
+	^ newComponent

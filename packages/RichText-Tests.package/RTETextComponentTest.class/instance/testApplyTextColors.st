@@ -1,5 +1,5 @@
 testing
-testTextColors
+testApplyTextColors
 	
 	self textArea text: 'test'.
 	self textArea selectAll.

@@ -1,5 +1,6 @@
 testing
-testTextStyles
+testApplyTextStyles
+
 	|runValues|
 	
 	self textArea text: 'test'.
