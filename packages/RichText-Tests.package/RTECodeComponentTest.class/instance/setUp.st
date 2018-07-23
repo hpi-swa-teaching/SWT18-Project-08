@@ -2,4 +2,5 @@ helper
 setUp
 
 	super setUp.
-	self initialize: RTECodeComponent.
+	self clearWorld.
+	self initialize: RTECodeComponent

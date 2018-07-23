@@ -1,7 +1,7 @@
 testing
-testInputFieldRegex
+testFontSizeInputFieldRegex
 
-	| fontSizeField  input|
+	| fontSizeField input|
 	
 	input := #($5 $6 $2 $1 a b).
 	fontSizeField := self menuItemNamed: 'fontSizeField'.

@@ -15,5 +15,3 @@ testFontSizes
 	input do: [:i|
 		self keyStroke: fontSizeField key: i].
 	self assert: self textArea styleContext fontSize = 12
-		
-	

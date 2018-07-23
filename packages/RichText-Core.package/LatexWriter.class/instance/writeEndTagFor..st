@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 writeEndTagFor: aTextAttribute
 
 	[aTextAttribute closeLatexOn: self]

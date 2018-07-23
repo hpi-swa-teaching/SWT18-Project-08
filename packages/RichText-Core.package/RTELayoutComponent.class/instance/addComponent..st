@@ -1,4 +1,8 @@
 reorganization
 addComponent: aComponentClass
 
-	super add: (aComponentClass newWithLayout: self)
+	| newComponent |
+	
+	newComponent := aComponentClass newWithLayout: self.
+	super add: newComponent.
+	^ newComponent

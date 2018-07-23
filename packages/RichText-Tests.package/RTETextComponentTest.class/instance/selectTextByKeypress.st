@@ -2,7 +2,8 @@ setup
 selectTextByKeypress
 
 	self textArea text: 'some not so long text'.
+	self textArea cursor: 0.
+	self textArea clearSelection.
 	4 timesRepeat: 
-		[self keyStroke: self textArea key: (Character value: 28) modifiers: #(shift)].
-	self flag: #assertFailsOnTravis".
-	self assert: (self textArea selectedText) equals: 'text'."
+		[self keyStroke: self textArea key: (Character arrowRight) modifiers: #(shift)].
+	self assert: (self textArea selectedText) equals: 'some'.
