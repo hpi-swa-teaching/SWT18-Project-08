@@ -3,11 +3,11 @@
 		"displayOffset" : "TH 7/9/2018 13:25" },
 	"instance" : {
 		"buttonGroups" : "MB 6/27/2018 11:41",
-		"buttonGroups:" : "MB 6/27/2018 11:38",
+		"buttonGroups:" : "TH 7/23/2018 16:51",
 		"closeAllButtonDropdowns" : "TH 7/9/2018 13:19",
-		"hideCategory:" : "AJ 6/21/2018 17:57",
+		"hideCategory:" : "TH 7/23/2018 16:50",
 		"highlightButtonNamed:" : "AJ 6/27/2018 19:19",
-		"initialize" : "KB 7/6/2018 16:29",
+		"initialize" : "TH 7/23/2018 16:53",
 		"showCategory:" : "AJ 6/21/2018 17:57",
-		"toggleCategory:" : "TH 7/9/2018 13:41",
+		"toggleCategory:" : "TH 7/23/2018 16:54",
 		"unhighlightButtonNamed:" : "AJ 6/27/2018 19:14" } }

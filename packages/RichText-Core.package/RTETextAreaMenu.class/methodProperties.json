@@ -2,9 +2,9 @@
 	"class" : {
 		"newWith:" : "AJ 6/21/2018 17:20" },
 	"instance" : {
-		"addStyleButtons" : "MB 6/27/2018 12:41",
-		"createClearStylesButton" : "MB 6/27/2018 12:41",
-		"createColorPickerButton" : "MB 7/4/2018 11:44",
-		"initialize" : "MB 7/5/2018 14:50",
+		"addStyleButtons" : "TH 7/23/2018 17:34",
+		"createClearStylesButton" : "TH 7/23/2018 17:35",
+		"createColorPickerButton" : "TH 7/23/2018 17:35",
+		"initialize" : "TH 7/23/2018 17:35",
 		"textArea" : "AJ 6/21/2018 17:21",
 		"textArea:" : "AJ 6/21/2018 17:21" } }

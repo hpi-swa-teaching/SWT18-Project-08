@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"configure" : "TH 7/12/2018 00:42",
-		"createAlignmentButton:" : "MB 6/27/2018 12:53",
-		"initialize" : "KB 7/9/2018 15:12",
-		"initializeAlignmentButtons" : "MB 6/27/2018 12:54",
-		"initializeFontSizeField" : "AJ 6/22/2018 22:00" } }
+		"createAlignmentButton:" : "TH 7/23/2018 17:22",
+		"initialize" : "TH 7/23/2018 17:22",
+		"initializeAlignmentButtons" : "TH 7/23/2018 17:23",
+		"initializeFontSizeField" : "TH 7/23/2018 17:23" } }

@@ -2,7 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self flag: #refactor.
-	"why do wee need to use at: aNumber? Looks ugly. Think about a more pretty solution"
-	1 to: 3 do: [:index|
-		self add: (self createHeaderButtonForLevel: index) at: (1 + index)]
+	1 to: 3 do: [:index |
+		self addMorph: (self createHeaderButtonForLevel: index) asElementNumber: (1 + index)] "insert between delete and order/insert buttons"

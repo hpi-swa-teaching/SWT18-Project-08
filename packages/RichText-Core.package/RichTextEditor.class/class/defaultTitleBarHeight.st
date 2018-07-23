@@ -1,0 +1,4 @@
+initialize
+defaultTitleBarHeight
+
+	^ 40

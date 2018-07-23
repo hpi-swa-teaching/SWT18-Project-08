@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"configure" : "TH 7/12/2018 00:43",
+		"createFilePickerButton" : "TH 7/23/2018 17:21",
 		"handlesMouseOver:" : "TH 7/12/2018 01:14",
-		"initialize" : "TH 7/12/2018 01:17",
-		"initializeFilePickerButton" : "TH 6/7/2018 19:51" } }
+		"initialize" : "TH 7/23/2018 17:21" } }

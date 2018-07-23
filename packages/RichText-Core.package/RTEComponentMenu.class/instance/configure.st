@@ -1,4 +1,0 @@
-reorganization
-configure
-
-	self subclassResponsibility 

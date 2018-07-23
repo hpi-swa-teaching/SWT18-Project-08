@@ -2,8 +2,8 @@ initialization
 initialize
 
 	super initialize.
-	self add: self createClearStylesButton.
-	self addStyleButtons.
-	self add: self createColorPickerButton.
-	
-	self addApplicationStyles: (PHStyle forAny fontSize: 'small').
+	self 
+		add: self createClearStylesButton;
+		addStyleButtons;
+		add: self createColorPickerButton;
+		addApplicationStyles: (PHStyle forAny fontSize: 'small')
