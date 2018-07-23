@@ -1,7 +1,6 @@
 testing
 testMenuReactsToFocusChangeWhenFileChosen
-	
-	self flag: #refactor.
+
 	component filename: 'demofile.jpg'.
 	component menu hide.
 	self

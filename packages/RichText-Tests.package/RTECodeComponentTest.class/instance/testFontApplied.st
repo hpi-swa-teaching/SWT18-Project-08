@@ -7,5 +7,6 @@ testFontApplied
 	
 	self typeString: 'some {not so} long text' on: self coreObject.
 	attributeArray := self coreObject text runs.
-	self assert: (attributeArray runLengthAt: 1) = self coreObject text size.
-	self assert: attributeArray values first first className = 'TextFontReference'
+	self 
+		assert: (attributeArray runLengthAt: 1) = self coreObject text size;
+		assert: attributeArray values first first className = 'TextFontReference'
