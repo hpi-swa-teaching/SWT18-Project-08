@@ -1,0 +1,4 @@
+initialization
+handlesMouseOver: evt
+
+	^false

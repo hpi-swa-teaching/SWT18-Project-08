@@ -1,13 +1,13 @@
 {
 	"class" : {
-		 },
+		"displayOffset" : "TH 7/9/2018 13:25" },
 	"instance" : {
 		"buttonGroups" : "MB 6/27/2018 11:41",
 		"buttonGroups:" : "MB 6/27/2018 11:38",
-		"closeAllButtonDropdowns" : "AJ 6/27/2018 19:18",
+		"closeAllButtonDropdowns" : "TH 7/9/2018 13:19",
 		"hideCategory:" : "AJ 6/21/2018 17:57",
 		"highlightButtonNamed:" : "AJ 6/27/2018 19:19",
-		"initialize" : "MB 6/27/2018 12:41",
+		"initialize" : "KB 7/6/2018 16:29",
 		"showCategory:" : "AJ 6/21/2018 17:57",
-		"toggleCategory:" : "AJ 6/21/2018 18:13",
+		"toggleCategory:" : "TH 7/9/2018 13:41",
 		"unhighlightButtonNamed:" : "AJ 6/27/2018 19:14" } }

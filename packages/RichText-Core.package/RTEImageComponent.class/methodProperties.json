@@ -2,14 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyImageFrom:" : "KB 6/28/2018 15:49",
+		"applyImageFrom:" : "TH 7/12/2018 09:36",
+		"convertToFloating" : "TH 7/12/2018 09:33",
 		"createMenu" : "AJ 6/21/2018 15:08",
 		"defaultMinSize" : "KB 6/28/2018 15:49",
 		"exportLatexOn:" : "AJ 7/5/2018 15:45",
 		"exportMarkdownOn:" : "AJ 6/26/2018 00:10",
 		"filename" : "AJ 6/7/2018 15:25",
-		"filename:" : "AJ 6/7/2018 15:25",
-		"handlesMouseOver:" : "AJ 6/21/2018 16:13",
-		"initialize" : "AJ 6/21/2018 15:08",
+		"filename:" : "TH 7/12/2018 09:36",
+		"handlesMouseOver:" : "TH 7/12/2018 01:14",
+		"hasImage" : "TH 7/12/2018 01:14",
+		"initialize" : "TH 7/12/2018 01:14",
 		"initializeImage" : "AJ 6/8/2018 15:48",
+		"initializeMenu" : "TH 7/12/2018 00:24",
 		"openFilePicker" : "AJ 6/21/2018 16:17" } }

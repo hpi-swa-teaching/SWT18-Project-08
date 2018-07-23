@@ -7,6 +7,7 @@
 		"changeMoveIcons:" : "MB 6/28/2018 16:03",
 		"component" : "AJ 5/24/2018 18:04",
 		"component:" : "AJ 5/24/2018 18:04",
+		"configure" : "TH 7/12/2018 00:41",
 		"createDeleteButton" : "MB 7/3/2018 20:19",
 		"createInsertButtons" : "MB 6/28/2018 16:12",
 		"createInsertCategoryButton" : "MB 6/28/2018 15:54",
@@ -14,4 +15,10 @@
 		"createReorderButtonFor:" : "MB 6/28/2018 15:58",
 		"createReorderButtons" : "MB 6/28/2018 16:12",
 		"createReorderCategoryButton" : "MB 6/28/2018 15:55",
-		"initialize" : "MB 6/28/2018 16:11" } }
+		"focus" : "TH 7/9/2018 13:52",
+		"focus:" : "KB 7/5/2018 15:45",
+		"handlesMouseOver:" : "KB 7/5/2018 15:46",
+		"initialize" : "KB 7/9/2018 14:36",
+		"mouseEnter:" : "TH 7/9/2018 15:42",
+		"mouseLeave:" : "KB 7/6/2018 16:46",
+		"show" : "TH 7/12/2018 00:07" } }
