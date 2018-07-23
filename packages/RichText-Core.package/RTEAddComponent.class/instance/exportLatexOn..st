@@ -1,5 +1,4 @@
 api
 exportLatexOn: aStream
 	
-	(self coreObject notNil)
-		ifTrue: [self coreObject exportLatexOn: aStream]
+	self coreObject ifNotNil: [self coreObject exportLatexOn: aStream]

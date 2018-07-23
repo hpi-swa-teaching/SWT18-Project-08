@@ -2,4 +2,4 @@ initialization
 initializeMenu
 
 	self needsMenu 
-		ifTrue:  [self menu: self createMenu]
+		ifTrue: [self menu: self createMenu]

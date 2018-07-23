@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"changeReorderButtonsTo:" : "AJ 6/21/2018 14:53",
-		"componentChosen:" : "TH 7/12/2018 00:31",
-		"coreObjectDeleted" : "AJ 6/21/2018 15:30",
+		"changeReorderButtonsTo:" : "TH 7/23/2018 14:57",
+		"componentChosen:" : "TH 7/23/2018 15:21",
+		"coreObjectDeleted" : "TH 7/23/2018 15:01",
 		"createMenu" : "AJ 6/21/2018 15:08",
-		"exportLatexOn:" : "AJ 7/5/2018 14:29",
-		"exportMarkdownOn:" : "AJ 6/21/2018 16:09",
+		"exportLatexOn:" : "TH 7/23/2018 15:05",
+		"exportMarkdownOn:" : "TH 7/23/2018 15:05",
 		"handlesMouseOver:" : "AJ 6/15/2018 12:38",
-		"initializeMenu" : "KB 7/9/2018 14:23",
-		"insertInDirection:" : "TH 7/23/2018 14:53",
+		"initializeMenu" : "TH 7/23/2018 15:07",
+		"insertInDirection:" : "TH 7/23/2018 15:19",
 		"needsMenu" : "TH 7/23/2018 14:17",
 		"reorderInDirection:" : "TH 7/23/2018 14:46" } }
