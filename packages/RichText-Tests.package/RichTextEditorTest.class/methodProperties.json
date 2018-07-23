@@ -9,8 +9,8 @@
 		"testEditorGetDeletedFromList" : "MB 7/23/2018 12:22",
 		"testEditorGetDeletedFromListWithoutPrompt" : "MB 7/23/2018 12:22",
 		"testEditorGetSavedByButton" : "MB 7/23/2018 12:24",
-		"testExportLatexToClipboard" : "MB 7/23/2018 12:24",
-		"testExportMarkdownToClipboard" : "MB 7/23/2018 12:24",
+		"testExportLatexToClipboard" : "TH 7/23/2018 18:11",
+		"testExportMarkdownToClipboard" : "TH 7/23/2018 18:10",
 		"testLatexExportGetsPropagated" : "MB 7/23/2018 12:27",
 		"testMarkdownExportGetsPropagated" : "MB 7/23/2018 12:26",
 		"testWindowTitleChanges" : "MB 7/23/2018 12:37" } }

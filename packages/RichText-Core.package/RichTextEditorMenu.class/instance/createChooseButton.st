@@ -1,9 +1,9 @@
 initialization
 createChooseButton
 
-	^ ((PHButton icon: #iconFile)
+	^ (PHButton icon: #iconFile)
 		name: 'chooseDocument';
 		when: #clicked 
-		send: #chooseDocument
-		to: (self editor class);
-		addTooltip: 'load another document')
+			send: #chooseDocument
+			to: self editor class;
+		addTooltip: 'load another document'

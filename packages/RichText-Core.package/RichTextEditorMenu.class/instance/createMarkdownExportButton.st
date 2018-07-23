@@ -1,9 +1,10 @@
 initialization
 createMarkdownExportButton
 
-	^ ((PHButton icon: #iconCopy)
+	^ (PHButton icon: #iconCopy)
 		name: 'exportMarkdownToClipboard';
 		when: #clicked 
-		send: #exportMarkdownToClipboard
-		to: (self editor);
-		addTooltip: 'copy document as markdown')
+			send: #exportToClipboard:
+			to: self editor
+			with: #exportMarkdown;
+		addTooltip: 'copy document as markdown'

@@ -1,10 +1,10 @@
 initialization
 createDeleteButton
 
-	^ ((PHButton icon: #iconTrash)
+	^ (PHButton icon: #iconTrash)
 		name: 'deleteDocument';
 		when: #clicked 
-		send: #deleteDocument
-		to: (self editor)
-		withArguments: #();
-		addTooltip: 'delete this document completly')
+			send: #deleteDocument
+			to: (self editor)
+			withArguments: #();
+		addTooltip: 'delete this document completly'

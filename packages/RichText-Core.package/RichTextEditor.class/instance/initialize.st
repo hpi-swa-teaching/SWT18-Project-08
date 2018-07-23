@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		extent: 500@350;
+		extent: RichTextEditor defaultExtent;
 		title: '<unnamed document>';
 		menu: (RichTextEditorMenu newWith: self);
 		coreObject: (RTEVerticalLayoutComponent newWith: RTEAddComponent);

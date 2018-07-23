@@ -1,6 +1,7 @@
 event handling
 delete
 
-	self deleteColorPicker;
-		 deletePopover.
+	self 
+		deleteColorPicker;
+		deletePopover.
 	super delete

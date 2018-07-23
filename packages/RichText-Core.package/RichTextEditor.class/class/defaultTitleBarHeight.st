@@ -1,4 +1,4 @@
-initialize
+constants
 defaultTitleBarHeight
 
 	^ 40

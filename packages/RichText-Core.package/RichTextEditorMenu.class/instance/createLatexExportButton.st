@@ -1,9 +1,10 @@
 initialization
 createLatexExportButton
 
-	^ ((PHButton icon: #iconCopy)
+	^ (PHButton icon: #iconCopy)
 		name: 'exportLatexToClipboard';
 		when: #clicked 
-		send: #exportLatexToClipboard
-		to: (self editor);
-		addTooltip: 'copy document as latex')
+			send: #exportToClipboard:
+			to: self editor
+			with: #exportLatex;
+		addTooltip: 'copy document as latex'

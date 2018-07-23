@@ -1,6 +1,6 @@
 event handling
 hasSelection
 
-	^ (self selectionBounds first ~= self selectionBounds second)
+	^ self selectionBounds first ~= self selectionBounds second
 	
 		
