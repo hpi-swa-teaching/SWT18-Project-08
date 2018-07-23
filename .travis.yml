@@ -5,7 +5,7 @@ os:
   - osx
 
 smalltalk:
-  - Squeak6.0alpha
+  - Squeak-trunk
 
 email:
     recipients:
