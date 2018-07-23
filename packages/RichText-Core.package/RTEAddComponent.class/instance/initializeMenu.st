@@ -1,4 +1,4 @@
-reorganization
+initialization
 initializeMenu
 
 	self createMenu ifNotNilDo: [:newMenu |

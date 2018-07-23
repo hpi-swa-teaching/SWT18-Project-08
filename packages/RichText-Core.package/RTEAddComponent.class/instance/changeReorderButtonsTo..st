@@ -1,4 +1,4 @@
-api
+reorganization
 changeReorderButtonsTo: aLayoutDirectionSymbol
 
 	super changeReorderButtonsTo: aLayoutDirectionSymbol.

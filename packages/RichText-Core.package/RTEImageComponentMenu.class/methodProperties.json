@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"configure" : "TH 7/12/2018 00:43",
-		"convertToFloating" : "TH 7/12/2018 09:34",
 		"handlesMouseOver:" : "TH 7/12/2018 01:14",
 		"initialize" : "TH 7/12/2018 01:17",
 		"initializeFilePickerButton" : "TH 6/7/2018 19:51" } }

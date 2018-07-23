@@ -1,4 +1,4 @@
-accessing
+reorganization
 convertToFloating	
 	
 	self component removeMorph: self.
