@@ -1,4 +1,4 @@
 api
 exportMarkdownToClipboard
 
-	Clipboard clipboardText: (self exportMarkdown)
+	Clipboard clipboardText: self exportMarkdown

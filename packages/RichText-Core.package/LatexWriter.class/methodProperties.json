@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"latexEntities" : "AJ 7/12/2018 14:07" },
+	"instance" : {
+		"activateAttributesEnding:starting:" : "AJ 7/12/2018 09:22",
+		"cr" : "AJ 7/12/2018 09:30",
+		"deactivateAttributesEnding:starting:" : "AJ 7/12/2018 09:22",
+		"escape:" : "AJ 7/22/2018 23:32",
+		"nextPutAll:" : "AJ 7/12/2018 09:27",
+		"nextPutText:" : "AJ 7/12/2018 09:33",
+		"writeContent:" : "AJ 7/23/2018 09:15",
+		"writeEndTagFor:" : "AJ 7/12/2018 09:48",
+		"writeStartTagFor:" : "AJ 7/12/2018 09:49" } }

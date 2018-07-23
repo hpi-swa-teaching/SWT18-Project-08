@@ -8,4 +8,5 @@ initialize
 		add: self createNewDocumentButton;
 		add: self createChooseButton;
 		add: self createTitleInputField;
+		add: self createLatexExportButton;
 		add: self createMarkdownExportButton

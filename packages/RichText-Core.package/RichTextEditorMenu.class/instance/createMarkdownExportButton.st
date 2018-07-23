@@ -5,6 +5,5 @@ createMarkdownExportButton
 		name: 'exportMarkdownToClipboard';
 		when: #clicked 
 		send: #exportMarkdownToClipboard
-		to: (self editor)
-		withArguments: #();
+		to: (self editor);
 		addTooltip: 'copy document as markdown')

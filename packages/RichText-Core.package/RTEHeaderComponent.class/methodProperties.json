@@ -3,8 +3,9 @@
 		"headerStyle" : "AJ 6/21/2018 16:27" },
 	"instance" : {
 		"createMenu" : "AJ 6/21/2018 15:10",
+		"exportLatexOn:" : "AJ 7/5/2018 15:35",
 		"exportMarkdownOn:" : "AJ 6/21/2018 16:09",
-		"initialize" : "AJ 6/21/2018 15:10",
+		"initialize" : "KB 7/9/2018 14:12",
 		"level" : "TH 5/17/2018 15:40",
 		"level:" : "TH 5/17/2018 15:40",
 		"setLevel:" : "AJ 6/21/2018 16:48" } }

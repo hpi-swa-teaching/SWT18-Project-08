@@ -9,8 +9,9 @@ componentChosen: componentClass
 		ifNil: 
 			[self addMorph: newComponent]
 		ifNotNil: 
-			[self replaceSubmorph: self coreObject by: newComponent].
+			[self replaceSubmorph: self coreObject by: newComponent]. 
 	self coreObject: newComponent.
-	self coreObject addMorph: (self coreObject menu).
+	"self coreObject addMorph: (self coreObject menu)."
+	self coreObject menu configure.
 	self menu hide.
 	^ self coreObject

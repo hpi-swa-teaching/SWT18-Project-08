@@ -4,8 +4,10 @@
 	"instance" : {
 		"setUp" : "AJ 5/29/2018 18:43",
 		"testCorrectComponentChosen" : "AJ 6/19/2018 20:43",
-		"testDeleteButtonOfCoreObject" : "MB 7/5/2018 15:10",
+		"testDeleteButtonOfCoreObject" : "AJ 7/22/2018 19:39",
 		"testDisplayOnlyOneComponent" : "MB 7/5/2018 15:17",
+		"testExportLatexWithComponent" : "AJ 7/22/2018 19:40",
+		"testExportLatexWithoutComponent" : "AJ 7/22/2018 19:39",
 		"testExportMarkdownWithComponent" : "MB 7/5/2018 15:18",
 		"testExportMarkdownWithoutComponent" : "MB 7/5/2018 15:18",
 		"testMenuVisibleAtMouseEnter" : "MB 7/5/2018 15:23",
