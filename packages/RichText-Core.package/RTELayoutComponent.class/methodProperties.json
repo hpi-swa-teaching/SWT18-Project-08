@@ -1,15 +1,15 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "TH 7/23/2018 16:05" },
 	"instance" : {
-		"addComponent:" : "AJ 7/22/2018 21:14",
+		"addComponent:" : "TH 7/23/2018 15:40",
 		"addComponent:behind:" : "AJ 7/22/2018 21:14",
 		"addComponent:inFrontOf:" : "AJ 7/22/2018 21:15",
-		"coreObjectDeleted" : "TH 7/23/2018 13:48",
+		"coreObjectDeleted" : "TH 7/23/2018 15:45",
 		"createMenu" : "AJ 6/21/2018 16:20",
-		"exportLatexOn:" : "AJ 7/5/2018 15:47",
+		"exportLatexOn:" : "TH 7/23/2018 15:45",
 		"exportMarkdownOn:" : "AJ 6/21/2018 17:06",
 		"handlesMouseOver:" : "TH 7/9/2018 16:04",
 		"insert:inDirection:" : "TH 7/23/2018 14:53",
-		"reorder:inDirection:" : "AJ 6/21/2018 16:26",
+		"reorder:inDirection:" : "TH 7/23/2018 15:51",
 		"wrap:IfNeededForInsert:" : "AJ 6/8/2018 14:35" } }

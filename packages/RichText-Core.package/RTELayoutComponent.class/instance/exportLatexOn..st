@@ -5,4 +5,4 @@ exportLatexOn: aStream
 		submorph exportLatexOn: aStream.
 		aStream 
 			nextPutAll: ' \\'; 
-			cr; cr]
+			cr]

@@ -1,4 +1,4 @@
-reorganization
+api
 addComponent: aComponentClass behind: anotherComponent
 
 	| newComponent |

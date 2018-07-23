@@ -1,4 +1,4 @@
-reorganization
+api
 addComponent: aComponentClass inFrontOf: anotherComponent
 
 	| newComponent |
