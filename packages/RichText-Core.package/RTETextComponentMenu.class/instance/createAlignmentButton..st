@@ -1,8 +1,7 @@
 initialization
 createAlignmentButton: anAlignment
 	
-	^ (PHButton 
-			icon: (('iconAlign_', anAlignment)) asSymbol)
+	^ (PHButton icon: ('iconAlign_', anAlignment) asSymbol)
 		      name: 'align_', anAlignment;
 			when: #clicked 
 				send: #applyAlignment: 

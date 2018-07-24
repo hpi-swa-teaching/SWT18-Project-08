@@ -2,4 +2,4 @@ private
 okHit
 
 	super okHit.
-	promise resolveWith: self getSelectedFile
+	self promise resolveWith: self getSelectedFile

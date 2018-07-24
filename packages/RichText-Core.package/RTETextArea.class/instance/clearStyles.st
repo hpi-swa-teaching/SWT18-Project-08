@@ -7,7 +7,7 @@ clearStyles
 	1 to: attributes size do: [:index |
 		textColor := (attributes at: index) detect: [:attr | attr class = TextColor] ifNone: [].
 		textColor ifNotNil: [self removeAttributeForSelection: textColor]].
-	RTETextArea styles keysDo: [:style |
-		self removeAttributeForSelection: (TextEmphasis new emphasisCode: (RTETextArea styles at: style) second)].
+	self class styles keysDo: [:style |
+		self removeAttributeForSelection: (TextEmphasis new emphasisCode: (self class styles at: style) second)].
 	self clearSelection.
 	self popover delete

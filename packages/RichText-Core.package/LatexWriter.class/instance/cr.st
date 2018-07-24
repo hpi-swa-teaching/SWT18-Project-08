@@ -3,4 +3,5 @@ cr
 
 	^ stream 
 		nextPutAll: ' \\';
-		cr
+		cr;
+		yourself

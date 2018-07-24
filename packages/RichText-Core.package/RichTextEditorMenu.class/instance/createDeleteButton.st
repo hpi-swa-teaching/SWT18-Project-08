@@ -5,6 +5,5 @@ createDeleteButton
 		name: 'deleteDocument';
 		when: #clicked 
 			send: #deleteDocument
-			to: (self editor)
-			withArguments: #();
+			to: self editor;
 		addTooltip: 'delete this document completly'

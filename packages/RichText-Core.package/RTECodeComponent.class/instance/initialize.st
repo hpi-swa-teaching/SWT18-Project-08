@@ -9,4 +9,4 @@ initialize
 				backgroundColor: Color darkGray);
 		addApplicationStyles: 
 			((PHStyle for: #(label selection))
-				backgroundColor: RTECodeComponent defaultHighlightColor)
+				backgroundColor: self class defaultHighlightColor)

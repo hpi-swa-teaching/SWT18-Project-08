@@ -1,10 +1,11 @@
 initialization
 createFilePickerButton
 
-	^ ((PHButton icon: #iconFile_image_o) name: 'openFilePicker';
+	^ ((PHButton icon: #iconFile_image_o) 
+		name: 'openFilePicker';
 		when: #clicked 
-		send: #openFilePicker 
-		to: self component;
+			send: #openFilePicker 
+			to: self component;
 		addTooltip: 'choose image')
 	
 	
