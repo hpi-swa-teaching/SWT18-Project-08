@@ -6,4 +6,4 @@ initialize
 		name: 'documentNameInputField';
 		placeholder: 'document title';
 		allowedCharacterRegex: '.*';
-		maxInputLength: 50
+		maxInputLength: RTEEditorNameField defaultMaxInputLength 

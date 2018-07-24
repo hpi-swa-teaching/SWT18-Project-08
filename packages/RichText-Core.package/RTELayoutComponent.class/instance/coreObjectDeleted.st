@@ -1,5 +1,5 @@
 api
 coreObjectDeleted
 
-	self submorphCount = 0 
+	self submorphCount isZero
 		ifTrue: [self delete]

@@ -1,8 +1,9 @@
 {
 	"class" : {
+		"defaultMaxInputLength" : "MB 7/24/2018 15:43",
 		"newWith:" : "AJ 6/22/2018 21:58" },
 	"instance" : {
-		"initialize" : "KB 7/23/2018 15:27",
+		"initialize" : "MB 7/24/2018 15:43",
 		"keyStroke:" : "TH 7/23/2018 16:46",
 		"menu" : "AJ 6/22/2018 21:58",
 		"menu:" : "AJ 6/22/2018 21:58" } }

@@ -6,4 +6,4 @@ initialize
 		initializeMenu;
 		withLayout;
 		vertical: true;
-		extent: (500 @ 200) withScalingFactor
+		extent: RTEComponent defaultExtent withScalingFactor

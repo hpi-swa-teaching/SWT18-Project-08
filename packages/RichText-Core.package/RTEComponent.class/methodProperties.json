@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultExtent" : "MB 7/24/2018 15:36",
 		"newWithLayout:" : "TH 6/12/2018 11:38",
 		"open" : "AJ 6/21/2018 14:52" },
 	"instance" : {
@@ -16,7 +17,7 @@
 		"focus" : "TH 7/23/2018 13:57",
 		"focus:" : "KB 7/5/2018 15:11",
 		"handlesMouseOver:" : "AJ 6/21/2018 14:46",
-		"initialize" : "TH 7/23/2018 13:58",
+		"initialize" : "MB 7/24/2018 15:36",
 		"initializeMenu" : "TH 7/23/2018 15:12",
 		"insertInDirection:" : "TH 7/23/2018 14:51",
 		"layout" : "TH 6/12/2018 11:49",
