@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "AJ 6/12/2018 20:28",
-		"testDeleteComponentFromHorizontalLayout" : "MB 7/23/2018 11:38",
+		"testDeleteComponentFromHorizontalLayout" : "MB 7/25/2018 12:45",
 		"testExportLatex" : "MB 7/23/2018 11:39",
 		"testExportMarkdown" : "MB 7/23/2018 11:39",
 		"testInsertComponentLeft" : "MB 7/23/2018 11:40",

@@ -1,4 +1,4 @@
-accessors
+constants
 styles
 	
 	^ OrderedDictionary newFrom: 

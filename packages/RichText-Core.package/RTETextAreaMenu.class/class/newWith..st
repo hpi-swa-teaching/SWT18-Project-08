@@ -1,4 +1,4 @@
-as yet unclassified
+class initialization
 newWith: aTextArea
 	^ self
 		basicNew

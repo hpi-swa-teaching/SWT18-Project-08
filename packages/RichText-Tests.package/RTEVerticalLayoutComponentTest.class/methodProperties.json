@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "AJ 6/12/2018 20:28",
-		"testDeleteComponentFromHorizontalLayout" : "MB 7/23/2018 10:04",
+		"testDeleteComponentFromHorizontalLayout" : "MB 7/25/2018 12:35",
 		"testExportLatex" : "MB 7/23/2018 11:35",
 		"testExportMarkdown" : "MB 7/23/2018 11:35",
-		"testInsertComponentDown" : "MB 7/23/2018 12:35",
-		"testInsertComponentUp" : "MB 7/23/2018 12:35",
-		"testReorderComponentDown" : "MB 7/23/2018 12:36",
-		"testReorderComponentUp" : "MB 7/23/2018 12:36",
-		"testWrappingLayoutChanged" : "MB 7/23/2018 10:04" } }
+		"testInsertComponentDown" : "MB 7/25/2018 12:36",
+		"testInsertComponentUp" : "MB 7/25/2018 12:36",
+		"testReorderComponentDown" : "MB 7/25/2018 12:37",
+		"testReorderComponentUp" : "MB 7/25/2018 12:39",
+		"testWrappingLayoutChanged" : "MB 7/25/2018 12:44" } }

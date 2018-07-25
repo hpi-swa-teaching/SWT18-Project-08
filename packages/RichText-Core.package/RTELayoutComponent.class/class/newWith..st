@@ -1,4 +1,4 @@
-initialization
+class initialization
 newWith: aComponentClass
 
 	^ self new 

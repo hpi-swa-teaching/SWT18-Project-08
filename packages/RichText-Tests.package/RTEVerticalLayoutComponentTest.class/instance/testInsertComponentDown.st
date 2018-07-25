@@ -5,4 +5,5 @@ testInsertComponentDown
 	
 	self
 		click: ((self menuItemOf: firstComponent coreObject named: 'insertButtons') submorphNamed: 'insertComponentDown');
-		assert: (component submorphCount = 2 and: (component submorphIndexOf: firstComponent) = 1)
+		assert: component submorphCount = 2;
+		assert: (component submorphIndexOf: firstComponent) = 1
