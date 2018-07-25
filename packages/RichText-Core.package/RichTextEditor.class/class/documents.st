@@ -2,5 +2,5 @@ accessing
 documents
 	
 	(Documents isNil)
-		ifTrue: [Documents := OrderedCollection new].
+		ifTrue: [Documents := Collection new asOrderedCollection]. "travis hack"
 	^ Documents
