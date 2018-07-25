@@ -1,3 +1,4 @@
 accessing
 coreObject
+	
 	^ component coreObject

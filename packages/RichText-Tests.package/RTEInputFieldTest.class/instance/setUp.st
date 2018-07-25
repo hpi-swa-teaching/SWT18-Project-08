@@ -6,4 +6,4 @@ setUp
 	component
 		text: '';
 		allowedCharacterRegex: '.*';
-		maxInputLength: 9999
+		maxInputLength: RTEInputField defaultMaxInputLength

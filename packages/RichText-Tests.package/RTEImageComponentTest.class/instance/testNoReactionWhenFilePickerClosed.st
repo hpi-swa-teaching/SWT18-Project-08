@@ -3,7 +3,7 @@ testNoReactionWhenFilePickerClosed
 
 	| oldImage |
 
-	oldImage := self image form.
+	oldImage := self coreObject form.
 	self click: (self menuItemNamed: 'openFilePicker'). 
 	self findRTEFileChooser cancelHit.
-	self assert: self image form = oldImage
+	self assert: self coreObject form = oldImage

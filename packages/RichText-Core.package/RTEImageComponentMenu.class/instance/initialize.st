@@ -2,7 +2,5 @@ initialization
 initialize 
 	
 	super initialize.
-	self flag: #refactor. "magic number"
-	self addMorph: (self initializeFilePickerButton) asElementNumber: 2.
-	self ignoreLayout: true
+	self addMorph: self createFilePickerButton asElementNumber: 2 "insert between delete and order/insert buttons"
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
@@ -6,4 +6,4 @@ initialize
 		name: 'documentNameInputField';
 		placeholder: 'document title';
 		allowedCharacterRegex: '.*';
-		maxInputLength: 50
+		maxInputLength: self class defaultMaxInputLength 

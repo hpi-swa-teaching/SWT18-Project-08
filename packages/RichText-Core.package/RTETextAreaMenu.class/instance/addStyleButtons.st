@@ -1,10 +1,10 @@
 initialization
 addStyleButtons
 
-	RTETextArea styles keysAndValuesDo: [:styleName :styleValues| 
-		self add: (((PHButton icon: (styleValues first) asSymbol) name: ('makeText_', styleName))
+	RTETextArea styles keysAndValuesDo: [:styleName :styleValues | 
+		self add: (((PHButton icon: (styleValues first) asSymbol) name: 'makeText_', styleName)
 				when: #clicked 
-				send: #applyStyle: 
+					send: #applyStyle: 
 					to: self textArea
-					with: (styleValues second);
-					addApplicationStyles: (PHStyle forAny fontSize: 'small'))]
+					with: styleValues second;
+				addApplicationStyles: (PHStyle forAny fontSize: 'small'))]

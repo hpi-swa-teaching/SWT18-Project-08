@@ -1,7 +1,8 @@
 testing
 testPopoverDisappearsOnDeselection
 
-	self selectTextByMouse.
-	self assert: self textArea popover isInWorld.
-	self deselectText.
-	self assert: self textArea popover isInWorld not
+	self 
+		selectTextByMouse;
+	 	assert: self textArea popover isInWorld;
+		deselectText;
+		deny: self textArea popover isInWorld

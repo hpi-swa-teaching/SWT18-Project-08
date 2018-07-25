@@ -6,4 +6,4 @@ open: aWorld
 	self morphicView openInWorld: aWorld.
 	UserInterfaceTheme current applyTo: self morphicView allMorphs.
 	self morphicView model.
-	^ promise := Promise new
+	^ self promise: Promise new

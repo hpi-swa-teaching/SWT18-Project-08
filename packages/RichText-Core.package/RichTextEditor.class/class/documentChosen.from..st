@@ -8,4 +8,4 @@ documentChosen: aSelectionIndex from: aDocumentCollection
 		document := (aDocumentCollection at: aSelectionIndex).
 		document isInWorld
 			ifTrue: [document topLevel comeToFront]
-			ifFalse: [(document openInWindowLabeled: (document title) inWorld: World) closeWindowSelector: #windowClosed]]
+			ifFalse: [(document openInWindowLabeled: document title inWorld: World) closeWindowSelector: #windowClosed]]

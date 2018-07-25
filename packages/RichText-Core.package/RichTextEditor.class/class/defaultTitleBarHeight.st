@@ -1,0 +1,4 @@
+constants
+defaultTitleBarHeight
+
+	^ 40

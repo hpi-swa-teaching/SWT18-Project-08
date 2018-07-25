@@ -1,8 +1,8 @@
 testing
 testDeleteComponentFromHorizontalLayout
-
-	self setUpInsertTests.
 	
-	self assert: component submorphCount = 1.	
-	self click: (self menuItemOf: firstComponent Named: 'deleteComponent').
-	self assert: component submorphCount = 0
+	self 
+		setUpInsertTests;	
+		assert: component submorphCount = 1;
+	 	click: (self menuItemOf: firstComponent named: 'deleteComponent');
+	 	assert: component submorphCount isZero

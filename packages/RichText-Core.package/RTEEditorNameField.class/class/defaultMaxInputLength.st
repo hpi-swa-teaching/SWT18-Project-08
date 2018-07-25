@@ -1,0 +1,4 @@
+constants
+defaultMaxInputLength
+
+	^ 50

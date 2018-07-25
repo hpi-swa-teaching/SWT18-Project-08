@@ -2,9 +2,8 @@ initialization
 initialize
 
 	super initialize.
-	self initializeMenu.
 	self
+		initializeMenu;
 		withLayout;
 		vertical: true;
-		focus: false;
-		extent: (500 @ 200) withScalingFactor
+		extent: RTEComponent defaultExtent withScalingFactor

@@ -2,4 +2,4 @@ private
 cancelHit
 
 	super cancelHit.
-	promise rejectWith: nil
+	self promise rejectWith: nil

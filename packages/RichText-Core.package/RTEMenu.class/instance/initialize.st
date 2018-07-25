@@ -2,5 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self buttonGroups: Dictionary new.
+	self buttonGroups: OrderedDictionary new
 	

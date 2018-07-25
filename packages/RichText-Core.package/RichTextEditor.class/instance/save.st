@@ -2,5 +2,5 @@ accessing
 save
 
 	self isSaved 
-		ifFalse: [RichTextEditor documents add: self]
+		ifFalse: [self class documents add: self]
 	

@@ -1,4 +1,4 @@
 accessing
 popoverButton: aName
 
-	^ self textArea popover submorphs first submorphNamed: aName.
+	^ self textArea popover submorphs first submorphNamed: aName

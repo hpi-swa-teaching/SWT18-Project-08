@@ -1,3 +1,3 @@
 accessing
-buttonGroups: anDictionary
-	buttonGroups := anDictionary
+buttonGroups: anOrderedDictionary
+	buttonGroups := anOrderedDictionary

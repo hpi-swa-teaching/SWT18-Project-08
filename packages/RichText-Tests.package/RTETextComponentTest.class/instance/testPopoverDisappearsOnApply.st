@@ -1,6 +1,7 @@
 testing
 testPopoverDisappearsOnApply
 
-	self selectTextByMouse.
-	self click: (self popoverButton: ('makeText_','bold')).
-	self assert: self textArea popover isInWorld not
+	self 
+		selectTextByMouse;
+		click: (self popoverButton: 'makeText_','bold');
+		deny: self textArea popover isInWorld

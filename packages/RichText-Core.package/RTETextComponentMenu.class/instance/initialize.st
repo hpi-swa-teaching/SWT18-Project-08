@@ -2,6 +2,7 @@ initialization
 initialize 
 
 	super initialize.
-	self initializeAlignmentButtons;
-		 initializeFontSizeField.
+	self 
+		initializeAlignmentButtons;
+		initializeFontSizeField
 	

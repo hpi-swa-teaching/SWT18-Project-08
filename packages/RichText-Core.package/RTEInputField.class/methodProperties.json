@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"allowedControlKeys" : "AJ 6/11/2018 23:04" },
+		"allowedControlKeys" : "AJ 6/11/2018 23:04",
+		"defaultMaxInputLength" : "MB 7/24/2018 15:54" },
 	"instance" : {
 		"allowedCharacterRegex" : "AJ 6/11/2018 23:08",
 		"allowedCharacterRegex:" : "AJ 6/11/2018 23:09",
-		"keyStroke:" : "AJ 6/21/2018 16:57",
+		"exceedsMaxInputLength" : "MB 7/25/2018 13:34",
+		"keyStroke:" : "AJ 7/24/2018 09:17",
 		"maxInputLength" : "AJ 6/11/2018 22:59",
-		"maxInputLength:" : "AJ 6/11/2018 22:59" } }
+		"maxInputLength:" : "MB 7/25/2018 13:10" } }

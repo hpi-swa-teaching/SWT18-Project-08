@@ -1,5 +1,6 @@
 testing
 testPopoverAppearsAfterKeyStroke
 
-	self selectTextByKeypress.
-	self assert: self textArea popover isInWorld
+	self 
+		selectTextByKeypress;
+	 	assert: self textArea popover isInWorld

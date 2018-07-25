@@ -1,0 +1,4 @@
+initialization
+coreObjectDeleted 
+
+	self subclassResponsibility

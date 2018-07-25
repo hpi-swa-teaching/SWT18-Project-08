@@ -1,7 +1,7 @@
 accessing
 defaultLatexExportConfig
 
-	^ (OrderedCollection new)
+	^ OrderedCollection new
 		add: '\documentclass[12pt]{article}';
 		add: '\usepackage{graphicx}';
 		add: '\usepackage[latin1]{inputenc}';

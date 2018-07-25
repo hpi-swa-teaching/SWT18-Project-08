@@ -2,12 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyAlignment:" : "AJ 6/21/2018 16:38",
+		"applyAlignment:" : "TH 7/23/2018 16:26",
 		"changeFontSize:" : "AJ 6/12/2018 11:59",
 		"createMenu" : "AJ 6/22/2018 21:59",
 		"exportLatexOn:" : "AJ 7/12/2018 10:26",
 		"exportMarkdownOn:" : "AJ 6/21/2018 15:57",
-		"handleKeystroke:" : "MB 6/25/2018 12:06",
+		"handleKeystroke:" : "TH 7/23/2018 16:27",
 		"initialize" : "AJ 6/21/2018 15:09",
-		"initializeTextArea" : "MB 6/25/2018 12:13",
-		"keyStroke:" : "MB 6/25/2018 23:50" } }
+		"initializeMenu" : "TH 7/23/2018 15:11",
+		"initializeTextArea" : "TH 7/23/2018 16:28",
+		"keyStroke:" : "AJ 7/24/2018 09:01",
+		"needsMenu" : "TH 7/23/2018 14:18" } }

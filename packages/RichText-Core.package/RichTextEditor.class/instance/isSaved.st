@@ -1,4 +1,4 @@
 accessing
 isSaved
 
-	^ RichTextEditor documents anySatisfy: [:editor | editor == self]
+	^ self class documents anySatisfy: [:editor | editor = self]

@@ -1,11 +1,9 @@
 testing
 testEditorGetDeletedFromList
 
-	#(true false) do: [: aSelection |
+	#(true false) do: [:aSelection |
 		component save.
-		
-		self assert: component isSaved.
-		
-		self run: [component deleteDocument] withSelection: aSelection on: ProvideAnswerNotification.
-		
-		self deny: component isSaved == aSelection]
+		self 
+			assert: component isSaved;
+			run: [component deleteDocument] withSelection: aSelection on: ProvideAnswerNotification;
+			deny: component isSaved = aSelection]

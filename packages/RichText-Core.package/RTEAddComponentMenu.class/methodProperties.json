@@ -2,12 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTextButtons" : "MB 6/28/2018 16:07",
-		"configure" : "TH 7/12/2018 00:43",
-		"createCodeButton" : "MB 6/28/2018 16:06",
-		"createHeaderButton" : "MB 6/28/2018 16:06",
-		"createImageButton" : "MB 6/28/2018 16:06",
-		"createTextButton" : "MB 6/28/2018 16:05",
-		"createTextToggleCategoryButton" : "MB 6/27/2018 15:35",
-		"handlesMouseOver:" : "KB 7/5/2018 15:57",
-		"initialize" : "KB 7/9/2018 15:13" } }
+		"addTextButtons" : "TH 7/23/2018 17:31",
+		"createCodeButton" : "AJ 7/24/2018 08:53",
+		"createHeaderButton" : "AJ 7/24/2018 08:53",
+		"createImageButton" : "AJ 7/24/2018 08:53",
+		"createTextButton" : "AJ 7/24/2018 08:53",
+		"createTextToggleCategoryButton" : "AJ 7/24/2018 08:58",
+		"handlesMouseOver:" : "TH 7/23/2018 17:19",
+		"initialize" : "TH 7/23/2018 17:19" } }

@@ -1,6 +1,7 @@
-as yet unclassified
 introduction
-	^HelpTopic
+introduction
+
+	^ HelpTopic
 		title: 'Introduction'
 		contents: 
 'How to create new components in the RichTextEditor

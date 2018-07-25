@@ -1,4 +1,4 @@
-initialize
+accessing
 defaultMinSize
 
 	^ 50

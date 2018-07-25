@@ -1,11 +1,10 @@
 initialization
 createAlignmentButton: anAlignment
 	
-	^ (PHButton 
-			icon: (('iconAlign_',anAlignment)) asSymbol)
-		      name: 'align_',anAlignment;
+	^ (PHButton icon: ('iconAlign_', anAlignment) asSymbol)
+		      name: 'align_', anAlignment;
 			when: #clicked 
 				send: #applyAlignment: 
-				to: (self component)
+				to: self component
 				with: anAlignment;
-			addTooltip: ('align ',anAlignment) asString.
+			addTooltip: ('align ', anAlignment) asString

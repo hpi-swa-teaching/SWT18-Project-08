@@ -1,4 +1,5 @@
 initialization
 createTitleInputField
 
-	^ ((RTEEditorNameField new) editor: self editor)
+	^ (RTEEditorNameField new) 
+		editor: self editor

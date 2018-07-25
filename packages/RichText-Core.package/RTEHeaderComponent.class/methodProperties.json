@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"headerStyle" : "AJ 6/21/2018 16:27" },
+		"headerStyles" : "MB 7/23/2018 11:00" },
 	"instance" : {
 		"createMenu" : "AJ 6/21/2018 15:10",
 		"exportLatexOn:" : "AJ 7/5/2018 15:35",
 		"exportMarkdownOn:" : "AJ 6/21/2018 16:09",
-		"initialize" : "KB 7/9/2018 14:12",
+		"initialize" : "TH 7/23/2018 16:32",
 		"level" : "TH 5/17/2018 15:40",
 		"level:" : "TH 5/17/2018 15:40",
-		"setLevel:" : "AJ 6/21/2018 16:48" } }
+		"setLevel:" : "AJ 7/24/2018 09:15" } }

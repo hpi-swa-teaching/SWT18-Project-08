@@ -3,4 +3,4 @@ initializeImage
 
 	self coreObject: (PHImage new
 		   	framed: false).
-	self addMorph: self coreObject
+	self add: self coreObject

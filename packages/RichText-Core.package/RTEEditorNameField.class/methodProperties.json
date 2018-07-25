@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"defaultMaxInputLength" : "MB 7/24/2018 15:38" },
 	"instance" : {
 		"editor" : "AJ 6/14/2018 17:52",
 		"editor:" : "AJ 6/14/2018 20:20",
-		"initialize" : "AJ 6/14/2018 20:32",
-		"keyStroke:" : "AJ 6/24/2018 22:41" } }
+		"initialize" : "MB 7/25/2018 13:08",
+		"keyStroke:" : "TH 7/23/2018 18:12" } }

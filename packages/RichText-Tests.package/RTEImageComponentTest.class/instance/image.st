@@ -1,4 +1,0 @@
-accessing
-image
-
-	^ self coreObject

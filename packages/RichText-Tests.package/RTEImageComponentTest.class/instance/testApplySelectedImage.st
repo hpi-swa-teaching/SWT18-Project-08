@@ -3,6 +3,6 @@ testApplySelectedImage
 
 	| oldImage |
 	
-	oldImage := self image form.
+	oldImage := self coreObject form.
 	component applyImageFrom: Form makeStar. "override image with placeholder image"
-	self deny: self image form = oldImage
+	self deny: self coreObject form = oldImage

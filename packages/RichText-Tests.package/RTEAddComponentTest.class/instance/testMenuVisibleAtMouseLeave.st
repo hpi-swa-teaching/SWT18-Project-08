@@ -1,5 +1,7 @@
 testing
 testMenuVisibleAtMouseLeave
 
-	self mouseLeave: component.
-	self assert: component menu visible
+	self 
+		mouseEnter: component;
+	 	mouseLeave: component;
+		assert: component menu visible

@@ -1,10 +1,13 @@
 initialization
 addTextButtons
 
-	self buttonGroups at: #TextButtonGroup put: (PHButtonGroup new vertical: true).
-	(self buttonGroups at: #TextButtonGroup) add: self createTextToggleCategoryButton;
-					  							add: self createTextButton;
-					 							add: self createHeaderButton;
-												add: self createCodeButton.
-	self hideCategory: (self buttonGroups at: #TextButtonGroup).
-	self addMorph: (self buttonGroups at: #TextButtonGroup) asElementNumber: 2
+	| textButtons |
+	
+	textButtons := self buttonGroups at: #TextButtonGroup put: (PHButtonGroup new vertical: true).
+	textButtons
+		add: self createTextToggleCategoryButton;
+		add: self createTextButton;
+		add: self createHeaderButton;
+		add: self createCodeButton.
+	self hideCategory: textButtons.
+	self addMorph: textButtons asElementNumber: 2 "insert between delete and order/insert buttons"

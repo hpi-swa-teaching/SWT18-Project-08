@@ -2,4 +2,4 @@ testing
 testExportLatex
 
 	self setUpExportTests.
-	self compareExportOrderFrom: #exportLatex
+	self checkExportOrderFrom: #exportLatex

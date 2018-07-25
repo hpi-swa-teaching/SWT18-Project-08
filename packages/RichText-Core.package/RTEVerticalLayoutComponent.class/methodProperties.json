@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createWrappingLayoutFor:" : "TH 7/25/2018 14:27",
+		"handlesDirection:" : "TH 7/23/2018 16:18",
 		"initialize" : "MB 6/8/2018 15:46",
-		"wrap:IfNeededForInsert:" : "AJ 6/21/2018 16:28" } }
+		"reorder:inDirection:" : "TH 7/23/2018 15:52" } }
