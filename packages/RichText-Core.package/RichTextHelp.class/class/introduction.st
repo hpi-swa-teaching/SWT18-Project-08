@@ -1,5 +1,6 @@
-as yet unclassified
 introduction
+introduction
+
 	^ HelpTopic
 		title: 'Introduction'
 		contents: 
