@@ -4,6 +4,7 @@ createWrappingLayoutFor: aComponent
 	| layoutComponent |
 	
 	layoutComponent := RTEHorizontalLayoutComponent new add: aComponent; yourself.
-	aComponent changeReorderButtonsTo: #horizontal.
-	aComponent layout: layoutComponent.
+	aComponent 
+		changeReorderButtonsTo: #horizontal;
+		layout: layoutComponent.
 	^ layoutComponent
