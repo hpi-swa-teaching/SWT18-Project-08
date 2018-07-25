@@ -1,7 +1,7 @@
 accessing
 defaultLatexExportConfig
 
-	^ #() asOrderedCollection "(OrderedCollection new) is currently broken in squeak-trunk (travis) so we use this hack here"
+	^ OrderedCollection new
 		add: '\documentclass[12pt]{article}';
 		add: '\usepackage{graphicx}';
 		add: '\usepackage[latin1]{inputenc}';
