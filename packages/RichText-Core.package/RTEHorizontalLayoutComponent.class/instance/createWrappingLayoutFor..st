@@ -5,4 +5,5 @@ createWrappingLayoutFor: aComponent
 	
 	layoutComponent := RTEVerticalLayoutComponent new add: aComponent; yourself.
 	aComponent changeReorderButtonsTo: #vertical.
+	aComponent layout: layoutComponent.
 	^ layoutComponent
