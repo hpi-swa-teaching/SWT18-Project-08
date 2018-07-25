@@ -1,4 +1,4 @@
 accessing
 exceedsMaxInputLength
 
-	^ (self text size >= self class defaultMaxInputLength and: self hasSelection not)
+	^ (self text size >= self maxInputLength and: self hasSelection not)
